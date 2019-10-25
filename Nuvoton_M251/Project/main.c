@@ -1,15 +1,13 @@
 #include "stdio.h"
 #include "NuMicro.h"
-#include "tos.h"      //include tos head source
-
+#include "tos.h"      
 #define task1_size   240  // size of task1 stack
-#define task2_size 	 240	// size of task2 stack
-
+#define task2_size 	 240	
 k_task_t task1;   				//structure of task1
-k_task_t task2;      	   //structure of task2
+k_task_t task2;      	   
 
 k_stack_t task1_stack[task1_size];   //stack of task1
-k_stack_t task2_stack[task2_size];   //stack of task2
+k_stack_t task2_stack[task2_size];   
 
 void SYS_Init(void)
 {
@@ -65,8 +63,8 @@ void task1_fun(void *Parameter)
 	while(1)
 	{
 			printf("Task1 £ºThansplant CORTEX-M23 Succeed\r\n");	
-			PB14 =~ PB14;    //blink blink
-			tos_task_delay(1000);  //1s
+			PB14 =~ PB14;  
+			tos_task_delay(1000); 
 	}
 
 }
@@ -79,7 +77,7 @@ void task2_task(void *Parameter)
 		while(1)
 		{				
 			printf("Task2: hello world, hello Nuvoton \r\n");		
-			tos_task_delay(100);   //delay 100mS
+			tos_task_delay(100);   
 		}
 }
 

@@ -1973,63 +1973,63 @@ Image Symbol Table
     __arm_cp.2_1                             0x00001788   Number         4  tos_robin.o(.text.robin_sched)
     __arm_cp.2_2                             0x0000178c   Number         4  tos_robin.o(.text.robin_sched)
     [Anonymous Symbol]                       0x00001790   Section        0  main.o(.text.task1_fun)
-    __arm_cp.2_1                             0x000017cc   Number         4  main.o(.text.task1_fun)
-    [Anonymous Symbol]                       0x000017d0   Section        0  main.o(.text.task2_task)
-    [Anonymous Symbol]                       0x000017fc   Section        0  tos_task.o(.text.task_exit)
-    task_exit                                0x000017fd   Thumb Code     6  tos_task.o(.text.task_exit)
-    [Anonymous Symbol]                       0x00001802   Section        0  tos_task.o(.text.task_reset)
-    task_reset                               0x00001803   Thumb Code    44  tos_task.o(.text.task_reset)
-    [Anonymous Symbol]                       0x00001830   Section        0  tos_tick.o(.text.tick_list_add)
-    [Anonymous Symbol]                       0x00001900   Section        0  tos_tick.o(.text.tick_list_remove)
-    [Anonymous Symbol]                       0x00001990   Section        0  tos_tick.o(.text.tick_update)
-    __arm_cp.2_1                             0x00001a1c   Number         4  tos_tick.o(.text.tick_update)
-    [Anonymous Symbol]                       0x00001a20   Section        0  tos_timer.o(.text.timer_init)
-    [Anonymous Symbol]                       0x00001a24   Section        0  tos_timer.o(.text.timer_place)
-    timer_place                              0x00001a25   Thumb Code   124  tos_timer.o(.text.timer_place)
-    [Anonymous Symbol]                       0x00001a98   Section        0  tos_timer.o(.text.timer_takeoff)
-    timer_takeoff                            0x00001a99   Thumb Code    60  tos_timer.o(.text.timer_takeoff)
-    [Anonymous Symbol]                       0x00001ad0   Section        0  tos_timer.o(.text.timer_update)
-    __arm_cp.7_0                             0x00001b6c   Number         4  tos_timer.o(.text.timer_update)
-    __arm_cp.7_1                             0x00001b70   Number         4  tos_timer.o(.text.timer_update)
-    [Anonymous Symbol]                       0x00001b74   Section        0  tos_cpu.o(.text.tos_cpu_clz)
-    [Anonymous Symbol]                       0x00001bc8   Section        0  tos_cpu.o(.text.tos_cpu_cpsr_restore)
-    [Anonymous Symbol]                       0x00001bcc   Section        0  tos_cpu.o(.text.tos_cpu_cpsr_save)
-    [Anonymous Symbol]                       0x00001bd0   Section        0  tos_sys.o(.text.tos_knl_init)
-    __arm_cp.0_0                             0x00001bf8   Number         4  tos_sys.o(.text.tos_knl_init)
-    [Anonymous Symbol]                       0x00001bfc   Section        0  tos_sys.o(.text.tos_knl_irq_enter)
-    [Anonymous Symbol]                       0x00001c14   Section        0  tos_sys.o(.text.tos_knl_irq_leave)
-    [Anonymous Symbol]                       0x00001c58   Section        0  tos_sys.o(.text.tos_knl_is_running)
-    [Anonymous Symbol]                       0x00001c68   Section        0  tos_sys.o(.text.tos_knl_sched_lock)
-    [Anonymous Symbol]                       0x00001cac   Section        0  tos_sys.o(.text.tos_knl_sched_unlock)
-    __arm_cp.9_0                             0x00001ce4   Number         4  tos_sys.o(.text.tos_knl_sched_unlock)
-    __arm_cp.9_2                             0x00001ce8   Number         4  tos_sys.o(.text.tos_knl_sched_unlock)
-    __arm_cp.9_3                             0x00001cec   Number         4  tos_sys.o(.text.tos_knl_sched_unlock)
-    [Anonymous Symbol]                       0x00001cf0   Section        0  tos_sys.o(.text.tos_knl_start)
-    __arm_cp.11_0                            0x00001d18   Number         4  tos_sys.o(.text.tos_knl_start)
-    __arm_cp.11_1                            0x00001d1c   Number         4  tos_sys.o(.text.tos_knl_start)
-    [Anonymous Symbol]                       0x00001d20   Section        0  tos_mmheap.o(.text.tos_mmheap_pool_add)
-    __arm_cp.1_0                             0x00001d64   Number         4  tos_mmheap.o(.text.tos_mmheap_pool_add)
-    [Anonymous Symbol]                       0x00001d68   Section        0  tos_task.o(.text.tos_task_create)
-    __arm_cp.0_2                             0x00001e24   Number         4  tos_task.o(.text.tos_task_create)
-    __arm_cp.0_3                             0x00001e28   Number         4  tos_task.o(.text.tos_task_create)
-    [Anonymous Symbol]                       0x00001e2c   Section        0  tos_task.o(.text.tos_task_delay)
-    [Anonymous Symbol]                       0x00001e88   Section        0  tos_task.o(.text.tos_task_destroy)
-    __arm_cp.3_0                             0x00001f20   Number         4  tos_task.o(.text.tos_task_destroy)
-    __arm_cp.3_1                             0x00001f24   Number         4  tos_task.o(.text.tos_task_destroy)
-    [Anonymous Symbol]                       0x00001f28   Section        0  tos_task.o(.text.tos_task_prio_change)
-    __arm_cp.5_0                             0x00001fe0   Number         4  tos_task.o(.text.tos_task_prio_change)
-    __arm_cp.5_1                             0x00001fe4   Number         4  tos_task.o(.text.tos_task_prio_change)
-    [Anonymous Symbol]                       0x00001fe8   Section        0  tos_task.o(.text.tos_task_yield)
-    [Anonymous Symbol]                       0x00002014   Section        0  tos_tick.o(.text.tos_tick_handler)
-    __arm_cp.4_0                             0x00002038   Number         4  tos_tick.o(.text.tos_tick_handler)
-    .constdata                               0x0000203c   Section       40  _printf_hex_int.o(.constdata)
-    uc_hextab                                0x0000203c   Data          20  _printf_hex_int.o(.constdata)
-    lc_hextab                                0x00002050   Data          20  _printf_hex_int.o(.constdata)
-    [Anonymous Symbol]                       0x00002064   Section        0  clk.o(.rodata..LCLK_DisableModuleClock.au32ClkTbl)
-    [Anonymous Symbol]                       0x00002070   Section        0  uart.o(.rodata..LUART_SelectIrDAMode.au32ClkTbl)
-    .LCLK_GetModuleClockSource.au32SelTbl    0x00002088   Data          16  clk.o(.rodata.cst16)
-    [Anonymous Symbol]                       0x000020c0   Section        0  main.o(.rodata.str1.1)
-    .L.str.2                                 0x000020c0   Data          65  main.o(.rodata.str1.1)
+    __arm_cp.2_1                             0x000017d8   Number         4  main.o(.text.task1_fun)
+    [Anonymous Symbol]                       0x000017dc   Section        0  main.o(.text.task2_task)
+    [Anonymous Symbol]                       0x00001814   Section        0  tos_task.o(.text.task_exit)
+    task_exit                                0x00001815   Thumb Code     6  tos_task.o(.text.task_exit)
+    [Anonymous Symbol]                       0x0000181a   Section        0  tos_task.o(.text.task_reset)
+    task_reset                               0x0000181b   Thumb Code    44  tos_task.o(.text.task_reset)
+    [Anonymous Symbol]                       0x00001848   Section        0  tos_tick.o(.text.tick_list_add)
+    [Anonymous Symbol]                       0x00001918   Section        0  tos_tick.o(.text.tick_list_remove)
+    [Anonymous Symbol]                       0x000019a8   Section        0  tos_tick.o(.text.tick_update)
+    __arm_cp.2_1                             0x00001a34   Number         4  tos_tick.o(.text.tick_update)
+    [Anonymous Symbol]                       0x00001a38   Section        0  tos_timer.o(.text.timer_init)
+    [Anonymous Symbol]                       0x00001a3c   Section        0  tos_timer.o(.text.timer_place)
+    timer_place                              0x00001a3d   Thumb Code   124  tos_timer.o(.text.timer_place)
+    [Anonymous Symbol]                       0x00001ab0   Section        0  tos_timer.o(.text.timer_takeoff)
+    timer_takeoff                            0x00001ab1   Thumb Code    60  tos_timer.o(.text.timer_takeoff)
+    [Anonymous Symbol]                       0x00001ae8   Section        0  tos_timer.o(.text.timer_update)
+    __arm_cp.7_0                             0x00001b84   Number         4  tos_timer.o(.text.timer_update)
+    __arm_cp.7_1                             0x00001b88   Number         4  tos_timer.o(.text.timer_update)
+    [Anonymous Symbol]                       0x00001b8c   Section        0  tos_cpu.o(.text.tos_cpu_clz)
+    [Anonymous Symbol]                       0x00001be0   Section        0  tos_cpu.o(.text.tos_cpu_cpsr_restore)
+    [Anonymous Symbol]                       0x00001be4   Section        0  tos_cpu.o(.text.tos_cpu_cpsr_save)
+    [Anonymous Symbol]                       0x00001be8   Section        0  tos_sys.o(.text.tos_knl_init)
+    __arm_cp.0_0                             0x00001c10   Number         4  tos_sys.o(.text.tos_knl_init)
+    [Anonymous Symbol]                       0x00001c14   Section        0  tos_sys.o(.text.tos_knl_irq_enter)
+    [Anonymous Symbol]                       0x00001c2c   Section        0  tos_sys.o(.text.tos_knl_irq_leave)
+    [Anonymous Symbol]                       0x00001c70   Section        0  tos_sys.o(.text.tos_knl_is_running)
+    [Anonymous Symbol]                       0x00001c80   Section        0  tos_sys.o(.text.tos_knl_sched_lock)
+    [Anonymous Symbol]                       0x00001cc4   Section        0  tos_sys.o(.text.tos_knl_sched_unlock)
+    __arm_cp.9_0                             0x00001cfc   Number         4  tos_sys.o(.text.tos_knl_sched_unlock)
+    __arm_cp.9_2                             0x00001d00   Number         4  tos_sys.o(.text.tos_knl_sched_unlock)
+    __arm_cp.9_3                             0x00001d04   Number         4  tos_sys.o(.text.tos_knl_sched_unlock)
+    [Anonymous Symbol]                       0x00001d08   Section        0  tos_sys.o(.text.tos_knl_start)
+    __arm_cp.11_0                            0x00001d30   Number         4  tos_sys.o(.text.tos_knl_start)
+    __arm_cp.11_1                            0x00001d34   Number         4  tos_sys.o(.text.tos_knl_start)
+    [Anonymous Symbol]                       0x00001d38   Section        0  tos_mmheap.o(.text.tos_mmheap_pool_add)
+    __arm_cp.1_0                             0x00001d7c   Number         4  tos_mmheap.o(.text.tos_mmheap_pool_add)
+    [Anonymous Symbol]                       0x00001d80   Section        0  tos_task.o(.text.tos_task_create)
+    __arm_cp.0_2                             0x00001e3c   Number         4  tos_task.o(.text.tos_task_create)
+    __arm_cp.0_3                             0x00001e40   Number         4  tos_task.o(.text.tos_task_create)
+    [Anonymous Symbol]                       0x00001e44   Section        0  tos_task.o(.text.tos_task_delay)
+    [Anonymous Symbol]                       0x00001ea0   Section        0  tos_task.o(.text.tos_task_destroy)
+    __arm_cp.3_0                             0x00001f38   Number         4  tos_task.o(.text.tos_task_destroy)
+    __arm_cp.3_1                             0x00001f3c   Number         4  tos_task.o(.text.tos_task_destroy)
+    [Anonymous Symbol]                       0x00001f40   Section        0  tos_task.o(.text.tos_task_prio_change)
+    __arm_cp.5_0                             0x00001ff8   Number         4  tos_task.o(.text.tos_task_prio_change)
+    __arm_cp.5_1                             0x00001ffc   Number         4  tos_task.o(.text.tos_task_prio_change)
+    [Anonymous Symbol]                       0x00002000   Section        0  tos_task.o(.text.tos_task_yield)
+    [Anonymous Symbol]                       0x0000202c   Section        0  tos_tick.o(.text.tos_tick_handler)
+    __arm_cp.4_0                             0x00002050   Number         4  tos_tick.o(.text.tos_tick_handler)
+    .constdata                               0x00002054   Section       40  _printf_hex_int.o(.constdata)
+    uc_hextab                                0x00002054   Data          20  _printf_hex_int.o(.constdata)
+    lc_hextab                                0x00002068   Data          20  _printf_hex_int.o(.constdata)
+    [Anonymous Symbol]                       0x0000207c   Section        0  clk.o(.rodata..LCLK_DisableModuleClock.au32ClkTbl)
+    [Anonymous Symbol]                       0x00002088   Section        0  uart.o(.rodata..LUART_SelectIrDAMode.au32ClkTbl)
+    .LCLK_GetModuleClockSource.au32SelTbl    0x000020a0   Data          16  clk.o(.rodata.cst16)
+    [Anonymous Symbol]                       0x000020d8   Section        0  main.o(.rodata.str1.1)
+    .L.str.2                                 0x000020d8   Data          65  main.o(.rodata.str1.1)
     [Anonymous Symbol]                       0x20000000   Section        0  system_m251.o(.data..L_MergedGlobals)
     [Anonymous Symbol]                       0x2000000c   Section        0  retarget.o(.data.g_ICE_Conneced)
     g_ICE_Conneced                           0x2000000c   Data           4  retarget.o(.data.g_ICE_Conneced)
@@ -2298,35 +2298,35 @@ Image Symbol Table
     readyqueue_move_head_to_tail             0x00001675   Thumb Code    40  tos_sched.o(.text.readyqueue_move_head_to_tail)
     readyqueue_remove                        0x000016c1   Thumb Code    88  tos_sched.o(.text.readyqueue_remove)
     robin_sched                              0x00001719   Thumb Code   120  tos_robin.o(.text.robin_sched)
-    task1_fun                                0x00001791   Thumb Code    64  main.o(.text.task1_fun)
-    task2_task                               0x000017d1   Thumb Code    44  main.o(.text.task2_task)
-    tick_list_add                            0x00001831   Thumb Code   212  tos_tick.o(.text.tick_list_add)
-    tick_list_remove                         0x00001901   Thumb Code   148  tos_tick.o(.text.tick_list_remove)
-    tick_update                              0x00001991   Thumb Code   148  tos_tick.o(.text.tick_update)
-    timer_init                               0x00001a21   Thumb Code     4  tos_timer.o(.text.timer_init)
-    timer_update                             0x00001ad1   Thumb Code   164  tos_timer.o(.text.timer_update)
-    tos_cpu_clz                              0x00001b75   Thumb Code    84  tos_cpu.o(.text.tos_cpu_clz)
-    tos_cpu_cpsr_restore                     0x00001bc9   Thumb Code     4  tos_cpu.o(.text.tos_cpu_cpsr_restore)
-    tos_cpu_cpsr_save                        0x00001bcd   Thumb Code     4  tos_cpu.o(.text.tos_cpu_cpsr_save)
-    tos_knl_init                             0x00001bd1   Thumb Code    44  tos_sys.o(.text.tos_knl_init)
-    tos_knl_irq_enter                        0x00001bfd   Thumb Code    32  tos_sys.o(.text.tos_knl_irq_enter)
-    tos_knl_irq_leave                        0x00001c15   Thumb Code    88  tos_sys.o(.text.tos_knl_irq_leave)
-    tos_knl_is_running                       0x00001c59   Thumb Code    20  tos_sys.o(.text.tos_knl_is_running)
-    tos_knl_sched_lock                       0x00001c69   Thumb Code    80  tos_sys.o(.text.tos_knl_sched_lock)
-    tos_knl_sched_unlock                     0x00001cad   Thumb Code    72  tos_sys.o(.text.tos_knl_sched_unlock)
-    tos_knl_start                            0x00001cf1   Thumb Code    52  tos_sys.o(.text.tos_knl_start)
-    tos_mmheap_pool_add                      0x00001d21   Thumb Code    72  tos_mmheap.o(.text.tos_mmheap_pool_add)
-    tos_task_create                          0x00001d69   Thumb Code   204  tos_task.o(.text.tos_task_create)
-    tos_task_delay                           0x00001e2d   Thumb Code   100  tos_task.o(.text.tos_task_delay)
-    tos_task_destroy                         0x00001e89   Thumb Code   160  tos_task.o(.text.tos_task_destroy)
-    tos_task_prio_change                     0x00001f29   Thumb Code   192  tos_task.o(.text.tos_task_prio_change)
-    tos_task_yield                           0x00001fe9   Thumb Code    48  tos_task.o(.text.tos_task_yield)
-    tos_tick_handler                         0x00002015   Thumb Code    40  tos_tick.o(.text.tos_tick_handler)
-    gau32ClkSrcTbl                           0x00002098   Data          32  system_m251.o(.rodata.gau32ClkSrcTbl)
-    k_idle_task_stk_addr                     0x000020b8   Data           4  tos_global.o(.rodata.k_idle_task_stk_addr)
-    k_idle_task_stk_size                     0x000020bc   Data           4  tos_global.o(.rodata.k_idle_task_stk_size)
-    Region$$Table$$Base                      0x00002104   Number         0  anon$$obj.o(Region$$Table)
-    Region$$Table$$Limit                     0x00002124   Number         0  anon$$obj.o(Region$$Table)
+    task1_fun                                0x00001791   Thumb Code    76  main.o(.text.task1_fun)
+    task2_task                               0x000017dd   Thumb Code    56  main.o(.text.task2_task)
+    tick_list_add                            0x00001849   Thumb Code   212  tos_tick.o(.text.tick_list_add)
+    tick_list_remove                         0x00001919   Thumb Code   148  tos_tick.o(.text.tick_list_remove)
+    tick_update                              0x000019a9   Thumb Code   148  tos_tick.o(.text.tick_update)
+    timer_init                               0x00001a39   Thumb Code     4  tos_timer.o(.text.timer_init)
+    timer_update                             0x00001ae9   Thumb Code   164  tos_timer.o(.text.timer_update)
+    tos_cpu_clz                              0x00001b8d   Thumb Code    84  tos_cpu.o(.text.tos_cpu_clz)
+    tos_cpu_cpsr_restore                     0x00001be1   Thumb Code     4  tos_cpu.o(.text.tos_cpu_cpsr_restore)
+    tos_cpu_cpsr_save                        0x00001be5   Thumb Code     4  tos_cpu.o(.text.tos_cpu_cpsr_save)
+    tos_knl_init                             0x00001be9   Thumb Code    44  tos_sys.o(.text.tos_knl_init)
+    tos_knl_irq_enter                        0x00001c15   Thumb Code    32  tos_sys.o(.text.tos_knl_irq_enter)
+    tos_knl_irq_leave                        0x00001c2d   Thumb Code    88  tos_sys.o(.text.tos_knl_irq_leave)
+    tos_knl_is_running                       0x00001c71   Thumb Code    20  tos_sys.o(.text.tos_knl_is_running)
+    tos_knl_sched_lock                       0x00001c81   Thumb Code    80  tos_sys.o(.text.tos_knl_sched_lock)
+    tos_knl_sched_unlock                     0x00001cc5   Thumb Code    72  tos_sys.o(.text.tos_knl_sched_unlock)
+    tos_knl_start                            0x00001d09   Thumb Code    52  tos_sys.o(.text.tos_knl_start)
+    tos_mmheap_pool_add                      0x00001d39   Thumb Code    72  tos_mmheap.o(.text.tos_mmheap_pool_add)
+    tos_task_create                          0x00001d81   Thumb Code   204  tos_task.o(.text.tos_task_create)
+    tos_task_delay                           0x00001e45   Thumb Code   100  tos_task.o(.text.tos_task_delay)
+    tos_task_destroy                         0x00001ea1   Thumb Code   160  tos_task.o(.text.tos_task_destroy)
+    tos_task_prio_change                     0x00001f41   Thumb Code   192  tos_task.o(.text.tos_task_prio_change)
+    tos_task_yield                           0x00002001   Thumb Code    48  tos_task.o(.text.tos_task_yield)
+    tos_tick_handler                         0x0000202d   Thumb Code    40  tos_tick.o(.text.tos_tick_handler)
+    gau32ClkSrcTbl                           0x000020b0   Data          32  system_m251.o(.rodata.gau32ClkSrcTbl)
+    k_idle_task_stk_addr                     0x000020d0   Data           4  tos_global.o(.rodata.k_idle_task_stk_addr)
+    k_idle_task_stk_size                     0x000020d4   Data           4  tos_global.o(.rodata.k_idle_task_stk_size)
+    Region$$Table$$Base                      0x0000211c   Number         0  anon$$obj.o(Region$$Table)
+    Region$$Table$$Limit                     0x0000213c   Number         0  anon$$obj.o(Region$$Table)
     SystemCoreClock                          0x20000000   Data           4  system_m251.o(.data..L_MergedGlobals)
     CyclesPerUs                              0x20000004   Data           4  system_m251.o(.data..L_MergedGlobals)
     PllClock                                 0x20000008   Data           4  system_m251.o(.data..L_MergedGlobals)
@@ -2365,9 +2365,9 @@ Memory Map of the image
 
   Image Entry point : 0x00000141
 
-  Load Region LR_IROM1 (Base: 0x00000000, Size: 0x00002170, Max: 0x00040000, ABSOLUTE)
+  Load Region LR_IROM1 (Base: 0x00000000, Size: 0x00002180, Max: 0x00040000, ABSOLUTE)
 
-    Execution Region ER_IROM1 (Exec base: 0x00000000, Load base: 0x00000000, Size: 0x00002124, Max: 0x00040000, ABSOLUTE)
+    Execution Region ER_IROM1 (Exec base: 0x00000000, Load base: 0x00000000, Size: 0x0000213c, Max: 0x00040000, ABSOLUTE)
 
     Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
 
@@ -2519,80 +2519,80 @@ Memory Map of the image
     0x00001698   0x00001698   0x00000028   Code   RO          639    .text.readyqueue_prio_mark  tos_sched.o
     0x000016c0   0x000016c0   0x00000058   Code   RO          645    .text.readyqueue_remove  tos_sched.o
     0x00001718   0x00001718   0x00000078   Code   RO          614    .text.robin_sched   tos_robin.o
-    0x00001790   0x00001790   0x00000040   Code   RO          249    .text.task1_fun     main.o
-    0x000017d0   0x000017d0   0x0000002c   Code   RO          251    .text.task2_task    main.o
-    0x000017fc   0x000017fc   0x00000006   Code   RO          726    .text.task_exit     tos_task.o
-    0x00001802   0x00001802   0x0000002c   Code   RO          724    .text.task_reset    tos_task.o
-    0x0000182e   0x0000182e   0x00000002   PAD
-    0x00001830   0x00001830   0x000000d0   Code   RO          755    .text.tick_list_add  tos_tick.o
-    0x00001900   0x00001900   0x00000090   Code   RO          757    .text.tick_list_remove  tos_tick.o
-    0x00001990   0x00001990   0x00000090   Code   RO          759    .text.tick_update   tos_tick.o
-    0x00001a20   0x00001a20   0x00000004   Code   RO          815    .text.timer_init    tos_timer.o
-    0x00001a24   0x00001a24   0x00000074   Code   RO          807    .text.timer_place   tos_timer.o
-    0x00001a98   0x00001a98   0x00000038   Code   RO          803    .text.timer_takeoff  tos_timer.o
-    0x00001ad0   0x00001ad0   0x000000a4   Code   RO          813    .text.timer_update  tos_timer.o
-    0x00001b74   0x00001b74   0x00000054   Code   RO          289    .text.tos_cpu_clz   tos_cpu.o
-    0x00001bc8   0x00001bc8   0x00000004   Code   RO          297    .text.tos_cpu_cpsr_restore  tos_cpu.o
-    0x00001bcc   0x00001bcc   0x00000004   Code   RO          295    .text.tos_cpu_cpsr_save  tos_cpu.o
-    0x00001bd0   0x00001bd0   0x0000002c   Code   RO          683    .text.tos_knl_init  tos_sys.o
-    0x00001bfc   0x00001bfc   0x00000018   Code   RO          687    .text.tos_knl_irq_enter  tos_sys.o
-    0x00001c14   0x00001c14   0x00000044   Code   RO          691    .text.tos_knl_irq_leave  tos_sys.o
-    0x00001c58   0x00001c58   0x00000010   Code   RO          689    .text.tos_knl_is_running  tos_sys.o
-    0x00001c68   0x00001c68   0x00000044   Code   RO          699    .text.tos_knl_sched_lock  tos_sys.o
-    0x00001cac   0x00001cac   0x00000044   Code   RO          701    .text.tos_knl_sched_unlock  tos_sys.o
-    0x00001cf0   0x00001cf0   0x00000030   Code   RO          705    .text.tos_knl_start  tos_sys.o
-    0x00001d20   0x00001d20   0x00000048   Code   RO          443    .text.tos_mmheap_pool_add  tos_mmheap.o
-    0x00001d68   0x00001d68   0x000000c4   Code   RO          722    .text.tos_task_create  tos_task.o
-    0x00001e2c   0x00001e2c   0x0000005c   Code   RO          738    .text.tos_task_delay  tos_task.o
-    0x00001e88   0x00001e88   0x000000a0   Code   RO          728    .text.tos_task_destroy  tos_task.o
-    0x00001f28   0x00001f28   0x000000c0   Code   RO          732    .text.tos_task_prio_change  tos_task.o
-    0x00001fe8   0x00001fe8   0x0000002c   Code   RO          730    .text.tos_task_yield  tos_task.o
-    0x00002014   0x00002014   0x00000028   Code   RO          763    .text.tos_tick_handler  tos_tick.o
-    0x0000203c   0x0000203c   0x00000028   Data   RO          863    .constdata          c_p.l(_printf_hex_int.o)
-    0x00002064   0x00002064   0x0000000c   Data   RO          100    .rodata..LCLK_DisableModuleClock.au32ClkTbl  clk.o
-    0x00002070   0x00002070   0x00000018   Data   RO          179    .rodata..LUART_SelectIrDAMode.au32ClkTbl  uart.o
-    0x00002088   0x00002088   0x00000010   Data   RO          101    .rodata.cst16       clk.o
-    0x00002098   0x00002098   0x00000020   Data   RO           10    .rodata.gau32ClkSrcTbl  system_m251.o
-    0x000020b8   0x000020b8   0x00000004   Data   RO          398    .rodata.k_idle_task_stk_addr  tos_global.o
-    0x000020bc   0x000020bc   0x00000004   Data   RO          399    .rodata.k_idle_task_stk_size  tos_global.o
-    0x000020c0   0x000020c0   0x00000041   Data   RO          255    .rodata.str1.1      main.o
-    0x00002101   0x00002101   0x00000003   PAD
-    0x00002104   0x00002104   0x00000020   Data   RO         1096    Region$$Table       anon$$obj.o
+    0x00001790   0x00001790   0x0000004c   Code   RO          249    .text.task1_fun     main.o
+    0x000017dc   0x000017dc   0x00000038   Code   RO          251    .text.task2_task    main.o
+    0x00001814   0x00001814   0x00000006   Code   RO          726    .text.task_exit     tos_task.o
+    0x0000181a   0x0000181a   0x0000002c   Code   RO          724    .text.task_reset    tos_task.o
+    0x00001846   0x00001846   0x00000002   PAD
+    0x00001848   0x00001848   0x000000d0   Code   RO          755    .text.tick_list_add  tos_tick.o
+    0x00001918   0x00001918   0x00000090   Code   RO          757    .text.tick_list_remove  tos_tick.o
+    0x000019a8   0x000019a8   0x00000090   Code   RO          759    .text.tick_update   tos_tick.o
+    0x00001a38   0x00001a38   0x00000004   Code   RO          815    .text.timer_init    tos_timer.o
+    0x00001a3c   0x00001a3c   0x00000074   Code   RO          807    .text.timer_place   tos_timer.o
+    0x00001ab0   0x00001ab0   0x00000038   Code   RO          803    .text.timer_takeoff  tos_timer.o
+    0x00001ae8   0x00001ae8   0x000000a4   Code   RO          813    .text.timer_update  tos_timer.o
+    0x00001b8c   0x00001b8c   0x00000054   Code   RO          289    .text.tos_cpu_clz   tos_cpu.o
+    0x00001be0   0x00001be0   0x00000004   Code   RO          297    .text.tos_cpu_cpsr_restore  tos_cpu.o
+    0x00001be4   0x00001be4   0x00000004   Code   RO          295    .text.tos_cpu_cpsr_save  tos_cpu.o
+    0x00001be8   0x00001be8   0x0000002c   Code   RO          683    .text.tos_knl_init  tos_sys.o
+    0x00001c14   0x00001c14   0x00000018   Code   RO          687    .text.tos_knl_irq_enter  tos_sys.o
+    0x00001c2c   0x00001c2c   0x00000044   Code   RO          691    .text.tos_knl_irq_leave  tos_sys.o
+    0x00001c70   0x00001c70   0x00000010   Code   RO          689    .text.tos_knl_is_running  tos_sys.o
+    0x00001c80   0x00001c80   0x00000044   Code   RO          699    .text.tos_knl_sched_lock  tos_sys.o
+    0x00001cc4   0x00001cc4   0x00000044   Code   RO          701    .text.tos_knl_sched_unlock  tos_sys.o
+    0x00001d08   0x00001d08   0x00000030   Code   RO          705    .text.tos_knl_start  tos_sys.o
+    0x00001d38   0x00001d38   0x00000048   Code   RO          443    .text.tos_mmheap_pool_add  tos_mmheap.o
+    0x00001d80   0x00001d80   0x000000c4   Code   RO          722    .text.tos_task_create  tos_task.o
+    0x00001e44   0x00001e44   0x0000005c   Code   RO          738    .text.tos_task_delay  tos_task.o
+    0x00001ea0   0x00001ea0   0x000000a0   Code   RO          728    .text.tos_task_destroy  tos_task.o
+    0x00001f40   0x00001f40   0x000000c0   Code   RO          732    .text.tos_task_prio_change  tos_task.o
+    0x00002000   0x00002000   0x0000002c   Code   RO          730    .text.tos_task_yield  tos_task.o
+    0x0000202c   0x0000202c   0x00000028   Code   RO          763    .text.tos_tick_handler  tos_tick.o
+    0x00002054   0x00002054   0x00000028   Data   RO          863    .constdata          c_p.l(_printf_hex_int.o)
+    0x0000207c   0x0000207c   0x0000000c   Data   RO          100    .rodata..LCLK_DisableModuleClock.au32ClkTbl  clk.o
+    0x00002088   0x00002088   0x00000018   Data   RO          179    .rodata..LUART_SelectIrDAMode.au32ClkTbl  uart.o
+    0x000020a0   0x000020a0   0x00000010   Data   RO          101    .rodata.cst16       clk.o
+    0x000020b0   0x000020b0   0x00000020   Data   RO           10    .rodata.gau32ClkSrcTbl  system_m251.o
+    0x000020d0   0x000020d0   0x00000004   Data   RO          398    .rodata.k_idle_task_stk_addr  tos_global.o
+    0x000020d4   0x000020d4   0x00000004   Data   RO          399    .rodata.k_idle_task_stk_size  tos_global.o
+    0x000020d8   0x000020d8   0x00000041   Data   RO          255    .rodata.str1.1      main.o
+    0x00002119   0x00002119   0x00000003   PAD
+    0x0000211c   0x0000211c   0x00000020   Data   RO         1096    Region$$Table       anon$$obj.o
 
 
-    Execution Region RW_IRAM1 (Exec base: 0x20000000, Load base: 0x00002130, Size: 0x00001b20, Max: 0x00008000, ABSOLUTE)
+    Execution Region RW_IRAM1 (Exec base: 0x20000000, Load base: 0x00002140, Size: 0x00001b20, Max: 0x00008000, ABSOLUTE)
 
     Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
 
-    0x20000000   0x00002130   0x0000000c   Data   RW           11    .data..L_MergedGlobals  system_m251.o
-    0x2000000c   0x0000213c   0x00000004   Data   RW          135    .data.g_ICE_Conneced  retarget.o
-    0x20000010   0x00002140   0x00000008   Data   RW          400    .data.k_cpu_tick_per_second  tos_global.o
-    0x20000018   0x00002148   0x00000008   Data   RW          406    .data.k_msg_freelist  tos_global.o
-    0x20000020   0x00002150   0x00000004   Data   RW          403    .data.k_robin_default_timeslice  tos_global.o
-    0x20000024   0x00002154   0x00000001   Data   RW          404    .data.k_robin_state  tos_global.o
-    0x20000025   0x00002155   0x00000003   PAD
-    0x20000028   0x00002158   0x00000008   Data   RW          402    .data.k_tick_list   tos_global.o
-    0x20000030   0x00002160   0x00000010   Data   RW          405    .data.k_timer_ctl   tos_global.o
+    0x20000000   0x00002140   0x0000000c   Data   RW           11    .data..L_MergedGlobals  system_m251.o
+    0x2000000c   0x0000214c   0x00000004   Data   RW          135    .data.g_ICE_Conneced  retarget.o
+    0x20000010   0x00002150   0x00000008   Data   RW          400    .data.k_cpu_tick_per_second  tos_global.o
+    0x20000018   0x00002158   0x00000008   Data   RW          406    .data.k_msg_freelist  tos_global.o
+    0x20000020   0x00002160   0x00000004   Data   RW          403    .data.k_robin_default_timeslice  tos_global.o
+    0x20000024   0x00002164   0x00000001   Data   RW          404    .data.k_robin_state  tos_global.o
+    0x20000025   0x00002165   0x00000003   PAD
+    0x20000028   0x00002168   0x00000008   Data   RW          402    .data.k_tick_list   tos_global.o
+    0x20000030   0x00002170   0x00000010   Data   RW          405    .data.k_timer_ctl   tos_global.o
     0x20000040        -       0x00000060   Zero   RW          967    .bss                c_p.l(libspace.o)
     0x200000a0        -       0x00000068   Zero   RW          259    .bss..L_MergedGlobals  main.o
-    0x20000108   0x00002170   0x00000008   PAD
+    0x20000108   0x00002180   0x00000008   PAD
     0x20000110        -       0x00000068   Zero   RW          260    .bss..L_MergedGlobals.7  main.o
     0x20000178        -       0x00000054   Zero   RW          136    .bss.__stdout       retarget.o
     0x200001cc        -       0x00000004   Zero   RW          401    .bss.k_cpu_cycle_per_tick  tos_global.o
     0x200001d0        -       0x00000004   Zero   RW          395    .bss.k_curr_task    tos_global.o
-    0x200001d4   0x00002170   0x00000004   PAD
+    0x200001d4   0x00002180   0x00000004   PAD
     0x200001d8        -       0x00000068   Zero   RW          408    .bss.k_idle_task    tos_global.o
     0x20000240        -       0x00000080   Zero   RW          397    .bss.k_idle_task_stk  tos_global.o
     0x200002c0        -       0x00000001   Zero   RW          391    .bss.k_irq_nest_cnt  tos_global.o
     0x200002c1        -       0x00000001   Zero   RW          393    .bss.k_knl_state    tos_global.o
-    0x200002c2   0x00002170   0x00000002   PAD
+    0x200002c2   0x00002180   0x00000002   PAD
     0x200002c4        -       0x00000c74   Zero   RW          410    .bss.k_mmheap_ctl   tos_global.o
     0x20000f38        -       0x00000100   Zero   RW          409    .bss.k_mmheap_pool  tos_global.o
     0x20001038        -       0x000000a0   Zero   RW          411    .bss.k_msg_pool     tos_global.o
     0x200010d8        -       0x00000004   Zero   RW          396    .bss.k_next_task    tos_global.o
     0x200010dc        -       0x00000058   Zero   RW          407    .bss.k_rdyq         tos_global.o
     0x20001134        -       0x00000001   Zero   RW          392    .bss.k_sched_lock_nest_cnt  tos_global.o
-    0x20001135   0x00002170   0x00000003   PAD
+    0x20001135   0x00002180   0x00000003   PAD
     0x20001138        -       0x00000008   Zero   RW          394    .bss.k_tick_count   tos_global.o
     0x20001140        -       0x000000f0   Zero   RW          256    .bss.task1_stack    main.o
     0x20001230        -       0x000000f0   Zero   RW          257    .bss.task2_stack    main.o
@@ -2607,31 +2607,31 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
 
-      1200        132         28          0          0      11873   clk.o
-        42          0          0          0          0       2087   gpio.o
-       480        172         65          0        688       7591   main.o
-        68         12          0          0          0       3625   port_c.o
-       156         24          0          0          0        304   port_s.o
-       294        124          0          4         84       3798   retarget.o
-       140         44        320          0       2048        792   startup_m251.o
-        36          4          0          0          0       3528   sys.o
-       172         36         32         12          0       4320   system_m251.o
-       304         60          0          0          0       5370   tos_cpu.o
-         0          0          8         45       3947       4942   tos_global.o
-       312          8          0          0          0      16524   tos_mmheap.o
-        40          8          0          0          0       6768   tos_msg.o
-        76          0          0          0          0       7857   tos_mutex.o
-       198          0          0          0          0       9035   tos_pend.o
-       120         12          0          0          0       3756   tos_robin.o
-       360          8          0          0          0       7246   tos_sched.o
-       522         64          0          0          0       7258   tos_sys.o
-       734         24          0          0          0      10475   tos_task.o
-       536          8          0          0          0       7535   tos_tick.o
-       340          8          0          0          0       7115   tos_timer.o
-       228         24         24          0          0       6383   uart.o
+      1200        132         28          0          0      11871   clk.o
+        42          0          0          0          0       2085   gpio.o
+       504        196         65          0        688       7589   main.o
+        68         12          0          0          0       3623   port_c.o
+       156         24          0          0          0        308   port_s.o
+       294        124          0          4         84       3796   retarget.o
+       140         44        320          0       2048        796   startup_m251.o
+        36          4          0          0          0       3526   sys.o
+       172         36         32         12          0       4318   system_m251.o
+       304         60          0          0          0       5368   tos_cpu.o
+         0          0          8         45       3947       4940   tos_global.o
+       312          8          0          0          0      16522   tos_mmheap.o
+        40          8          0          0          0       6766   tos_msg.o
+        76          0          0          0          0       7855   tos_mutex.o
+       198          0          0          0          0       9033   tos_pend.o
+       120         12          0          0          0       3754   tos_robin.o
+       360          8          0          0          0       7244   tos_sched.o
+       522         64          0          0          0       7256   tos_sys.o
+       734         24          0          0          0      10473   tos_task.o
+       536          8          0          0          0       7533   tos_tick.o
+       340          8          0          0          0       7113   tos_timer.o
+       228         24         24          0          0       6381   uart.o
 
     ----------------------------------------------------------------------
-      6364        772        512         64       6784     138182   Object Totals
+      6388        796        512         64       6784     138150   Object Totals
          0          0         32          0          0          0   (incl. Generated)
          6          0          3          3         17          0   (incl. Padding)
 
@@ -2698,15 +2698,15 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-      7932        834        552         64       6880     138810   Grand Totals
-      7932        834        552         64       6880     138810   ELF Image Totals
-      7932        834        552         64          0          0   ROM Totals
+      7956        858        552         64       6880     138778   Grand Totals
+      7956        858        552         64       6880     138778   ELF Image Totals
+      7956        858        552         64          0          0   ROM Totals
 
 ==============================================================================
 
-    Total RO  Size (Code + RO Data)                 8484 (   8.29kB)
+    Total RO  Size (Code + RO Data)                 8508 (   8.31kB)
     Total RW  Size (RW Data + ZI Data)              6944 (   6.78kB)
-    Total ROM Size (Code + RO Data + RW Data)       8548 (   8.35kB)
+    Total ROM Size (Code + RO Data + RW Data)       8572 (   8.37kB)
 
 ==============================================================================
 
