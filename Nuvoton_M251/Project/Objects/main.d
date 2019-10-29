@@ -68,4 +68,4 @@
   ../TencentOS/kernel/core/include\tos_tick.h \
   ../TencentOS/kernel/core/include\tos_sched.h \
   ../TencentOS/kernel/pm/include\tos_tickless.h \
-  ../TencentOS/kernel/core/include\tos_global.h
+  ../TencentOS/kernel/core/include\tos_global.h ../Hardwear/ADC\adc.h

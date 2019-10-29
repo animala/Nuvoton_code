@@ -6,6 +6,8 @@
 ".\objects\uart.o"
 ".\objects\gpio.o"
 ".\objects\sys.o"
+".\objects\eadc.o"
+".\objects\timer.o"
 ".\objects\main.o"
 ".\objects\port_c.o"
 ".\objects\tos_cpu.o"
@@ -30,6 +32,10 @@
 ".\objects\tos_timer.o"
 ".\objects\tos_pm.o"
 ".\objects\tos_tickless.o"
+".\objects\pid_lib.o"
+".\objects\pid_lib_usr.o"
+".\objects\adc.o"
+".\objects\temp_deal.o"
 --strict --scatter ".\Objects\NuvotonTos.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

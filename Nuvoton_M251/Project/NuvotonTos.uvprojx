@@ -336,7 +336,7 @@
               <MiscControls></MiscControls>
               <Define></Define>
               <Undefine></Undefine>
-              <IncludePath>..\CMSIS;..\STARTUP;..\StdDriver\inc;..\TencentOS\arch\include;..\TencentOS\kernel\core\include;..\TencentOS\kernel\pm\include;..\TencentOS\TOS_CONFIG;..\TencentOS\arch;..\STARTUP\Include</IncludePath>
+              <IncludePath>..\CMSIS;..\STARTUP;..\StdDriver\inc;..\TencentOS\arch\include;..\TencentOS\kernel\core\include;..\TencentOS\kernel\pm\include;..\TencentOS\TOS_CONFIG;..\TencentOS\arch;..\STARTUP\Include;..\Hardwear\Pid_control;..\Hardwear\ADC;..\Toilet_Driver\Temp_module;..\Toilet_Driver\Comm_module</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -419,6 +419,16 @@
               <FileName>sys.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\StdDriver\src\sys.c</FilePath>
+            </File>
+            <File>
+              <FileName>eadc.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\StdDriver\src\eadc.c</FilePath>
+            </File>
+            <File>
+              <FileName>timer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\StdDriver\src\timer.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -564,6 +574,36 @@
               <FileName>tos_config.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\TencentOS\TOS_CONFIG\tos_config.h</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>Hardwear</GroupName>
+          <Files>
+            <File>
+              <FileName>PID_Lib.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Hardwear\Pid_control\PID_Lib.c</FilePath>
+            </File>
+            <File>
+              <FileName>PID_Lib_usr.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Hardwear\Pid_control\PID_Lib_usr.c</FilePath>
+            </File>
+            <File>
+              <FileName>adc.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Hardwear\ADC\adc.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>Toilet_driver</GroupName>
+          <Files>
+            <File>
+              <FileName>temp_deal.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Toilet_Driver\Temp_module\temp_deal.c</FilePath>
             </File>
           </Files>
         </Group>

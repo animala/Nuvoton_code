@@ -1,6 +1,8 @@
 #include "stdio.h"
 #include "NuMicro.h"
-#include "tos.h"      
+#include "tos.h"  
+#include "adc.h"
+
 #define task1_size   240  // size of task1 stack
 #define task2_size 	 240	
 k_task_t task1;   				//structure of task1
@@ -89,7 +91,7 @@ int main()
 
     /* Init System, peripheral clock and multi-function I/O */
     SYS_Init();
-		
+		ADC_Init();
 		tos_knl_init();   //tos init ,include SystickInit,should init after protected registers unlock
 		
     /* Lock protected registers */
@@ -100,7 +102,7 @@ int main()
 
 		printf("system clock to %d Hz, PLL clock to %d Hz...................... ", SystemCoreClock, CLK_SetCoreClock(FREQ_32MHZ));
   	
-		GPIO_SetMode(PB, BIT14, GPIO_MODE_OUTPUT);
+		//GPIO_SetMode(PB, BIT14, GPIO_MODE_OUTPUT);
 
 		err = tos_task_create(
 				&task1,
@@ -128,5 +130,4 @@ int main()
 	
 		tos_knl_start(); //Start TOS TINY
 		
-
 }
