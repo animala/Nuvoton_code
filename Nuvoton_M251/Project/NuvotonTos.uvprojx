@@ -336,7 +336,7 @@
               <MiscControls></MiscControls>
               <Define></Define>
               <Undefine></Undefine>
-              <IncludePath>..\CMSIS;..\STARTUP;..\StdDriver\inc;..\TencentOS\arch\include;..\TencentOS\kernel\core\include;..\TencentOS\kernel\pm\include;..\TencentOS\TOS_CONFIG;..\TencentOS\arch;..\STARTUP\Include;..\Hardwear\Pid_control;..\Hardwear\ADC;..\Toilet_Driver\Temp_module;..\Toilet_Driver\Comm_module;..\Toilet_Driver\Temp_table;..\Toilet_Driver\Control_center;..\Hardwear\DWT_Delay;..\Hardwear\Timer;..\Toilet_Driver\Beep_module;..\Toilet_Driver\deodorzation_module;..\Toilet_Driver\Flush_module;..\Toilet_Driver\IR_module\IR_remote;..\Toilet_Driver\IR_module\IR_Cover;..\Toilet_Driver\Moto_module;..\Toilet_Driver\Sit_module</IncludePath>
+              <IncludePath>..\CMSIS;..\STARTUP;..\StdDriver\inc;..\TencentOS\arch\include;..\TencentOS\kernel\core\include;..\TencentOS\kernel\pm\include;..\TencentOS\TOS_CONFIG;..\TencentOS\arch;..\STARTUP\Include;..\Hardwear\Pid_control;..\Hardwear\ADC;..\Toilet_Driver\Temp_module;..\Toilet_Driver\Comm_module;..\Toilet_Driver\Temp_table;..\Toilet_Driver\Control_center;..\Hardwear\DWT_Delay;..\Hardwear\Timer;..\Toilet_Driver\Beep_module;..\Toilet_Driver\deodorzation_module;..\Toilet_Driver\Flush_module;..\Toilet_Driver\IR_module\IR_remote;..\Toilet_Driver\IR_module\IR_Cover;..\Toilet_Driver\Moto_module;..\Toilet_Driver\Sit_module;..\Toilet_Driver\AirPumb_module;..\Hardwear\PWM</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -429,6 +429,11 @@
               <FileName>timer.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\StdDriver\src\timer.c</FilePath>
+            </File>
+            <File>
+              <FileName>pwm.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\StdDriver\src\pwm.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -605,6 +610,11 @@
               <FileType>1</FileType>
               <FilePath>..\Hardwear\Timer\timer_deal.c</FilePath>
             </File>
+            <File>
+              <FileName>Pwm_cfg.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Hardwear\PWM\Pwm_cfg.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -664,6 +674,11 @@
               <FileName>sit_check.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\Toilet_Driver\Sit_module\sit_check.c</FilePath>
+            </File>
+            <File>
+              <FileName>air_pumb.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Toilet_Driver\AirPumb_module\air_pumb.c</FilePath>
             </File>
           </Files>
         </Group>

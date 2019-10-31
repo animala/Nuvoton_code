@@ -204,10 +204,10 @@ int main()
 
 	while(1)
 	{
-	
+		
 		
 		PB14 =~ PB14;  
-
+		
 	}
 #endif
 

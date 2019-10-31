@@ -5,6 +5,12 @@
 #define uint_16	unsigned int
 #define int_8	signed char
 
+#define _User_     //用户连接层，主要为不同平台IO口配置相关处理
+
+#define _Toilet_   //逻辑底层  智能马桶裸机实现的代码，可根据客户需求改变
+
+#define _Link_		//连接层，用户层和逻辑底层的连接初始化函数，一般为IO口的初始化
+
 
 #include <table.h>
 
@@ -31,6 +37,10 @@
 #define	T10Min	600
 #define T15Min	900  
 #define	T30Min	1800
+
+
+#define ON 1
+#define OFF 0
 
 
 typedef struct{

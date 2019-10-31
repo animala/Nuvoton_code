@@ -6,5 +6,5 @@
 #include "NuMicro.h"
 
 void Toilet_driver_init(void);
-
+void Timing_deal(void);
 #endif 

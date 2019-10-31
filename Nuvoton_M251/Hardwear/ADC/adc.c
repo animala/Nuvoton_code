@@ -1,15 +1,11 @@
 #include "adc.h"
 #include "NuMicro.h"
 #include "stdint.h"
-/*---------------------------------------------------------------------------------------------------------*/
-/* Define global variables and constants                                                                   */
-/*---------------------------------------------------------------------------------------------------------*/
-
-volatile uint32_t g_u32AdcIntFlag;
-
 
 //********************************************
 //	ADC 初始化
+// 初始化AD接口 分别为 座温 环境温度 光照 电机状态
+// 对应 PB0 PB1 PB2 PB3
 //********************************************
 
 void ADC_Init(void)
@@ -17,21 +13,20 @@ void ADC_Init(void)
 	CLK_EnableModuleClock(EADC_MODULE);  //使能ADC时钟
 
 	/* EADC clock source is 48MHz, set divider to 8, EADC clock is 48/8 MHz */
-    CLK_SetModuleClock(EADC_MODULE, 0, CLK_CLKDIV0_EADC(8));
+    CLK_SetModuleClock(EADC_MODULE, 0, CLK_CLKDIV0_EADC(8));  //时钟设置
 
-	/* Set PB.0 and PB.1 to input mode */
-    PB->MODE &= ~(GPIO_MODE_MODE0_Msk | GPIO_MODE_MODE1_Msk);   //这里建议使用寄存器进行IO初始化，如果使用库函数，存在执行效率不高的情况
+	/* Set PB.0 PB.1  PB.2 PB.3 to input mode */
+    PB->MODE &= ~(GPIO_MODE_MODE0_Msk | GPIO_MODE_MODE1_Msk | GPIO_MODE_MODE2_Msk | GPIO_MODE_MODE3_Msk);   //这里建议使用寄存器进行IO初始化
 
-	//PB->MODE = (PB->MODE &~(GPIO_MODE_MODE0_Msk) |(0x0UL << GPIO_MODE_MODE0_Pos));  //输入模式
+	//PB->MODE = (PB->MODE &~(GPIO_MODE_MODE0_Msk) |(0x0UL << GPIO_MODE_MODE0_Pos));  //输入模式	
 
-	PB->MODE = (PB->MODE &~(GPIO_MODE_MODE14_Msk) |(0x1UL << GPIO_MODE_MODE14_Pos));  //pin14 输出模式
-
-    /* Configure the EADC analog input pins.  */
+    /* Configure the EADC analog input pins.  */  //复用为ADC通道
     SYS->GPB_MFPL = (SYS->GPB_MFPL & ~SYS_GPB_MFPL_PB0MFP_Msk) | SYS_GPB_MFPL_PB0MFP_EADC0_CH0;
-    SYS->GPB_MFPL = (SYS->GPB_MFPL & ~SYS_GPB_MFPL_PB1MFP_Msk) | SYS_GPB_MFPL_PB1MFP_EADC0_CH1;
-
+    SYS->GPB_MFPL = (SYS->GPB_MFPL & ~SYS_GPB_MFPL_PB1MFP_Msk) | SYS_GPB_MFPL_PB1MFP_EADC0_CH1;	
+	SYS->GPB_MFPL = (SYS->GPB_MFPL & ~SYS_GPB_MFPL_PB2MFP_Msk) | SYS_GPB_MFPL_PB2MFP_EADC0_CH2;
+	SYS->GPB_MFPL = (SYS->GPB_MFPL & ~SYS_GPB_MFPL_PB3MFP_Msk) | SYS_GPB_MFPL_PB3MFP_EADC0_CH3;
     /* Disable the digital input path to avoid the leakage current for EADC analog input pins. */
-    GPIO_DISABLE_DIGITAL_PATH(PB, BIT0 | BIT1);  /* Disable PB0 and PB1 */
+    GPIO_DISABLE_DIGITAL_PATH(PB, BIT0 | BIT1 | BIT2 | BIT3);  /* Disable PB0 and PB1 PB2 PB3 */
 
 
 	
@@ -39,7 +34,8 @@ void ADC_Init(void)
 
 
 /*---------------------------------------------------------------------------------------------------------*/
-/* EADC function test                                                                                       */
+/*   ADC通道读取ADC的值    
+/*   输入通道号，返回该通道的AD值																	     */                                                                      										
 /*---------------------------------------------------------------------------------------------------------*/
 uint_16 EADC_READ(uint_8 u32ChannelNum)
 {
@@ -77,7 +73,7 @@ uint_16 EADC_READ(uint_8 u32ChannelNum)
     
 	return i32ConversionData;
 
-	EADC_Close(EADC);
+	EADC_Close(EADC);  //关闭ADC
 }
 
 

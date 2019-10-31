@@ -44,12 +44,14 @@ typedef enum{
 	Gear_4,
 }Gear;
 
+_User_ void Remote_Gpio_init(void);
+_User_ uint_16 read_pin(void);
 
-void IR_receive(void);
+_Toilet_ void IR_receive(void);
 
-void IR_Opration(void);
+_Toilet_ void IR_Opration(void);
 
-void Remote_IO_init(Remote_IO_cfg *p,void (*Remote_set_h)(),void (*Remote_set_l)(),uint_16 (* check_pin)());
+_Link_ void Remote_IO_init(void (*Remote_set_h)(),void (*Remote_set_l)(),uint_16 (* check_pin)());
 
 
 

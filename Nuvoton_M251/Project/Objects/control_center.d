@@ -37,4 +37,7 @@
   ../StdDriver/inc\crypto.h ../StdDriver/inc\ebi.h \
   ../StdDriver/inc\psio.h ../StdDriver/inc\sc.h \
   ../StdDriver/inc\scuart.h ../Toilet_Driver/Temp_module\temp_deal.h \
-  ../Hardwear/DWT_Delay\DWT_Delay.h ../Hardwear/ADC\adc.h
+  ../Hardwear/DWT_Delay\DWT_Delay.h ../Hardwear/ADC\adc.h \
+  ../Hardwear/PWM\Pwm_cfg.h ../Toilet_Driver/Beep_module\beep.h \
+  ../Toilet_Driver/AirPumb_module\air_pumb.h \
+  ../Toilet_Driver/Moto_module\Moto_deal.h

@@ -13,10 +13,13 @@ typedef struct{
 
 extern Beep_IO_cfg Beep_io;
 
-void buz_set(uint_8 loop,uint_8 delay_H,uint_8 delay_L);
-void buz_task(void);
 
-void beep_Io_init(Beep_IO_cfg *p,void (*Beep_set_h)(),void (*Beep_set_l)());
+_User_ void Beep_Gpio_init(void);
 
+
+_Toilet_ void buz_set(uint_8 loop,uint_8 delay_H,uint_8 delay_L);
+_Toilet_ void buz_task(void);
+
+_Link_ void beep_Io_init(void (*Beep_set_h)(),void (*Beep_set_l)());
 
 #endif

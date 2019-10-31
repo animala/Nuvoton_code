@@ -29,3 +29,5 @@ Rolling_board_module : 旋钮板的底层驱动
 Sit_module : 着坐模块底层驱动
 
 Temp_module : 温度控制，包含了 风温、座温、水温的驱动
+
+AiePumb_module : 气泵控制，通过pwm驱动气泵电机

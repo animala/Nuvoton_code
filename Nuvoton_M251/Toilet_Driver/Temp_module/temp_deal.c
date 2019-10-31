@@ -26,12 +26,10 @@ void AD_fun_Init(ADC_Config *p, uint_16(*readADC)(uint_8),void (*delay_us)(uint_
 }
 
 
-
-
 //**********************************
 //
 //  把AD值处理，批量处理AD，检测完并处理
-//  不建议使用，这里的算法时间复杂度为O(n^2),执行时间比较长
+//  不建议使用，这里的算法时间复杂度为O(n^3),执行时间比较长
 //**********************************
 
 void Get_All_AD(ADC_Config *p)
@@ -94,7 +92,7 @@ void Seat_temp_deal(ADC_Config *p)
 	uint_16	AdcBufVale;
 	uint_8 i;
 
-	AdcBuf[AdcCount] = p->ReadADC(0);	//处理一个通道的AD值
+	AdcBuf[AdcCount] = p->ReadADC(Seat_CH);	//处理座温的AD
 	AdcCount++;
 	if(AdcCount >= 5)  //取5次AD值
 	{
@@ -216,7 +214,7 @@ void Fan_Temp_Deal(ADC_Config *p)
 	uint_16	AdcBufVale;
 	uint_8 i;
 
-	AdcBuf[AdcCount] = p->ReadADC(1);	//处理一个通道的AD值
+	AdcBuf[AdcCount] = p->ReadADC(Wind_CH);	//处理风温
 	AdcCount++;
 	if(AdcCount >= 5)  //取5次AD值
 	{

@@ -8,6 +8,7 @@
 ".\objects\sys.o"
 ".\objects\eadc.o"
 ".\objects\timer.o"
+".\objects\pwm.o"
 ".\objects\main.o"
 ".\objects\port_c.o"
 ".\objects\tos_cpu.o"
@@ -37,6 +38,7 @@
 ".\objects\adc.o"
 ".\objects\dwt_delay.o"
 ".\objects\timer_deal.o"
+".\objects\pwm_cfg.o"
 ".\objects\temp_deal.o"
 ".\objects\table.o"
 ".\objects\control_center.o"
@@ -47,6 +49,7 @@
 ".\objects\ir_cover.o"
 ".\objects\moto_deal.o"
 ".\objects\sit_check.o"
+".\objects\air_pumb.o"
 --strict --scatter ".\Objects\NuvotonTos.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

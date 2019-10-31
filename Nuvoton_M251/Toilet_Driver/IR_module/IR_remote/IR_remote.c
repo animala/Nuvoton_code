@@ -17,17 +17,37 @@ Func Func_select;
 
 
 
+//============================================用户处理层================================================
 
-void Remote_IO_init(Remote_IO_cfg *p,void (*Remote_set_h)(),void (*Remote_set_l)(),uint_16 (* check_pin)())
+//初始化对应平台的IO口
+_User_ void Remote_Gpio_init(void)
 {
+	PB->MODE = (PB->MODE &~(GPIO_MODE_MODE6_Msk) |(0x0UL << GPIO_MODE_MODE6_Pos));  //输入模式
 
-	p->Remote_set_high = Remote_set_h;
-	p->Remote_set_low  = Remote_set_l;
-	p->Check_pin = check_pin;
+	Remote_IO_init(NULL,NULL,read_pin);
+}
+
+uint_16 read_pin(void)
+{
+	return PB6;
 }
 
 
 
+
+//=============================================底层抽象层===============================================
+
+_Link_ void Remote_IO_init(void (*Remote_set_h)(),void (*Remote_set_l)(),uint_16 (* check_pin)())
+{
+
+	Remote_io.Remote_set_high = Remote_set_h;
+	Remote_io.Remote_set_low  = Remote_set_l;
+	Remote_io.Check_pin = check_pin;
+}
+
+
+
+//==========================================功能处理层==================================================
 
 
 //********************************************************/
@@ -35,7 +55,7 @@ void Remote_IO_init(Remote_IO_cfg *p,void (*Remote_set_h)(),void (*Remote_set_l)
 // 一帧分引导码+ 起始码+ 功能数据 + 校验   字节（不包括引导码）
 // 0 : 640us低电 + 480us 高电平组     1 : 640us低电 + 1440us高电平组
 //************************************************************/
-void IR_receive(void)
+_Toilet_ void IR_receive(void)
 {
 	switch(IR.step)
 	{
@@ -187,17 +207,17 @@ void IR_receive(void)
 //	功能模块选择函数
 //  这里改成函数指针数组形式，提高效??
 //***************************************/
-/*
-void Func_deal(uint_8 select)
+
+_Toilet_ void Func_deal(uint_8 select)
 {
 	switch (Func_select)
 	{
 		case Stop:    		//停止按键
-			Close_all_function();
+			//Close_all_function();
 		break;
 		
 		case Hip_clean:		//臀??
-			Hip_Wash_Enable();
+			//Hip_Wash_Enable();
 		break;
 		
 		case Auto_s:		//自动翻盖
@@ -205,17 +225,17 @@ void Func_deal(uint_8 select)
 		break;
 		
 		case Wem_clean:		//妇洗
-			Wemen_Wash_Enable();
+			//Wemen_Wash_Enable();
 		break;
 		case Dring:  		//烘干功能模块
-			if(adc_set.Err == 0)
+			/*if(adc_set.Err == 0)
 			{
-				Dring_Work_Enable();
-			}
+				//Dring_Work_Enable();
+			}*/
 		   
 		break;
 			
-		case Purge:			//通便  （目前改成冷热spa??
+		case Purge:			//通便  （目前改成冷热spa)
 			if(Status.Mode_select != 0 && Status.LengReAnMo_f == 0)
 			{
 				Status.LengReAnMo_f = 1;
@@ -237,7 +257,7 @@ void Func_deal(uint_8 select)
 		break;
 			
 		case Turn_cover:	//翻盖
-				Cover_status_change();
+				//Cover_status_change();
 		break;
 		
 		case Deodorzation:	//除臭
@@ -265,7 +285,7 @@ void Func_deal(uint_8 select)
 		break;
 			
 		case Turn_circle:	//翻圈
-				Circle_status_change();
+				//Circle_status_change();
 		break;	
 		
 		case Power:			//电源
@@ -286,7 +306,7 @@ void Func_deal(uint_8 select)
 		break;	
 	}
 }
-*/
+
 
 
 
@@ -295,7 +315,7 @@ void Func_deal(uint_8 select)
 //	解码并进行功能处理
 //
 //***************************************
-void IR_Opration(void)
+_Toilet_ void IR_Opration(void)
 {
 	uint_8	i,j;
 	uint_8	temp1,temp2,temp3;
