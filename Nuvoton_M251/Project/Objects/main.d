@@ -70,13 +70,7 @@
   ../TencentOS/kernel/pm/include\tos_tickless.h \
   ../TencentOS/kernel/core/include\tos_global.h ../Hardwear/ADC\adc.h \
   ../Toilet_Driver/Comm_module\toilet.h \
-  ../Toilet_Driver/Temp_module\temp_deal.h \
   ../Toilet_Driver/Temp_table\table.h \
-  ../Toilet_Driver/deodorzation_module\deodorzation.h \
-  ../Toilet_Driver/Comm_module\Toilet.h \
-  ../Toilet_Driver/Flush_module\flush.h \
-  ../Toilet_Driver/Beep_module\beep.h \
-  ../Toilet_Driver/IR_module/IR_remote\IR_remote.h \
-  ../Toilet_Driver/IR_module/IR_Cover\IR_cover.h \
   ../Toilet_Driver/Control_center\control_center.h \
-  ../Hardwear/DWT_Delay\DWT_Delay.h
+  ../Hardwear/DWT_Delay\DWT_Delay.h \
+  ../Toilet_Driver/Temp_module\temp_deal.h

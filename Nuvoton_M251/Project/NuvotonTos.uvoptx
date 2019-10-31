@@ -384,7 +384,7 @@
 
   <Group>
     <GroupName>Tos/kernel</GroupName>
-    <tvExp>0</tvExp>
+    <tvExp>1</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>
@@ -392,7 +392,7 @@
       <GroupNumber>5</GroupNumber>
       <FileNumber>15</FileNumber>
       <FileType>1</FileType>
-      <tvExp>0</tvExp>
+      <tvExp>1</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\TencentOS\kernel\core\tos_event.c</PathWithFileName>
@@ -829,6 +829,18 @@
       <bDave2>0</bDave2>
       <PathWithFileName>..\Toilet_Driver\Moto_module\Moto_deal.c</PathWithFileName>
       <FilenameWithoutPath>Moto_deal.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>8</GroupNumber>
+      <FileNumber>50</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\Toilet_Driver\Sit_module\sit_check.c</PathWithFileName>
+      <FilenameWithoutPath>sit_check.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>

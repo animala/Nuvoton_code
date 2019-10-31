@@ -5,7 +5,6 @@
 #include "toilet.h"
 #include "control_center.h"
 #include "DWT_Delay.h"
-#include "temp_deal.h"
 
 buzzer_uion buzzer;
 timer_uion timer; 

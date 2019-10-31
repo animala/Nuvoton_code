@@ -1,10 +1,6 @@
 #ifndef _TEMP_H
 #define _TEMP_H
-
-
-#include "Toilet.h"
-#include "NuMicro.h"
-
+#include "toilet.h"
 
 
 #define Seat_temp_channel    0x07

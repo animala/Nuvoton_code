@@ -2,7 +2,6 @@
 #define _REMOTE_H
 
 #include "Toilet.h"
-
 #include "NuMicro.h"
 
 //----定义一个功能枚举

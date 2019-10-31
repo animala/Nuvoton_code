@@ -1,11 +1,9 @@
 ./objects/control_center.o: \
   ../Toilet_Driver/Control_center/control_center.c \
   ../Toilet_Driver/Control_center/control_center.h \
-  ../Toilet_Driver/Comm_module\toilet.h \
-  ../Toilet_Driver/Temp_module\temp_deal.h \
+  ../Toilet_Driver/Comm_module\Toilet.h \
   ../Toilet_Driver/Temp_table\table.h \
-  ../Toilet_Driver/deodorzation_module\deodorzation.h \
-  ../Toilet_Driver/Comm_module\Toilet.h ../STARTUP/Include\NuMicro.h \
+  ../Toilet_Driver/Comm_module\toilet.h ../STARTUP/Include\NuMicro.h \
   ../STARTUP/Include/M251.h ../CMSIS\core_armv8mbl.h \
   D:\MDK\ARM\ARMCLANG\Bin\..\include\stdint.h ../CMSIS/cmsis_version.h \
   D:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include\cmsis_compiler.h \
@@ -38,8 +36,5 @@
   ../STARTUP/Include\M251.h ../StdDriver/inc\dac.h \
   ../StdDriver/inc\crypto.h ../StdDriver/inc\ebi.h \
   ../StdDriver/inc\psio.h ../StdDriver/inc\sc.h \
-  ../StdDriver/inc\scuart.h ../Toilet_Driver/Flush_module\flush.h \
-  ../Toilet_Driver/Beep_module\beep.h \
-  ../Toilet_Driver/IR_module/IR_remote\IR_remote.h \
-  ../Toilet_Driver/IR_module/IR_Cover\IR_cover.h \
+  ../StdDriver/inc\scuart.h ../Toilet_Driver/Temp_module\temp_deal.h \
   ../Hardwear/DWT_Delay\DWT_Delay.h ../Hardwear/ADC\adc.h

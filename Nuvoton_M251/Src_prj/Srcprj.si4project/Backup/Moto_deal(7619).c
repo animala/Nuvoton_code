@@ -106,8 +106,8 @@ void Motor_Control(Motor_uion *p)
 			GPIO_OUT(p->pInit->port) &= p->pInit->stop;					//电机IO口初始化0
 			GPIO_OUT(p->pInit->port) |= p->pInit->phase[p->XiangWei];		//再把电机的相位赋值给IO口	
 			#endif
-			GPIO_OUT(p->pInit->port,p->pInit->stop); //电机IO口初始化0
-			GPIO_OUT(p->pInit->port,p->pInit->phase[p->XiangWei]); //再把电机的相位赋值给IO口	
+			GPIO_OUT(PA,p->pInit->stop); //电机IO口初始化0
+			GPIO_OUT(PB,p->pInit->phase[p->XiangWei]); //再把电机的相位赋值给IO口	
 			if(p->cw_f  ==  1)			//如果正转标志位置1						
 			{
 				if(p->XiangWei < 7)			//步进电机相位++				
@@ -138,7 +138,7 @@ void Motor_Control(Motor_uion *p)
 			#ifdef EF_50D
 			GPIO_OUT(p->pInit->port) &=  p->pInit->stop;   //电机IO输出停止
 			#endif
-			GPIO_OUT(p->pInit->port,p->pInit->stop);
+			GPIO_OUT(PB,p->pInit->stop);
 			p->end_f  =  1;				//到位
 		}
 	}
@@ -149,7 +149,7 @@ void Motor_Control(Motor_uion *p)
 			#ifdef EF_50D
 			GPIO_OUT(PB) &=  p->pInit->stop;	//IO输出0		
 			#endif
-			GPIO_OUT(p->pInit->port,p->pInit->stop);
+			GPIO_OUT(PB,p->pInit->stop);
 			p->XiangWei  =  0; //相位清0
 		}
 	}

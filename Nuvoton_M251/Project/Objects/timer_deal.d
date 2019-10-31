@@ -33,11 +33,4 @@
   ../StdDriver/inc\crypto.h ../StdDriver/inc\ebi.h \
   ../StdDriver/inc\psio.h ../StdDriver/inc\sc.h \
   ../StdDriver/inc\scuart.h ../Toilet_Driver/Comm_module\toilet.h \
-  ../Toilet_Driver/Temp_module\temp_deal.h \
-  ../Toilet_Driver/Temp_table\table.h \
-  ../Toilet_Driver/deodorzation_module\deodorzation.h \
-  ../Toilet_Driver/Comm_module\Toilet.h \
-  ../Toilet_Driver/Flush_module\flush.h \
-  ../Toilet_Driver/Beep_module\beep.h \
-  ../Toilet_Driver/IR_module/IR_remote\IR_remote.h \
-  ../Toilet_Driver/IR_module/IR_Cover\IR_cover.h
+  ../Toilet_Driver/Temp_table\table.h

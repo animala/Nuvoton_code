@@ -10,13 +10,12 @@
 #ifdef EF_50D
 #define GPIO_OUT_ADDRBASE	0x3E70
 #define	GPIO_OUT(x)	__UMEM8(GPIO_OUT_ADDRBASE + x)     //定义IO口输出，X为第几组IO口
-#else   //新塘M251
-#define	GPIO_OUT(Port, pin)	GPIO_SET_OUT_DATA(Port,pin)     //定义IO口输出，X为第几组IO口
+
 #endif
 
 
+#define	GPIO_OUT(Port, pin)	GPIO_SET_OUT_DATA(Port,pin)     //定义IO口输出，X为第几组IO口
 
-extern Status_uion Status;
 
 
 
@@ -27,23 +26,20 @@ extern Status_uion Status;
 #define	Motor_Drying	 	2	  //烘杆电机
 
 //-----------步进电机端口控制
-//-----------------------冲洗杆-----------PD
-#define 	StepMotor_B_IO		PD		//PD0，PD1,PD2,PD3	 新唐M251方案		
-#define 	StepMotorBStop		0xf0   //停止控制，4个IO都输出0
-
-#if 0  // 未使用烘干杆
+//-----------------------冲洗杆----p51---p54
+#define 	StepMotor_B_IO		PA		//P5口			
+#define 	StepMotorBStop		0xe1
 //------------------------烘干杆---P62---P65
 #define 	StepMotor_C_IO		PB		//P6口			
-#define 	StepMotorCStop		0xC3		
-#endif
-//------------------------分水阀-----------
-#define 	StepMotor_A_IO		PC		//PC口 PC0,PC1，PC2,PC3		新唐M251方案			
-#define 	StepMotorAStop		0xf0
+#define 	StepMotorCStop		0xC3					
+//------------------------分水阀---P83,P84,P86,P87
+#define 	StepMotor_A_IO		PC		//P8口					
+#define 	StepMotorAStop		0x27
 
 
 //--声明一个IO口控制结构体
 typedef struct{
-	GPIO_T  *port;			//输出 PORT  移植需要看情况更改这里的IO口结构体指针  
+	uint_16 port;			//输出IO
 	uint_8  stop;			//停止位
 	uint_8  *phase;			//相位
 	uint_16 *position;		//对应电机的初始化位置

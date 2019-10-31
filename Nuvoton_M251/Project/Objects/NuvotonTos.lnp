@@ -46,6 +46,7 @@
 ".\objects\ir_remote.o"
 ".\objects\ir_cover.o"
 ".\objects\moto_deal.o"
+".\objects\sit_check.o"
 --strict --scatter ".\Objects\NuvotonTos.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

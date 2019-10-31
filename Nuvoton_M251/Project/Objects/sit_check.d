@@ -1,7 +1,10 @@
-./objects/adc.o: ../Hardwear/ADC/adc.c ../Hardwear/ADC/adc.h \
-  ../STARTUP/Include\NuMicro.h ../STARTUP/Include/M251.h \
-  ../CMSIS\core_armv8mbl.h D:\MDK\ARM\ARMCLANG\Bin\..\include\stdint.h \
-  ../CMSIS/cmsis_version.h \
+./objects/sit_check.o: ../Toilet_Driver/Sit_module/sit_check.c \
+  ../Toilet_Driver/Sit_module/sit_check.h \
+  ../Toilet_Driver/Comm_module\Toilet.h \
+  ../Toilet_Driver/Temp_table\table.h \
+  ../Toilet_Driver/Comm_module\toilet.h ../STARTUP/Include\NuMicro.h \
+  ../STARTUP/Include/M251.h ../CMSIS\core_armv8mbl.h \
+  D:\MDK\ARM\ARMCLANG\Bin\..\include\stdint.h ../CMSIS/cmsis_version.h \
   D:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include\cmsis_compiler.h \
   D:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include/cmsis_armclang.h \
   D:\MDK\ARM\ARMCLANG\Bin\..\include\arm_compat.h \
@@ -32,5 +35,4 @@
   ../STARTUP/Include\M251.h ../StdDriver/inc\dac.h \
   ../StdDriver/inc\crypto.h ../StdDriver/inc\ebi.h \
   ../StdDriver/inc\psio.h ../StdDriver/inc\sc.h \
-  ../StdDriver/inc\scuart.h ../Toilet_Driver/Comm_module\toilet.h \
-  ../Toilet_Driver/Temp_table\table.h
+  ../StdDriver/inc\scuart.h

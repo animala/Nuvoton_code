@@ -1,6 +1,5 @@
 #include "control_center.h"
 #include "toilet.h"
-#include "temp_deal.h"
 #include "DWT_Delay.h"
 #include "adc.h"
 

@@ -5,9 +5,13 @@
 #define uint_16	unsigned int
 #define int_8	signed char
 
-
+#include <temp_deal.h>
 #include <table.h>
-
+#include <deodorzation.h>
+#include <flush.h>
+#include <beep.h>
+#include <IR_remote.h>
+#include <IR_cover.h>
 
 //----------------------旋转按键板定义
 #define 	ReadKey		0x41		//-----读按键
@@ -337,7 +341,7 @@ typedef struct{
 		uint_8  Work_index;
 		uint_8  Comsum_set;
 		uint_8  Working_f:1;      //正在工作
-		uint_8  receive_delay;    //接收延时
+		uint_8 receive_delay;    //接收延时
 		uint_8  PG_gear;				//鍠锋潌浣嶇疆寰皟
 		uint_8  Water_gear;				//s姘村帇寰皟
 		uint_8	ZuoYu_f:1;			//-----座浴		
@@ -367,6 +371,7 @@ typedef struct{
 		TunBu_uion  Hip;
 		Icon_   Icon;
 		Power_union Pwr;
+		//Posotion_ pst;   //浣嶇疆缁撴瀯浣?
 		} Status_uion;
 extern  Status_uion Status;
 
@@ -403,6 +408,7 @@ typedef struct{
 		uint_8	Enable_f:1;		
 		//------停止/使能标志
 		uint_8	Auto_f:1;
+
 
 		uint_8	Flag;
 		uint_8	Start_f:1;		

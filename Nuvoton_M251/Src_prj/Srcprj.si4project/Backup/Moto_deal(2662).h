@@ -16,7 +16,6 @@
 
 
 
-extern Status_uion Status;
 
 
 

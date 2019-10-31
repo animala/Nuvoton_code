@@ -1,7 +1,6 @@
 #include "IR_remote.h"
 
 
-
 Remote_IO_cfg Remote_io;
 
 #define	IR_DataSize		6
