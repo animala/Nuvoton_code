@@ -89,7 +89,7 @@ void EADC_ConfigSampleModule(EADC_T *eadc, \
                              uint32_t u32ModuleNum, \
                              uint32_t u32TriggerSrc, \
                              uint32_t u32Channel)
-{
+{									//进制下降沿触发           //禁止上升沿触发      				//禁止触发源触发            //通道为0               
     ((eadc->SCTL[u32ModuleNum])) &= (~(EADC_SCTL_EXTFEN_Msk | EADC_SCTL_EXTREN_Msk | EADC_SCTL_TRGSEL_Msk | EADC_SCTL_CHSEL_Msk));
     ((eadc->SCTL[u32ModuleNum])) |= (u32TriggerSrc | u32Channel);
 }

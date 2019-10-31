@@ -2,14 +2,48 @@
 #include "NuMicro.h"
 #include "tos.h"  
 #include "adc.h"
+#include "toilet.h"
+#include "control_center.h"
+#include "DWT_Delay.h"
 
-#define task1_size   240  // size of task1 stack
-#define task2_size 	 240	
+buzzer_uion buzzer;
+timer_uion timer; 
+Status_uion Status;
+Water_uion Water;
+Seat_uion Seat;
+Drying_uion Drying;
+TunBu_uion TunBu;
+NvXing_uion NvXing;
+SoftPowerDeal_CB SoftPowerDeal;
+Entironment_CB Entironment;
+Enfant_uion Enfant;	
+MachineTest_CB MachineTest;
+chongshui_uion chongshui;
+LiquidDeal_CB LiquidDeal;
+work_uion work;
+CoverSeat_uion CoverSeat;
+Error_uion Error;
+IR_uion IR;
+fangwu_uion fangwu;
+Rolling_CB Rolling;
+KEY_uion KEY;
+PenGan_uion PenGan;
+penkou_uion penkou;
+FGIR_CB FGIR;
+SendData_CB SendData;
+
+#define  Tos
+
+#ifdef Tos
+#define task1_size   640  // size of task1 stack
+#define task2_size 	 640	
 k_task_t task1;   				//structure of task1
 k_task_t task2;      	   
 
 k_stack_t task1_stack[task1_size];   //stack of task1
 k_stack_t task2_stack[task2_size];   
+
+#endif
 
 void SYS_Init(void)
 {
@@ -31,17 +65,17 @@ void SYS_Init(void)
     /* Switch HCLK clock source to external  */
     CLK_SetHCLK(CLK_CLKSEL0_HCLKSEL_HXT, CLK_CLKDIV0_HCLK(1));  //here switch zhe MCU clock to external
 	  
-	  /*Set the core clock freq*/
-		CLK_SetCoreClock(FREQ_32MHZ);   //set the core clock freq,should not higher than your HCLK clock freq
+	/*Set the core clock freq*/
+	CLK_SetCoreClock(FREQ_32MHZ);   //set the core clock freq,should not higher than your HCLK clock freq
 			
     /* Enable UART module clock */
     CLK_EnableModuleClock(UART0_MODULE);
 
     /* Select UART module clock source as HIRC and UART module clock divider as 1 */
     CLK_SetModuleClock(UART0_MODULE, CLK_CLKSEL1_UART0SEL_HIRC, CLK_CLKDIV0_UART0(1));
-		
+	
     /*---------------------------------------------------------------------------------------------------------*/
-    /* Init I/O Multi-function                                                                                 */
+    /* Init I/O Multi-function                                                                     */
     /*---------------------------------------------------------------------------------------------------------*/
     Uart0DefaultMPF();
 
@@ -50,7 +84,7 @@ void SYS_Init(void)
 void UART0_Init()
 {
     /*---------------------------------------------------------------------------------------------------------*/
-    /* Init UART                                                                                               */
+    /* Init UART                                                                                   */
     /*---------------------------------------------------------------------------------------------------------*/
     /* Reset UART module */
     SYS_ResetModule(UART0_RST);
@@ -58,51 +92,83 @@ void UART0_Init()
     UART_Open(UART0, 115200);
 }
 
+
+#ifdef Tos
 //task1 function
 void task1_fun(void *Parameter)
 {
 
 	while(1)
 	{
-			printf("Task1 ：Thansplant CORTEX-M23 Succeed\r\n");	
+	 		//Temp_test(0);
+			Fan_Temp_Deal(&adc_set);
+			
+			
+			
+			//printf("Task1 ：Thansplant CORTEX-M23 Succeed\r\n");	
 			PB14 =~ PB14;  
-			tos_task_delay(1000); 
+			tos_task_delay(200); 
 	}
 
 }
 
+
+
 //task2 function 
 void task2_task(void *Parameter)
 {
-
-		k_err_t err;
+	
+	//	k_err_t err;
 		while(1)
-		{				
-			printf("Task2: hello world, hello Nuvoton \r\n");		
-			tos_task_delay(100);   
+		{	
+
+		
+			
+			// Temp_test(1);
+			// printf("Task2 ：FAN temp is %d\r\n",Temp_deal(&adc_set,1));
+			Seat_temp_deal(&adc_set);
+			//printf("Task2 ：FAN temp is %d\r\n",Temp_deal_fun(&adc_set, 1));
+			//printf("Task2: hello world, hello Nuvoton \r\n");		
+			tos_task_delay(400);   
 		}
 }
 
+#endif
+
+
+
+
+
 int main()
 {
-		k_err_t err;
+	k_err_t err;
 	 /* Unlock protected registers */
     SYS_UnlockReg();
 
     /* Init System, peripheral clock and multi-function I/O */
     SYS_Init();
-		ADC_Init();
-		tos_knl_init();   //tos init ,include SystickInit,should init after protected registers unlock
-		
+
+	DWT_INIT(MY_MCU_SYSCLK);
+	
+	ADC_Init();    //ADC硬件驱动  
+
+#ifdef Tos
+	tos_knl_init();   //tos init ,include SystickInit,should init after protected registers unlock
+#endif
+	Toilet_driver_init();  		//马桶底层硬件驱动初始化，主要是用户层和底层连接初始化	
+
+	//Timer0_Init();
+	//Timer1_Init();
+
     /* Lock protected registers */
     SYS_LockReg();
 		
     /* Init UART0 for printf */
     UART0_Init();
 
-		printf("system clock to %d Hz, PLL clock to %d Hz...................... ", SystemCoreClock, CLK_SetCoreClock(FREQ_32MHZ));
+	printf("system clock to %d Hz, PLL clock to %d Hz...................... ", SystemCoreClock, CLK_SetCoreClock(FREQ_32MHZ));
   	
-		//GPIO_SetMode(PB, BIT14, GPIO_MODE_OUTPUT);
+#ifdef Tos
 
 		err = tos_task_create(
 				&task1,
@@ -129,5 +195,45 @@ int main()
 		printf("TenentOS creat task fail! code is %d\r\n",err);
 	
 		tos_knl_start(); //Start TOS TINY
+#endif
+
+
+
+#ifndef Tos
+
+	while(1)
+	{
+	
 		
+		PB14 =~ PB14;  
+
+	}
+#endif
+
+
 }
+
+
+//定时器0中断服务函数
+void TMR0_IRQHandler(void)
+{
+    static uint_16 s_u32Sec = 1;
+
+    // clear timer interrupt flag
+    TIMER_ClearIntFlag(TIMER0);
+}
+
+
+
+//定时器1中断服务函数
+void TMR1_IRQHandler(void)
+{
+    static uint_16 s_u32Sec = 1;
+
+    // clear timer interrupt flag
+    TIMER_ClearIntFlag(TIMER1);
+}
+
+
+
+

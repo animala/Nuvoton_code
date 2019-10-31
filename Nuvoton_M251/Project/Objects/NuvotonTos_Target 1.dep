@@ -1,5 +1,5 @@
 Dependencies for Project 'NuvotonTos', Target 'Target 1': (DO NOT MODIFY !)
-F (..\STARTUP\system_M251.c)(0x5DB2AE0D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -w -I ../CMSIS -I ../STARTUP -I ../StdDriver/inc -I ../TencentOS/arch/include -I ../TencentOS/kernel/core/include -I ../TencentOS/kernel/pm/include -I ../TencentOS/TOS_CONFIG -I ../TencentOS/arch -I ../STARTUP/Include -I ../Hardwear/Pid_control -I ../Hardwear/ADC -I ../Toilet_Driver/Temp_module -I ../Toilet_Driver/Comm_module-I./RTE/_Target_1-ID:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/MDK/ARM/PACK/Nuvoton/NuMicro_DFP/1.3.4/Device/M251/Include-D__UVISION_VERSION="524" -D_RTE_-o ./objects/system_m251.o -MD)
+F (..\STARTUP\system_M251.c)(0x5DB2AE0D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -w -I ../CMSIS -I ../STARTUP -I ../StdDriver/inc -I ../TencentOS/arch/include -I ../TencentOS/kernel/core/include -I ../TencentOS/kernel/pm/include -I ../TencentOS/TOS_CONFIG -I ../TencentOS/arch -I ../STARTUP/Include -I ../Hardwear/Pid_control -I ../Hardwear/ADC -I ../Toilet_Driver/Temp_module -I ../Toilet_Driver/Comm_module -I ../Toilet_Driver/Temp_table -I ../Toilet_Driver/Control_center -I ../Hardwear/DWT_Delay -I ../Hardwear/Timer -I ../Toilet_Driver/Beep_module -I ../Toilet_Driver/deodorzation_module -I ../Toilet_Driver/Flush_module -I ../Toilet_Driver/IR_module/IR_remote -I ../Toilet_Driver/IR_module/IR_Cover -I ../Toilet_Driver/Moto_module-I./RTE/_Target_1-ID:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/MDK/ARM/PACK/Nuvoton/NuMicro_DFP/1.3.4/Device/M251/Include-D__UVISION_VERSION="524" -D_RTE_-o ./objects/system_m251.o -MD)
 I (D:\MDK\ARM\ARMCLANG\include\arm_cmse.h)(0x57E16BB0)
 I (D:\MDK\ARM\ARMCLANG\include\stdint.h)(0x588CAFD2)
 I (D:\MDK\ARM\ARMCLANG\include\stddef.h)(0x588CAFD2)
@@ -107,7 +107,7 @@ I (..\TencentOS\kernel\core\include\tos_sched.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\pm\include\tos_tickless.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_global.h)(0x5DB2AE0D)
 F (..\STARTUP\startup_M251.s)(0x5DB2AE0D)(--cpu=Cortex-M23 -g-I.\RTE\_Target_1-ID:\MDK\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\MDK\ARM\PACK\Nuvoton\NuMicro_DFP\1.3.4\Device\M251\Include--pd "__UVISION_VERSION SETA 524"--pd "_RTE_ SETA 1"--list .\listings\startup_m251.lst--xref -o .\objects\startup_m251.o--depend .\objects\startup_m251.d)
-F (..\StdDriver\src\clk.c)(0x5DB2AE0D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -w -I ../CMSIS -I ../STARTUP -I ../StdDriver/inc -I ../TencentOS/arch/include -I ../TencentOS/kernel/core/include -I ../TencentOS/kernel/pm/include -I ../TencentOS/TOS_CONFIG -I ../TencentOS/arch -I ../STARTUP/Include -I ../Hardwear/Pid_control -I ../Hardwear/ADC -I ../Toilet_Driver/Temp_module -I ../Toilet_Driver/Comm_module-I./RTE/_Target_1-ID:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/MDK/ARM/PACK/Nuvoton/NuMicro_DFP/1.3.4/Device/M251/Include-D__UVISION_VERSION="524" -D_RTE_-o ./objects/clk.o -MD)
+F (..\StdDriver\src\clk.c)(0x5DB2AE0D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -w -I ../CMSIS -I ../STARTUP -I ../StdDriver/inc -I ../TencentOS/arch/include -I ../TencentOS/kernel/core/include -I ../TencentOS/kernel/pm/include -I ../TencentOS/TOS_CONFIG -I ../TencentOS/arch -I ../STARTUP/Include -I ../Hardwear/Pid_control -I ../Hardwear/ADC -I ../Toilet_Driver/Temp_module -I ../Toilet_Driver/Comm_module -I ../Toilet_Driver/Temp_table -I ../Toilet_Driver/Control_center -I ../Hardwear/DWT_Delay -I ../Hardwear/Timer -I ../Toilet_Driver/Beep_module -I ../Toilet_Driver/deodorzation_module -I ../Toilet_Driver/Flush_module -I ../Toilet_Driver/IR_module/IR_remote -I ../Toilet_Driver/IR_module/IR_Cover -I ../Toilet_Driver/Moto_module-I./RTE/_Target_1-ID:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/MDK/ARM/PACK/Nuvoton/NuMicro_DFP/1.3.4/Device/M251/Include-D__UVISION_VERSION="524" -D_RTE_-o ./objects/clk.o -MD)
 I (..\STARTUP\Include\NuMicro.h)(0x5DB2AE0D)
 I (..\STARTUP\Include\M251.h)(0x5DB2AE0D)
 I (..\CMSIS\core_armv8mbl.h)(0x5DB2AE0D)
@@ -175,7 +175,7 @@ I (..\StdDriver\inc\ebi.h)(0x5DB2AE0D)
 I (..\StdDriver\inc\psio.h)(0x5DB2AE0D)
 I (..\StdDriver\inc\sc.h)(0x5DB2AE0D)
 I (..\StdDriver\inc\scuart.h)(0x5DB2AE0D)
-F (..\StdDriver\src\retarget.c)(0x5DB2AE0D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -w -I ../CMSIS -I ../STARTUP -I ../StdDriver/inc -I ../TencentOS/arch/include -I ../TencentOS/kernel/core/include -I ../TencentOS/kernel/pm/include -I ../TencentOS/TOS_CONFIG -I ../TencentOS/arch -I ../STARTUP/Include -I ../Hardwear/Pid_control -I ../Hardwear/ADC -I ../Toilet_Driver/Temp_module -I ../Toilet_Driver/Comm_module-I./RTE/_Target_1-ID:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/MDK/ARM/PACK/Nuvoton/NuMicro_DFP/1.3.4/Device/M251/Include-D__UVISION_VERSION="524" -D_RTE_-o ./objects/retarget.o -MD)
+F (..\StdDriver\src\retarget.c)(0x5DB2AE0D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -w -I ../CMSIS -I ../STARTUP -I ../StdDriver/inc -I ../TencentOS/arch/include -I ../TencentOS/kernel/core/include -I ../TencentOS/kernel/pm/include -I ../TencentOS/TOS_CONFIG -I ../TencentOS/arch -I ../STARTUP/Include -I ../Hardwear/Pid_control -I ../Hardwear/ADC -I ../Toilet_Driver/Temp_module -I ../Toilet_Driver/Comm_module -I ../Toilet_Driver/Temp_table -I ../Toilet_Driver/Control_center -I ../Hardwear/DWT_Delay -I ../Hardwear/Timer -I ../Toilet_Driver/Beep_module -I ../Toilet_Driver/deodorzation_module -I ../Toilet_Driver/Flush_module -I ../Toilet_Driver/IR_module/IR_remote -I ../Toilet_Driver/IR_module/IR_Cover -I ../Toilet_Driver/Moto_module-I./RTE/_Target_1-ID:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/MDK/ARM/PACK/Nuvoton/NuMicro_DFP/1.3.4/Device/M251/Include-D__UVISION_VERSION="524" -D_RTE_-o ./objects/retarget.o -MD)
 I (D:\MDK\ARM\ARMCLANG\include\stdio.h)(0x588CAFD2)
 I (..\STARTUP\Include\NuMicro.h)(0x5DB2AE0D)
 I (..\STARTUP\Include\M251.h)(0x5DB2AE0D)
@@ -244,7 +244,7 @@ I (..\StdDriver\inc\ebi.h)(0x5DB2AE0D)
 I (..\StdDriver\inc\psio.h)(0x5DB2AE0D)
 I (..\StdDriver\inc\sc.h)(0x5DB2AE0D)
 I (..\StdDriver\inc\scuart.h)(0x5DB2AE0D)
-F (..\StdDriver\src\uart.c)(0x5DB2AE0D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -w -I ../CMSIS -I ../STARTUP -I ../StdDriver/inc -I ../TencentOS/arch/include -I ../TencentOS/kernel/core/include -I ../TencentOS/kernel/pm/include -I ../TencentOS/TOS_CONFIG -I ../TencentOS/arch -I ../STARTUP/Include -I ../Hardwear/Pid_control -I ../Hardwear/ADC -I ../Toilet_Driver/Temp_module -I ../Toilet_Driver/Comm_module-I./RTE/_Target_1-ID:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/MDK/ARM/PACK/Nuvoton/NuMicro_DFP/1.3.4/Device/M251/Include-D__UVISION_VERSION="524" -D_RTE_-o ./objects/uart.o -MD)
+F (..\StdDriver\src\uart.c)(0x5DB2AE0D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -w -I ../CMSIS -I ../STARTUP -I ../StdDriver/inc -I ../TencentOS/arch/include -I ../TencentOS/kernel/core/include -I ../TencentOS/kernel/pm/include -I ../TencentOS/TOS_CONFIG -I ../TencentOS/arch -I ../STARTUP/Include -I ../Hardwear/Pid_control -I ../Hardwear/ADC -I ../Toilet_Driver/Temp_module -I ../Toilet_Driver/Comm_module -I ../Toilet_Driver/Temp_table -I ../Toilet_Driver/Control_center -I ../Hardwear/DWT_Delay -I ../Hardwear/Timer -I ../Toilet_Driver/Beep_module -I ../Toilet_Driver/deodorzation_module -I ../Toilet_Driver/Flush_module -I ../Toilet_Driver/IR_module/IR_remote -I ../Toilet_Driver/IR_module/IR_Cover -I ../Toilet_Driver/Moto_module-I./RTE/_Target_1-ID:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/MDK/ARM/PACK/Nuvoton/NuMicro_DFP/1.3.4/Device/M251/Include-D__UVISION_VERSION="524" -D_RTE_-o ./objects/uart.o -MD)
 I (..\STARTUP\Include\NuMicro.h)(0x5DB2AE0D)
 I (..\STARTUP\Include\M251.h)(0x5DB2AE0D)
 I (..\CMSIS\core_armv8mbl.h)(0x5DB2AE0D)
@@ -312,7 +312,7 @@ I (..\StdDriver\inc\ebi.h)(0x5DB2AE0D)
 I (..\StdDriver\inc\psio.h)(0x5DB2AE0D)
 I (..\StdDriver\inc\sc.h)(0x5DB2AE0D)
 I (..\StdDriver\inc\scuart.h)(0x5DB2AE0D)
-F (..\StdDriver\src\gpio.c)(0x5DB2AE0D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -w -I ../CMSIS -I ../STARTUP -I ../StdDriver/inc -I ../TencentOS/arch/include -I ../TencentOS/kernel/core/include -I ../TencentOS/kernel/pm/include -I ../TencentOS/TOS_CONFIG -I ../TencentOS/arch -I ../STARTUP/Include -I ../Hardwear/Pid_control -I ../Hardwear/ADC -I ../Toilet_Driver/Temp_module -I ../Toilet_Driver/Comm_module-I./RTE/_Target_1-ID:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/MDK/ARM/PACK/Nuvoton/NuMicro_DFP/1.3.4/Device/M251/Include-D__UVISION_VERSION="524" -D_RTE_-o ./objects/gpio.o -MD)
+F (..\StdDriver\src\gpio.c)(0x5DB2AE0D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -w -I ../CMSIS -I ../STARTUP -I ../StdDriver/inc -I ../TencentOS/arch/include -I ../TencentOS/kernel/core/include -I ../TencentOS/kernel/pm/include -I ../TencentOS/TOS_CONFIG -I ../TencentOS/arch -I ../STARTUP/Include -I ../Hardwear/Pid_control -I ../Hardwear/ADC -I ../Toilet_Driver/Temp_module -I ../Toilet_Driver/Comm_module -I ../Toilet_Driver/Temp_table -I ../Toilet_Driver/Control_center -I ../Hardwear/DWT_Delay -I ../Hardwear/Timer -I ../Toilet_Driver/Beep_module -I ../Toilet_Driver/deodorzation_module -I ../Toilet_Driver/Flush_module -I ../Toilet_Driver/IR_module/IR_remote -I ../Toilet_Driver/IR_module/IR_Cover -I ../Toilet_Driver/Moto_module-I./RTE/_Target_1-ID:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/MDK/ARM/PACK/Nuvoton/NuMicro_DFP/1.3.4/Device/M251/Include-D__UVISION_VERSION="524" -D_RTE_-o ./objects/gpio.o -MD)
 I (..\STARTUP\Include\NuMicro.h)(0x5DB2AE0D)
 I (..\STARTUP\Include\M251.h)(0x5DB2AE0D)
 I (..\CMSIS\core_armv8mbl.h)(0x5DB2AE0D)
@@ -380,7 +380,7 @@ I (..\StdDriver\inc\ebi.h)(0x5DB2AE0D)
 I (..\StdDriver\inc\psio.h)(0x5DB2AE0D)
 I (..\StdDriver\inc\sc.h)(0x5DB2AE0D)
 I (..\StdDriver\inc\scuart.h)(0x5DB2AE0D)
-F (..\StdDriver\src\sys.c)(0x5DB2AE0D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -w -I ../CMSIS -I ../STARTUP -I ../StdDriver/inc -I ../TencentOS/arch/include -I ../TencentOS/kernel/core/include -I ../TencentOS/kernel/pm/include -I ../TencentOS/TOS_CONFIG -I ../TencentOS/arch -I ../STARTUP/Include -I ../Hardwear/Pid_control -I ../Hardwear/ADC -I ../Toilet_Driver/Temp_module -I ../Toilet_Driver/Comm_module-I./RTE/_Target_1-ID:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/MDK/ARM/PACK/Nuvoton/NuMicro_DFP/1.3.4/Device/M251/Include-D__UVISION_VERSION="524" -D_RTE_-o ./objects/sys.o -MD)
+F (..\StdDriver\src\sys.c)(0x5DB2AE0D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -w -I ../CMSIS -I ../STARTUP -I ../StdDriver/inc -I ../TencentOS/arch/include -I ../TencentOS/kernel/core/include -I ../TencentOS/kernel/pm/include -I ../TencentOS/TOS_CONFIG -I ../TencentOS/arch -I ../STARTUP/Include -I ../Hardwear/Pid_control -I ../Hardwear/ADC -I ../Toilet_Driver/Temp_module -I ../Toilet_Driver/Comm_module -I ../Toilet_Driver/Temp_table -I ../Toilet_Driver/Control_center -I ../Hardwear/DWT_Delay -I ../Hardwear/Timer -I ../Toilet_Driver/Beep_module -I ../Toilet_Driver/deodorzation_module -I ../Toilet_Driver/Flush_module -I ../Toilet_Driver/IR_module/IR_remote -I ../Toilet_Driver/IR_module/IR_Cover -I ../Toilet_Driver/Moto_module-I./RTE/_Target_1-ID:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/MDK/ARM/PACK/Nuvoton/NuMicro_DFP/1.3.4/Device/M251/Include-D__UVISION_VERSION="524" -D_RTE_-o ./objects/sys.o -MD)
 I (..\STARTUP\Include\NuMicro.h)(0x5DB2AE0D)
 I (..\STARTUP\Include\M251.h)(0x5DB2AE0D)
 I (..\CMSIS\core_armv8mbl.h)(0x5DB2AE0D)
@@ -448,7 +448,7 @@ I (..\StdDriver\inc\ebi.h)(0x5DB2AE0D)
 I (..\StdDriver\inc\psio.h)(0x5DB2AE0D)
 I (..\StdDriver\inc\sc.h)(0x5DB2AE0D)
 I (..\StdDriver\inc\scuart.h)(0x5DB2AE0D)
-F (..\StdDriver\src\eadc.c)(0x5DB2AE0D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -w -I ../CMSIS -I ../STARTUP -I ../StdDriver/inc -I ../TencentOS/arch/include -I ../TencentOS/kernel/core/include -I ../TencentOS/kernel/pm/include -I ../TencentOS/TOS_CONFIG -I ../TencentOS/arch -I ../STARTUP/Include -I ../Hardwear/Pid_control -I ../Hardwear/ADC -I ../Toilet_Driver/Temp_module -I ../Toilet_Driver/Comm_module-I./RTE/_Target_1-ID:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/MDK/ARM/PACK/Nuvoton/NuMicro_DFP/1.3.4/Device/M251/Include-D__UVISION_VERSION="524" -D_RTE_-o ./objects/eadc.o -MD)
+F (..\StdDriver\src\eadc.c)(0x5DB92634)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -w -I ../CMSIS -I ../STARTUP -I ../StdDriver/inc -I ../TencentOS/arch/include -I ../TencentOS/kernel/core/include -I ../TencentOS/kernel/pm/include -I ../TencentOS/TOS_CONFIG -I ../TencentOS/arch -I ../STARTUP/Include -I ../Hardwear/Pid_control -I ../Hardwear/ADC -I ../Toilet_Driver/Temp_module -I ../Toilet_Driver/Comm_module -I ../Toilet_Driver/Temp_table -I ../Toilet_Driver/Control_center -I ../Hardwear/DWT_Delay -I ../Hardwear/Timer -I ../Toilet_Driver/Beep_module -I ../Toilet_Driver/deodorzation_module -I ../Toilet_Driver/Flush_module -I ../Toilet_Driver/IR_module/IR_remote -I ../Toilet_Driver/IR_module/IR_Cover -I ../Toilet_Driver/Moto_module-I./RTE/_Target_1-ID:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/MDK/ARM/PACK/Nuvoton/NuMicro_DFP/1.3.4/Device/M251/Include-D__UVISION_VERSION="524" -D_RTE_-o ./objects/eadc.o -MD)
 I (..\STARTUP\Include\NuMicro.h)(0x5DB2AE0D)
 I (..\STARTUP\Include\M251.h)(0x5DB2AE0D)
 I (..\CMSIS\core_armv8mbl.h)(0x5DB2AE0D)
@@ -516,7 +516,7 @@ I (..\StdDriver\inc\ebi.h)(0x5DB2AE0D)
 I (..\StdDriver\inc\psio.h)(0x5DB2AE0D)
 I (..\StdDriver\inc\sc.h)(0x5DB2AE0D)
 I (..\StdDriver\inc\scuart.h)(0x5DB2AE0D)
-F (..\StdDriver\src\timer.c)(0x5DB2AE0D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -w -I ../CMSIS -I ../STARTUP -I ../StdDriver/inc -I ../TencentOS/arch/include -I ../TencentOS/kernel/core/include -I ../TencentOS/kernel/pm/include -I ../TencentOS/TOS_CONFIG -I ../TencentOS/arch -I ../STARTUP/Include -I ../Hardwear/Pid_control -I ../Hardwear/ADC -I ../Toilet_Driver/Temp_module -I ../Toilet_Driver/Comm_module-I./RTE/_Target_1-ID:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/MDK/ARM/PACK/Nuvoton/NuMicro_DFP/1.3.4/Device/M251/Include-D__UVISION_VERSION="524" -D_RTE_-o ./objects/timer.o -MD)
+F (..\StdDriver\src\timer.c)(0x5DB2AE0D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -w -I ../CMSIS -I ../STARTUP -I ../StdDriver/inc -I ../TencentOS/arch/include -I ../TencentOS/kernel/core/include -I ../TencentOS/kernel/pm/include -I ../TencentOS/TOS_CONFIG -I ../TencentOS/arch -I ../STARTUP/Include -I ../Hardwear/Pid_control -I ../Hardwear/ADC -I ../Toilet_Driver/Temp_module -I ../Toilet_Driver/Comm_module -I ../Toilet_Driver/Temp_table -I ../Toilet_Driver/Control_center -I ../Hardwear/DWT_Delay -I ../Hardwear/Timer -I ../Toilet_Driver/Beep_module -I ../Toilet_Driver/deodorzation_module -I ../Toilet_Driver/Flush_module -I ../Toilet_Driver/IR_module/IR_remote -I ../Toilet_Driver/IR_module/IR_Cover -I ../Toilet_Driver/Moto_module-I./RTE/_Target_1-ID:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/MDK/ARM/PACK/Nuvoton/NuMicro_DFP/1.3.4/Device/M251/Include-D__UVISION_VERSION="524" -D_RTE_-o ./objects/timer.o -MD)
 I (..\STARTUP\Include\NuMicro.h)(0x5DB2AE0D)
 I (..\STARTUP\Include\M251.h)(0x5DB2AE0D)
 I (..\CMSIS\core_armv8mbl.h)(0x5DB2AE0D)
@@ -584,7 +584,7 @@ I (..\StdDriver\inc\ebi.h)(0x5DB2AE0D)
 I (..\StdDriver\inc\psio.h)(0x5DB2AE0D)
 I (..\StdDriver\inc\sc.h)(0x5DB2AE0D)
 I (..\StdDriver\inc\scuart.h)(0x5DB2AE0D)
-F (.\main.c)(0x5DB79B50)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -w -I ../CMSIS -I ../STARTUP -I ../StdDriver/inc -I ../TencentOS/arch/include -I ../TencentOS/kernel/core/include -I ../TencentOS/kernel/pm/include -I ../TencentOS/TOS_CONFIG -I ../TencentOS/arch -I ../STARTUP/Include -I ../Hardwear/Pid_control -I ../Hardwear/ADC -I ../Toilet_Driver/Temp_module -I ../Toilet_Driver/Comm_module-I./RTE/_Target_1-ID:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/MDK/ARM/PACK/Nuvoton/NuMicro_DFP/1.3.4/Device/M251/Include-D__UVISION_VERSION="524" -D_RTE_-o ./objects/main.o -MD)
+F (.\main.c)(0x5DB94D90)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -w -I ../CMSIS -I ../STARTUP -I ../StdDriver/inc -I ../TencentOS/arch/include -I ../TencentOS/kernel/core/include -I ../TencentOS/kernel/pm/include -I ../TencentOS/TOS_CONFIG -I ../TencentOS/arch -I ../STARTUP/Include -I ../Hardwear/Pid_control -I ../Hardwear/ADC -I ../Toilet_Driver/Temp_module -I ../Toilet_Driver/Comm_module -I ../Toilet_Driver/Temp_table -I ../Toilet_Driver/Control_center -I ../Hardwear/DWT_Delay -I ../Hardwear/Timer -I ../Toilet_Driver/Beep_module -I ../Toilet_Driver/deodorzation_module -I ../Toilet_Driver/Flush_module -I ../Toilet_Driver/IR_module/IR_remote -I ../Toilet_Driver/IR_module/IR_Cover -I ../Toilet_Driver/Moto_module-I./RTE/_Target_1-ID:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/MDK/ARM/PACK/Nuvoton/NuMicro_DFP/1.3.4/Device/M251/Include-D__UVISION_VERSION="524" -D_RTE_-o ./objects/main.o -MD)
 I (D:\MDK\ARM\ARMCLANG\include\stdio.h)(0x588CAFD2)
 I (..\STARTUP\Include\NuMicro.h)(0x5DB2AE0D)
 I (..\STARTUP\Include\M251.h)(0x5DB2AE0D)
@@ -691,8 +691,18 @@ I (..\TencentOS\kernel\core\include\tos_tick.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_sched.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\pm\include\tos_tickless.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_global.h)(0x5DB2AE0D)
-I (..\Hardwear\ADC\adc.h)(0x5DB6BC7A)
-F (..\TencentOS\arch\port_c.c)(0x5DB2AE0D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -w -I ../CMSIS -I ../STARTUP -I ../StdDriver/inc -I ../TencentOS/arch/include -I ../TencentOS/kernel/core/include -I ../TencentOS/kernel/pm/include -I ../TencentOS/TOS_CONFIG -I ../TencentOS/arch -I ../STARTUP/Include -I ../Hardwear/Pid_control -I ../Hardwear/ADC -I ../Toilet_Driver/Temp_module -I ../Toilet_Driver/Comm_module-I./RTE/_Target_1-ID:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/MDK/ARM/PACK/Nuvoton/NuMicro_DFP/1.3.4/Device/M251/Include-D__UVISION_VERSION="524" -D_RTE_-o ./objects/port_c.o -MD)
+I (..\Hardwear\ADC\adc.h)(0x5DB93132)
+I (..\Toilet_Driver\Comm_module\toilet.h)(0x5DB96209)
+I (..\Toilet_Driver\Temp_module\temp_deal.h)(0x5DB94DB3)
+I (..\Toilet_Driver\Temp_table\table.h)(0x5DB7A83F)
+I (..\Toilet_Driver\deodorzation_module\deodorzation.h)(0x5DB955AF)
+I (..\Toilet_Driver\Flush_module\flush.h)(0x5DB95650)
+I (..\Toilet_Driver\Beep_module\beep.h)(0x5DB95385)
+I (..\Toilet_Driver\IR_module\IR_remote\IR_remote.h)(0x5DB95E69)
+I (..\Toilet_Driver\IR_module\IR_Cover\IR_cover.h)(0x5DB96192)
+I (..\Toilet_Driver\Control_center\control_center.h)(0x5DB7AF8B)
+I (..\Hardwear\DWT_Delay\DWT_Delay.h)(0x5DB7B0F7)
+F (..\TencentOS\arch\port_c.c)(0x5DB2AE0D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -w -I ../CMSIS -I ../STARTUP -I ../StdDriver/inc -I ../TencentOS/arch/include -I ../TencentOS/kernel/core/include -I ../TencentOS/kernel/pm/include -I ../TencentOS/TOS_CONFIG -I ../TencentOS/arch -I ../STARTUP/Include -I ../Hardwear/Pid_control -I ../Hardwear/ADC -I ../Toilet_Driver/Temp_module -I ../Toilet_Driver/Comm_module -I ../Toilet_Driver/Temp_table -I ../Toilet_Driver/Control_center -I ../Hardwear/DWT_Delay -I ../Hardwear/Timer -I ../Toilet_Driver/Beep_module -I ../Toilet_Driver/deodorzation_module -I ../Toilet_Driver/Flush_module -I ../Toilet_Driver/IR_module/IR_remote -I ../Toilet_Driver/IR_module/IR_Cover -I ../Toilet_Driver/Moto_module-I./RTE/_Target_1-ID:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/MDK/ARM/PACK/Nuvoton/NuMicro_DFP/1.3.4/Device/M251/Include-D__UVISION_VERSION="524" -D_RTE_-o ./objects/port_c.o -MD)
 I (..\TencentOS\kernel\core\include\tos.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_compiler.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_err.h)(0x5DB2AE0D)
@@ -798,7 +808,7 @@ I (..\TencentOS\kernel\core\include\tos_tick.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_sched.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\pm\include\tos_tickless.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_global.h)(0x5DB2AE0D)
-F (..\TencentOS\arch\tos_cpu.c)(0x5DB2AE0D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -w -I ../CMSIS -I ../STARTUP -I ../StdDriver/inc -I ../TencentOS/arch/include -I ../TencentOS/kernel/core/include -I ../TencentOS/kernel/pm/include -I ../TencentOS/TOS_CONFIG -I ../TencentOS/arch -I ../STARTUP/Include -I ../Hardwear/Pid_control -I ../Hardwear/ADC -I ../Toilet_Driver/Temp_module -I ../Toilet_Driver/Comm_module-I./RTE/_Target_1-ID:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/MDK/ARM/PACK/Nuvoton/NuMicro_DFP/1.3.4/Device/M251/Include-D__UVISION_VERSION="524" -D_RTE_-o ./objects/tos_cpu.o -MD)
+F (..\TencentOS\arch\tos_cpu.c)(0x5DB2AE0D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -w -I ../CMSIS -I ../STARTUP -I ../StdDriver/inc -I ../TencentOS/arch/include -I ../TencentOS/kernel/core/include -I ../TencentOS/kernel/pm/include -I ../TencentOS/TOS_CONFIG -I ../TencentOS/arch -I ../STARTUP/Include -I ../Hardwear/Pid_control -I ../Hardwear/ADC -I ../Toilet_Driver/Temp_module -I ../Toilet_Driver/Comm_module -I ../Toilet_Driver/Temp_table -I ../Toilet_Driver/Control_center -I ../Hardwear/DWT_Delay -I ../Hardwear/Timer -I ../Toilet_Driver/Beep_module -I ../Toilet_Driver/deodorzation_module -I ../Toilet_Driver/Flush_module -I ../Toilet_Driver/IR_module/IR_remote -I ../Toilet_Driver/IR_module/IR_Cover -I ../Toilet_Driver/Moto_module-I./RTE/_Target_1-ID:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/MDK/ARM/PACK/Nuvoton/NuMicro_DFP/1.3.4/Device/M251/Include-D__UVISION_VERSION="524" -D_RTE_-o ./objects/tos_cpu.o -MD)
 I (..\TencentOS\kernel\core\include\tos.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_compiler.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_err.h)(0x5DB2AE0D)
@@ -904,7 +914,7 @@ I (..\TencentOS\kernel\core\include\tos_tick.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_sched.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\pm\include\tos_tickless.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_global.h)(0x5DB2AE0D)
-F (..\TencentOS\arch\tos_fault.c)(0x5DB2AE0D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -w -I ../CMSIS -I ../STARTUP -I ../StdDriver/inc -I ../TencentOS/arch/include -I ../TencentOS/kernel/core/include -I ../TencentOS/kernel/pm/include -I ../TencentOS/TOS_CONFIG -I ../TencentOS/arch -I ../STARTUP/Include -I ../Hardwear/Pid_control -I ../Hardwear/ADC -I ../Toilet_Driver/Temp_module -I ../Toilet_Driver/Comm_module-I./RTE/_Target_1-ID:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/MDK/ARM/PACK/Nuvoton/NuMicro_DFP/1.3.4/Device/M251/Include-D__UVISION_VERSION="524" -D_RTE_-o ./objects/tos_fault.o -MD)
+F (..\TencentOS\arch\tos_fault.c)(0x5DB2AE0D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -w -I ../CMSIS -I ../STARTUP -I ../StdDriver/inc -I ../TencentOS/arch/include -I ../TencentOS/kernel/core/include -I ../TencentOS/kernel/pm/include -I ../TencentOS/TOS_CONFIG -I ../TencentOS/arch -I ../STARTUP/Include -I ../Hardwear/Pid_control -I ../Hardwear/ADC -I ../Toilet_Driver/Temp_module -I ../Toilet_Driver/Comm_module -I ../Toilet_Driver/Temp_table -I ../Toilet_Driver/Control_center -I ../Hardwear/DWT_Delay -I ../Hardwear/Timer -I ../Toilet_Driver/Beep_module -I ../Toilet_Driver/deodorzation_module -I ../Toilet_Driver/Flush_module -I ../Toilet_Driver/IR_module/IR_remote -I ../Toilet_Driver/IR_module/IR_Cover -I ../Toilet_Driver/Moto_module-I./RTE/_Target_1-ID:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/MDK/ARM/PACK/Nuvoton/NuMicro_DFP/1.3.4/Device/M251/Include-D__UVISION_VERSION="524" -D_RTE_-o ./objects/tos_fault.o -MD)
 I (..\TencentOS\kernel\core\include\tos.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_compiler.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_err.h)(0x5DB2AE0D)
@@ -1011,7 +1021,7 @@ I (..\TencentOS\kernel\core\include\tos_sched.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\pm\include\tos_tickless.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_global.h)(0x5DB2AE0D)
 F (..\TencentOS\arch\port_s.S)(0x5DB2AE0D)(--cpu=Cortex-M23 -g-I.\RTE\_Target_1-ID:\MDK\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-ID:\MDK\ARM\PACK\Nuvoton\NuMicro_DFP\1.3.4\Device\M251\Include--pd "__UVISION_VERSION SETA 524"--pd "_RTE_ SETA 1"--list .\listings\port_s.lst--xref -o .\objects\port_s.o--depend .\objects\port_s.d)
-F (..\TencentOS\kernel\core\tos_event.c)(0x5DB2AE0D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -w -I ../CMSIS -I ../STARTUP -I ../StdDriver/inc -I ../TencentOS/arch/include -I ../TencentOS/kernel/core/include -I ../TencentOS/kernel/pm/include -I ../TencentOS/TOS_CONFIG -I ../TencentOS/arch -I ../STARTUP/Include -I ../Hardwear/Pid_control -I ../Hardwear/ADC -I ../Toilet_Driver/Temp_module -I ../Toilet_Driver/Comm_module-I./RTE/_Target_1-ID:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/MDK/ARM/PACK/Nuvoton/NuMicro_DFP/1.3.4/Device/M251/Include-D__UVISION_VERSION="524" -D_RTE_-o ./objects/tos_event.o -MD)
+F (..\TencentOS\kernel\core\tos_event.c)(0x5DB2AE0D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -w -I ../CMSIS -I ../STARTUP -I ../StdDriver/inc -I ../TencentOS/arch/include -I ../TencentOS/kernel/core/include -I ../TencentOS/kernel/pm/include -I ../TencentOS/TOS_CONFIG -I ../TencentOS/arch -I ../STARTUP/Include -I ../Hardwear/Pid_control -I ../Hardwear/ADC -I ../Toilet_Driver/Temp_module -I ../Toilet_Driver/Comm_module -I ../Toilet_Driver/Temp_table -I ../Toilet_Driver/Control_center -I ../Hardwear/DWT_Delay -I ../Hardwear/Timer -I ../Toilet_Driver/Beep_module -I ../Toilet_Driver/deodorzation_module -I ../Toilet_Driver/Flush_module -I ../Toilet_Driver/IR_module/IR_remote -I ../Toilet_Driver/IR_module/IR_Cover -I ../Toilet_Driver/Moto_module-I./RTE/_Target_1-ID:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/MDK/ARM/PACK/Nuvoton/NuMicro_DFP/1.3.4/Device/M251/Include-D__UVISION_VERSION="524" -D_RTE_-o ./objects/tos_event.o -MD)
 I (..\TencentOS\kernel\core\include\tos.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_compiler.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_err.h)(0x5DB2AE0D)
@@ -1117,7 +1127,7 @@ I (..\TencentOS\kernel\core\include\tos_tick.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_sched.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\pm\include\tos_tickless.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_global.h)(0x5DB2AE0D)
-F (..\TencentOS\kernel\core\tos_fifo.c)(0x5DB2AE0D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -w -I ../CMSIS -I ../STARTUP -I ../StdDriver/inc -I ../TencentOS/arch/include -I ../TencentOS/kernel/core/include -I ../TencentOS/kernel/pm/include -I ../TencentOS/TOS_CONFIG -I ../TencentOS/arch -I ../STARTUP/Include -I ../Hardwear/Pid_control -I ../Hardwear/ADC -I ../Toilet_Driver/Temp_module -I ../Toilet_Driver/Comm_module-I./RTE/_Target_1-ID:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/MDK/ARM/PACK/Nuvoton/NuMicro_DFP/1.3.4/Device/M251/Include-D__UVISION_VERSION="524" -D_RTE_-o ./objects/tos_fifo.o -MD)
+F (..\TencentOS\kernel\core\tos_fifo.c)(0x5DB2AE0D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -w -I ../CMSIS -I ../STARTUP -I ../StdDriver/inc -I ../TencentOS/arch/include -I ../TencentOS/kernel/core/include -I ../TencentOS/kernel/pm/include -I ../TencentOS/TOS_CONFIG -I ../TencentOS/arch -I ../STARTUP/Include -I ../Hardwear/Pid_control -I ../Hardwear/ADC -I ../Toilet_Driver/Temp_module -I ../Toilet_Driver/Comm_module -I ../Toilet_Driver/Temp_table -I ../Toilet_Driver/Control_center -I ../Hardwear/DWT_Delay -I ../Hardwear/Timer -I ../Toilet_Driver/Beep_module -I ../Toilet_Driver/deodorzation_module -I ../Toilet_Driver/Flush_module -I ../Toilet_Driver/IR_module/IR_remote -I ../Toilet_Driver/IR_module/IR_Cover -I ../Toilet_Driver/Moto_module-I./RTE/_Target_1-ID:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/MDK/ARM/PACK/Nuvoton/NuMicro_DFP/1.3.4/Device/M251/Include-D__UVISION_VERSION="524" -D_RTE_-o ./objects/tos_fifo.o -MD)
 I (..\TencentOS\kernel\core\include\tos.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_compiler.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_err.h)(0x5DB2AE0D)
@@ -1223,7 +1233,7 @@ I (..\TencentOS\kernel\core\include\tos_tick.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_sched.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\pm\include\tos_tickless.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_global.h)(0x5DB2AE0D)
-F (..\TencentOS\kernel\core\tos_global.c)(0x5DB2AE0D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -w -I ../CMSIS -I ../STARTUP -I ../StdDriver/inc -I ../TencentOS/arch/include -I ../TencentOS/kernel/core/include -I ../TencentOS/kernel/pm/include -I ../TencentOS/TOS_CONFIG -I ../TencentOS/arch -I ../STARTUP/Include -I ../Hardwear/Pid_control -I ../Hardwear/ADC -I ../Toilet_Driver/Temp_module -I ../Toilet_Driver/Comm_module-I./RTE/_Target_1-ID:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/MDK/ARM/PACK/Nuvoton/NuMicro_DFP/1.3.4/Device/M251/Include-D__UVISION_VERSION="524" -D_RTE_-o ./objects/tos_global.o -MD)
+F (..\TencentOS\kernel\core\tos_global.c)(0x5DB2AE0D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -w -I ../CMSIS -I ../STARTUP -I ../StdDriver/inc -I ../TencentOS/arch/include -I ../TencentOS/kernel/core/include -I ../TencentOS/kernel/pm/include -I ../TencentOS/TOS_CONFIG -I ../TencentOS/arch -I ../STARTUP/Include -I ../Hardwear/Pid_control -I ../Hardwear/ADC -I ../Toilet_Driver/Temp_module -I ../Toilet_Driver/Comm_module -I ../Toilet_Driver/Temp_table -I ../Toilet_Driver/Control_center -I ../Hardwear/DWT_Delay -I ../Hardwear/Timer -I ../Toilet_Driver/Beep_module -I ../Toilet_Driver/deodorzation_module -I ../Toilet_Driver/Flush_module -I ../Toilet_Driver/IR_module/IR_remote -I ../Toilet_Driver/IR_module/IR_Cover -I ../Toilet_Driver/Moto_module-I./RTE/_Target_1-ID:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/MDK/ARM/PACK/Nuvoton/NuMicro_DFP/1.3.4/Device/M251/Include-D__UVISION_VERSION="524" -D_RTE_-o ./objects/tos_global.o -MD)
 I (..\TencentOS\kernel\core\include\tos.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_compiler.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_err.h)(0x5DB2AE0D)
@@ -1329,7 +1339,7 @@ I (..\TencentOS\kernel\core\include\tos_tick.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_sched.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\pm\include\tos_tickless.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_global.h)(0x5DB2AE0D)
-F (..\TencentOS\kernel\core\tos_mmblk.c)(0x5DB2AE0D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -w -I ../CMSIS -I ../STARTUP -I ../StdDriver/inc -I ../TencentOS/arch/include -I ../TencentOS/kernel/core/include -I ../TencentOS/kernel/pm/include -I ../TencentOS/TOS_CONFIG -I ../TencentOS/arch -I ../STARTUP/Include -I ../Hardwear/Pid_control -I ../Hardwear/ADC -I ../Toilet_Driver/Temp_module -I ../Toilet_Driver/Comm_module-I./RTE/_Target_1-ID:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/MDK/ARM/PACK/Nuvoton/NuMicro_DFP/1.3.4/Device/M251/Include-D__UVISION_VERSION="524" -D_RTE_-o ./objects/tos_mmblk.o -MD)
+F (..\TencentOS\kernel\core\tos_mmblk.c)(0x5DB2AE0D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -w -I ../CMSIS -I ../STARTUP -I ../StdDriver/inc -I ../TencentOS/arch/include -I ../TencentOS/kernel/core/include -I ../TencentOS/kernel/pm/include -I ../TencentOS/TOS_CONFIG -I ../TencentOS/arch -I ../STARTUP/Include -I ../Hardwear/Pid_control -I ../Hardwear/ADC -I ../Toilet_Driver/Temp_module -I ../Toilet_Driver/Comm_module -I ../Toilet_Driver/Temp_table -I ../Toilet_Driver/Control_center -I ../Hardwear/DWT_Delay -I ../Hardwear/Timer -I ../Toilet_Driver/Beep_module -I ../Toilet_Driver/deodorzation_module -I ../Toilet_Driver/Flush_module -I ../Toilet_Driver/IR_module/IR_remote -I ../Toilet_Driver/IR_module/IR_Cover -I ../Toilet_Driver/Moto_module-I./RTE/_Target_1-ID:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/MDK/ARM/PACK/Nuvoton/NuMicro_DFP/1.3.4/Device/M251/Include-D__UVISION_VERSION="524" -D_RTE_-o ./objects/tos_mmblk.o -MD)
 I (..\TencentOS\kernel\core\include\tos.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_compiler.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_err.h)(0x5DB2AE0D)
@@ -1435,7 +1445,7 @@ I (..\TencentOS\kernel\core\include\tos_tick.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_sched.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\pm\include\tos_tickless.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_global.h)(0x5DB2AE0D)
-F (..\TencentOS\kernel\core\tos_mmheap.c)(0x5DB2AE0D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -w -I ../CMSIS -I ../STARTUP -I ../StdDriver/inc -I ../TencentOS/arch/include -I ../TencentOS/kernel/core/include -I ../TencentOS/kernel/pm/include -I ../TencentOS/TOS_CONFIG -I ../TencentOS/arch -I ../STARTUP/Include -I ../Hardwear/Pid_control -I ../Hardwear/ADC -I ../Toilet_Driver/Temp_module -I ../Toilet_Driver/Comm_module-I./RTE/_Target_1-ID:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/MDK/ARM/PACK/Nuvoton/NuMicro_DFP/1.3.4/Device/M251/Include-D__UVISION_VERSION="524" -D_RTE_-o ./objects/tos_mmheap.o -MD)
+F (..\TencentOS\kernel\core\tos_mmheap.c)(0x5DB2AE0D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -w -I ../CMSIS -I ../STARTUP -I ../StdDriver/inc -I ../TencentOS/arch/include -I ../TencentOS/kernel/core/include -I ../TencentOS/kernel/pm/include -I ../TencentOS/TOS_CONFIG -I ../TencentOS/arch -I ../STARTUP/Include -I ../Hardwear/Pid_control -I ../Hardwear/ADC -I ../Toilet_Driver/Temp_module -I ../Toilet_Driver/Comm_module -I ../Toilet_Driver/Temp_table -I ../Toilet_Driver/Control_center -I ../Hardwear/DWT_Delay -I ../Hardwear/Timer -I ../Toilet_Driver/Beep_module -I ../Toilet_Driver/deodorzation_module -I ../Toilet_Driver/Flush_module -I ../Toilet_Driver/IR_module/IR_remote -I ../Toilet_Driver/IR_module/IR_Cover -I ../Toilet_Driver/Moto_module-I./RTE/_Target_1-ID:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/MDK/ARM/PACK/Nuvoton/NuMicro_DFP/1.3.4/Device/M251/Include-D__UVISION_VERSION="524" -D_RTE_-o ./objects/tos_mmheap.o -MD)
 I (..\TencentOS\kernel\core\include\tos.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_compiler.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_err.h)(0x5DB2AE0D)
@@ -1541,7 +1551,7 @@ I (..\TencentOS\kernel\core\include\tos_tick.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_sched.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\pm\include\tos_tickless.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_global.h)(0x5DB2AE0D)
-F (..\TencentOS\kernel\core\tos_msg.c)(0x5DB2AE0D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -w -I ../CMSIS -I ../STARTUP -I ../StdDriver/inc -I ../TencentOS/arch/include -I ../TencentOS/kernel/core/include -I ../TencentOS/kernel/pm/include -I ../TencentOS/TOS_CONFIG -I ../TencentOS/arch -I ../STARTUP/Include -I ../Hardwear/Pid_control -I ../Hardwear/ADC -I ../Toilet_Driver/Temp_module -I ../Toilet_Driver/Comm_module-I./RTE/_Target_1-ID:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/MDK/ARM/PACK/Nuvoton/NuMicro_DFP/1.3.4/Device/M251/Include-D__UVISION_VERSION="524" -D_RTE_-o ./objects/tos_msg.o -MD)
+F (..\TencentOS\kernel\core\tos_msg.c)(0x5DB2AE0D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -w -I ../CMSIS -I ../STARTUP -I ../StdDriver/inc -I ../TencentOS/arch/include -I ../TencentOS/kernel/core/include -I ../TencentOS/kernel/pm/include -I ../TencentOS/TOS_CONFIG -I ../TencentOS/arch -I ../STARTUP/Include -I ../Hardwear/Pid_control -I ../Hardwear/ADC -I ../Toilet_Driver/Temp_module -I ../Toilet_Driver/Comm_module -I ../Toilet_Driver/Temp_table -I ../Toilet_Driver/Control_center -I ../Hardwear/DWT_Delay -I ../Hardwear/Timer -I ../Toilet_Driver/Beep_module -I ../Toilet_Driver/deodorzation_module -I ../Toilet_Driver/Flush_module -I ../Toilet_Driver/IR_module/IR_remote -I ../Toilet_Driver/IR_module/IR_Cover -I ../Toilet_Driver/Moto_module-I./RTE/_Target_1-ID:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/MDK/ARM/PACK/Nuvoton/NuMicro_DFP/1.3.4/Device/M251/Include-D__UVISION_VERSION="524" -D_RTE_-o ./objects/tos_msg.o -MD)
 I (..\TencentOS\kernel\core\include\tos.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_compiler.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_err.h)(0x5DB2AE0D)
@@ -1647,7 +1657,7 @@ I (..\TencentOS\kernel\core\include\tos_tick.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_sched.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\pm\include\tos_tickless.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_global.h)(0x5DB2AE0D)
-F (..\TencentOS\kernel\core\tos_mutex.c)(0x5DB2AE0D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -w -I ../CMSIS -I ../STARTUP -I ../StdDriver/inc -I ../TencentOS/arch/include -I ../TencentOS/kernel/core/include -I ../TencentOS/kernel/pm/include -I ../TencentOS/TOS_CONFIG -I ../TencentOS/arch -I ../STARTUP/Include -I ../Hardwear/Pid_control -I ../Hardwear/ADC -I ../Toilet_Driver/Temp_module -I ../Toilet_Driver/Comm_module-I./RTE/_Target_1-ID:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/MDK/ARM/PACK/Nuvoton/NuMicro_DFP/1.3.4/Device/M251/Include-D__UVISION_VERSION="524" -D_RTE_-o ./objects/tos_mutex.o -MD)
+F (..\TencentOS\kernel\core\tos_mutex.c)(0x5DB2AE0D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -w -I ../CMSIS -I ../STARTUP -I ../StdDriver/inc -I ../TencentOS/arch/include -I ../TencentOS/kernel/core/include -I ../TencentOS/kernel/pm/include -I ../TencentOS/TOS_CONFIG -I ../TencentOS/arch -I ../STARTUP/Include -I ../Hardwear/Pid_control -I ../Hardwear/ADC -I ../Toilet_Driver/Temp_module -I ../Toilet_Driver/Comm_module -I ../Toilet_Driver/Temp_table -I ../Toilet_Driver/Control_center -I ../Hardwear/DWT_Delay -I ../Hardwear/Timer -I ../Toilet_Driver/Beep_module -I ../Toilet_Driver/deodorzation_module -I ../Toilet_Driver/Flush_module -I ../Toilet_Driver/IR_module/IR_remote -I ../Toilet_Driver/IR_module/IR_Cover -I ../Toilet_Driver/Moto_module-I./RTE/_Target_1-ID:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/MDK/ARM/PACK/Nuvoton/NuMicro_DFP/1.3.4/Device/M251/Include-D__UVISION_VERSION="524" -D_RTE_-o ./objects/tos_mutex.o -MD)
 I (..\TencentOS\kernel\core\include\tos.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_compiler.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_err.h)(0x5DB2AE0D)
@@ -1753,7 +1763,7 @@ I (..\TencentOS\kernel\core\include\tos_tick.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_sched.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\pm\include\tos_tickless.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_global.h)(0x5DB2AE0D)
-F (..\TencentOS\kernel\core\tos_pend.c)(0x5DB2AE0D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -w -I ../CMSIS -I ../STARTUP -I ../StdDriver/inc -I ../TencentOS/arch/include -I ../TencentOS/kernel/core/include -I ../TencentOS/kernel/pm/include -I ../TencentOS/TOS_CONFIG -I ../TencentOS/arch -I ../STARTUP/Include -I ../Hardwear/Pid_control -I ../Hardwear/ADC -I ../Toilet_Driver/Temp_module -I ../Toilet_Driver/Comm_module-I./RTE/_Target_1-ID:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/MDK/ARM/PACK/Nuvoton/NuMicro_DFP/1.3.4/Device/M251/Include-D__UVISION_VERSION="524" -D_RTE_-o ./objects/tos_pend.o -MD)
+F (..\TencentOS\kernel\core\tos_pend.c)(0x5DB2AE0D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -w -I ../CMSIS -I ../STARTUP -I ../StdDriver/inc -I ../TencentOS/arch/include -I ../TencentOS/kernel/core/include -I ../TencentOS/kernel/pm/include -I ../TencentOS/TOS_CONFIG -I ../TencentOS/arch -I ../STARTUP/Include -I ../Hardwear/Pid_control -I ../Hardwear/ADC -I ../Toilet_Driver/Temp_module -I ../Toilet_Driver/Comm_module -I ../Toilet_Driver/Temp_table -I ../Toilet_Driver/Control_center -I ../Hardwear/DWT_Delay -I ../Hardwear/Timer -I ../Toilet_Driver/Beep_module -I ../Toilet_Driver/deodorzation_module -I ../Toilet_Driver/Flush_module -I ../Toilet_Driver/IR_module/IR_remote -I ../Toilet_Driver/IR_module/IR_Cover -I ../Toilet_Driver/Moto_module-I./RTE/_Target_1-ID:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/MDK/ARM/PACK/Nuvoton/NuMicro_DFP/1.3.4/Device/M251/Include-D__UVISION_VERSION="524" -D_RTE_-o ./objects/tos_pend.o -MD)
 I (..\TencentOS\kernel\core\include\tos.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_compiler.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_err.h)(0x5DB2AE0D)
@@ -1859,7 +1869,7 @@ I (..\TencentOS\kernel\core\include\tos_tick.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_sched.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\pm\include\tos_tickless.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_global.h)(0x5DB2AE0D)
-F (..\TencentOS\kernel\core\tos_queue.c)(0x5DB2AE0D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -w -I ../CMSIS -I ../STARTUP -I ../StdDriver/inc -I ../TencentOS/arch/include -I ../TencentOS/kernel/core/include -I ../TencentOS/kernel/pm/include -I ../TencentOS/TOS_CONFIG -I ../TencentOS/arch -I ../STARTUP/Include -I ../Hardwear/Pid_control -I ../Hardwear/ADC -I ../Toilet_Driver/Temp_module -I ../Toilet_Driver/Comm_module-I./RTE/_Target_1-ID:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/MDK/ARM/PACK/Nuvoton/NuMicro_DFP/1.3.4/Device/M251/Include-D__UVISION_VERSION="524" -D_RTE_-o ./objects/tos_queue.o -MD)
+F (..\TencentOS\kernel\core\tos_queue.c)(0x5DB2AE0D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -w -I ../CMSIS -I ../STARTUP -I ../StdDriver/inc -I ../TencentOS/arch/include -I ../TencentOS/kernel/core/include -I ../TencentOS/kernel/pm/include -I ../TencentOS/TOS_CONFIG -I ../TencentOS/arch -I ../STARTUP/Include -I ../Hardwear/Pid_control -I ../Hardwear/ADC -I ../Toilet_Driver/Temp_module -I ../Toilet_Driver/Comm_module -I ../Toilet_Driver/Temp_table -I ../Toilet_Driver/Control_center -I ../Hardwear/DWT_Delay -I ../Hardwear/Timer -I ../Toilet_Driver/Beep_module -I ../Toilet_Driver/deodorzation_module -I ../Toilet_Driver/Flush_module -I ../Toilet_Driver/IR_module/IR_remote -I ../Toilet_Driver/IR_module/IR_Cover -I ../Toilet_Driver/Moto_module-I./RTE/_Target_1-ID:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/MDK/ARM/PACK/Nuvoton/NuMicro_DFP/1.3.4/Device/M251/Include-D__UVISION_VERSION="524" -D_RTE_-o ./objects/tos_queue.o -MD)
 I (..\TencentOS\kernel\core\include\tos.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_compiler.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_err.h)(0x5DB2AE0D)
@@ -1965,7 +1975,7 @@ I (..\TencentOS\kernel\core\include\tos_tick.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_sched.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\pm\include\tos_tickless.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_global.h)(0x5DB2AE0D)
-F (..\TencentOS\kernel\core\tos_robin.c)(0x5DB2AE0D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -w -I ../CMSIS -I ../STARTUP -I ../StdDriver/inc -I ../TencentOS/arch/include -I ../TencentOS/kernel/core/include -I ../TencentOS/kernel/pm/include -I ../TencentOS/TOS_CONFIG -I ../TencentOS/arch -I ../STARTUP/Include -I ../Hardwear/Pid_control -I ../Hardwear/ADC -I ../Toilet_Driver/Temp_module -I ../Toilet_Driver/Comm_module-I./RTE/_Target_1-ID:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/MDK/ARM/PACK/Nuvoton/NuMicro_DFP/1.3.4/Device/M251/Include-D__UVISION_VERSION="524" -D_RTE_-o ./objects/tos_robin.o -MD)
+F (..\TencentOS\kernel\core\tos_robin.c)(0x5DB2AE0D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -w -I ../CMSIS -I ../STARTUP -I ../StdDriver/inc -I ../TencentOS/arch/include -I ../TencentOS/kernel/core/include -I ../TencentOS/kernel/pm/include -I ../TencentOS/TOS_CONFIG -I ../TencentOS/arch -I ../STARTUP/Include -I ../Hardwear/Pid_control -I ../Hardwear/ADC -I ../Toilet_Driver/Temp_module -I ../Toilet_Driver/Comm_module -I ../Toilet_Driver/Temp_table -I ../Toilet_Driver/Control_center -I ../Hardwear/DWT_Delay -I ../Hardwear/Timer -I ../Toilet_Driver/Beep_module -I ../Toilet_Driver/deodorzation_module -I ../Toilet_Driver/Flush_module -I ../Toilet_Driver/IR_module/IR_remote -I ../Toilet_Driver/IR_module/IR_Cover -I ../Toilet_Driver/Moto_module-I./RTE/_Target_1-ID:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/MDK/ARM/PACK/Nuvoton/NuMicro_DFP/1.3.4/Device/M251/Include-D__UVISION_VERSION="524" -D_RTE_-o ./objects/tos_robin.o -MD)
 I (..\TencentOS\kernel\core\include\tos.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_compiler.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_err.h)(0x5DB2AE0D)
@@ -2071,7 +2081,7 @@ I (..\TencentOS\kernel\core\include\tos_tick.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_sched.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\pm\include\tos_tickless.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_global.h)(0x5DB2AE0D)
-F (..\TencentOS\kernel\core\tos_sched.c)(0x5DB2AE0D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -w -I ../CMSIS -I ../STARTUP -I ../StdDriver/inc -I ../TencentOS/arch/include -I ../TencentOS/kernel/core/include -I ../TencentOS/kernel/pm/include -I ../TencentOS/TOS_CONFIG -I ../TencentOS/arch -I ../STARTUP/Include -I ../Hardwear/Pid_control -I ../Hardwear/ADC -I ../Toilet_Driver/Temp_module -I ../Toilet_Driver/Comm_module-I./RTE/_Target_1-ID:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/MDK/ARM/PACK/Nuvoton/NuMicro_DFP/1.3.4/Device/M251/Include-D__UVISION_VERSION="524" -D_RTE_-o ./objects/tos_sched.o -MD)
+F (..\TencentOS\kernel\core\tos_sched.c)(0x5DB2AE0D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -w -I ../CMSIS -I ../STARTUP -I ../StdDriver/inc -I ../TencentOS/arch/include -I ../TencentOS/kernel/core/include -I ../TencentOS/kernel/pm/include -I ../TencentOS/TOS_CONFIG -I ../TencentOS/arch -I ../STARTUP/Include -I ../Hardwear/Pid_control -I ../Hardwear/ADC -I ../Toilet_Driver/Temp_module -I ../Toilet_Driver/Comm_module -I ../Toilet_Driver/Temp_table -I ../Toilet_Driver/Control_center -I ../Hardwear/DWT_Delay -I ../Hardwear/Timer -I ../Toilet_Driver/Beep_module -I ../Toilet_Driver/deodorzation_module -I ../Toilet_Driver/Flush_module -I ../Toilet_Driver/IR_module/IR_remote -I ../Toilet_Driver/IR_module/IR_Cover -I ../Toilet_Driver/Moto_module-I./RTE/_Target_1-ID:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/MDK/ARM/PACK/Nuvoton/NuMicro_DFP/1.3.4/Device/M251/Include-D__UVISION_VERSION="524" -D_RTE_-o ./objects/tos_sched.o -MD)
 I (..\TencentOS\kernel\core\include\tos.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_compiler.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_err.h)(0x5DB2AE0D)
@@ -2177,7 +2187,7 @@ I (..\TencentOS\kernel\core\include\tos_tick.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_sched.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\pm\include\tos_tickless.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_global.h)(0x5DB2AE0D)
-F (..\TencentOS\kernel\core\tos_sem.c)(0x5DB2AE0D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -w -I ../CMSIS -I ../STARTUP -I ../StdDriver/inc -I ../TencentOS/arch/include -I ../TencentOS/kernel/core/include -I ../TencentOS/kernel/pm/include -I ../TencentOS/TOS_CONFIG -I ../TencentOS/arch -I ../STARTUP/Include -I ../Hardwear/Pid_control -I ../Hardwear/ADC -I ../Toilet_Driver/Temp_module -I ../Toilet_Driver/Comm_module-I./RTE/_Target_1-ID:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/MDK/ARM/PACK/Nuvoton/NuMicro_DFP/1.3.4/Device/M251/Include-D__UVISION_VERSION="524" -D_RTE_-o ./objects/tos_sem.o -MD)
+F (..\TencentOS\kernel\core\tos_sem.c)(0x5DB2AE0D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -w -I ../CMSIS -I ../STARTUP -I ../StdDriver/inc -I ../TencentOS/arch/include -I ../TencentOS/kernel/core/include -I ../TencentOS/kernel/pm/include -I ../TencentOS/TOS_CONFIG -I ../TencentOS/arch -I ../STARTUP/Include -I ../Hardwear/Pid_control -I ../Hardwear/ADC -I ../Toilet_Driver/Temp_module -I ../Toilet_Driver/Comm_module -I ../Toilet_Driver/Temp_table -I ../Toilet_Driver/Control_center -I ../Hardwear/DWT_Delay -I ../Hardwear/Timer -I ../Toilet_Driver/Beep_module -I ../Toilet_Driver/deodorzation_module -I ../Toilet_Driver/Flush_module -I ../Toilet_Driver/IR_module/IR_remote -I ../Toilet_Driver/IR_module/IR_Cover -I ../Toilet_Driver/Moto_module-I./RTE/_Target_1-ID:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/MDK/ARM/PACK/Nuvoton/NuMicro_DFP/1.3.4/Device/M251/Include-D__UVISION_VERSION="524" -D_RTE_-o ./objects/tos_sem.o -MD)
 I (..\TencentOS\kernel\core\include\tos.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_compiler.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_err.h)(0x5DB2AE0D)
@@ -2283,7 +2293,7 @@ I (..\TencentOS\kernel\core\include\tos_tick.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_sched.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\pm\include\tos_tickless.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_global.h)(0x5DB2AE0D)
-F (..\TencentOS\kernel\core\tos_sys.c)(0x5DB2AE0D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -w -I ../CMSIS -I ../STARTUP -I ../StdDriver/inc -I ../TencentOS/arch/include -I ../TencentOS/kernel/core/include -I ../TencentOS/kernel/pm/include -I ../TencentOS/TOS_CONFIG -I ../TencentOS/arch -I ../STARTUP/Include -I ../Hardwear/Pid_control -I ../Hardwear/ADC -I ../Toilet_Driver/Temp_module -I ../Toilet_Driver/Comm_module-I./RTE/_Target_1-ID:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/MDK/ARM/PACK/Nuvoton/NuMicro_DFP/1.3.4/Device/M251/Include-D__UVISION_VERSION="524" -D_RTE_-o ./objects/tos_sys.o -MD)
+F (..\TencentOS\kernel\core\tos_sys.c)(0x5DB2AE0D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -w -I ../CMSIS -I ../STARTUP -I ../StdDriver/inc -I ../TencentOS/arch/include -I ../TencentOS/kernel/core/include -I ../TencentOS/kernel/pm/include -I ../TencentOS/TOS_CONFIG -I ../TencentOS/arch -I ../STARTUP/Include -I ../Hardwear/Pid_control -I ../Hardwear/ADC -I ../Toilet_Driver/Temp_module -I ../Toilet_Driver/Comm_module -I ../Toilet_Driver/Temp_table -I ../Toilet_Driver/Control_center -I ../Hardwear/DWT_Delay -I ../Hardwear/Timer -I ../Toilet_Driver/Beep_module -I ../Toilet_Driver/deodorzation_module -I ../Toilet_Driver/Flush_module -I ../Toilet_Driver/IR_module/IR_remote -I ../Toilet_Driver/IR_module/IR_Cover -I ../Toilet_Driver/Moto_module-I./RTE/_Target_1-ID:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/MDK/ARM/PACK/Nuvoton/NuMicro_DFP/1.3.4/Device/M251/Include-D__UVISION_VERSION="524" -D_RTE_-o ./objects/tos_sys.o -MD)
 I (..\TencentOS\kernel\core\include\tos.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_compiler.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_err.h)(0x5DB2AE0D)
@@ -2389,7 +2399,7 @@ I (..\TencentOS\kernel\core\include\tos_tick.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_sched.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\pm\include\tos_tickless.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_global.h)(0x5DB2AE0D)
-F (..\TencentOS\kernel\core\tos_task.c)(0x5DB2AE0D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -w -I ../CMSIS -I ../STARTUP -I ../StdDriver/inc -I ../TencentOS/arch/include -I ../TencentOS/kernel/core/include -I ../TencentOS/kernel/pm/include -I ../TencentOS/TOS_CONFIG -I ../TencentOS/arch -I ../STARTUP/Include -I ../Hardwear/Pid_control -I ../Hardwear/ADC -I ../Toilet_Driver/Temp_module -I ../Toilet_Driver/Comm_module-I./RTE/_Target_1-ID:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/MDK/ARM/PACK/Nuvoton/NuMicro_DFP/1.3.4/Device/M251/Include-D__UVISION_VERSION="524" -D_RTE_-o ./objects/tos_task.o -MD)
+F (..\TencentOS\kernel\core\tos_task.c)(0x5DB2AE0D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -w -I ../CMSIS -I ../STARTUP -I ../StdDriver/inc -I ../TencentOS/arch/include -I ../TencentOS/kernel/core/include -I ../TencentOS/kernel/pm/include -I ../TencentOS/TOS_CONFIG -I ../TencentOS/arch -I ../STARTUP/Include -I ../Hardwear/Pid_control -I ../Hardwear/ADC -I ../Toilet_Driver/Temp_module -I ../Toilet_Driver/Comm_module -I ../Toilet_Driver/Temp_table -I ../Toilet_Driver/Control_center -I ../Hardwear/DWT_Delay -I ../Hardwear/Timer -I ../Toilet_Driver/Beep_module -I ../Toilet_Driver/deodorzation_module -I ../Toilet_Driver/Flush_module -I ../Toilet_Driver/IR_module/IR_remote -I ../Toilet_Driver/IR_module/IR_Cover -I ../Toilet_Driver/Moto_module-I./RTE/_Target_1-ID:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/MDK/ARM/PACK/Nuvoton/NuMicro_DFP/1.3.4/Device/M251/Include-D__UVISION_VERSION="524" -D_RTE_-o ./objects/tos_task.o -MD)
 I (..\TencentOS\kernel\core\include\tos.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_compiler.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_err.h)(0x5DB2AE0D)
@@ -2495,7 +2505,7 @@ I (..\TencentOS\kernel\core\include\tos_tick.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_sched.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\pm\include\tos_tickless.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_global.h)(0x5DB2AE0D)
-F (..\TencentOS\kernel\core\tos_tick.c)(0x5DB2AE0D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -w -I ../CMSIS -I ../STARTUP -I ../StdDriver/inc -I ../TencentOS/arch/include -I ../TencentOS/kernel/core/include -I ../TencentOS/kernel/pm/include -I ../TencentOS/TOS_CONFIG -I ../TencentOS/arch -I ../STARTUP/Include -I ../Hardwear/Pid_control -I ../Hardwear/ADC -I ../Toilet_Driver/Temp_module -I ../Toilet_Driver/Comm_module-I./RTE/_Target_1-ID:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/MDK/ARM/PACK/Nuvoton/NuMicro_DFP/1.3.4/Device/M251/Include-D__UVISION_VERSION="524" -D_RTE_-o ./objects/tos_tick.o -MD)
+F (..\TencentOS\kernel\core\tos_tick.c)(0x5DB2AE0D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -w -I ../CMSIS -I ../STARTUP -I ../StdDriver/inc -I ../TencentOS/arch/include -I ../TencentOS/kernel/core/include -I ../TencentOS/kernel/pm/include -I ../TencentOS/TOS_CONFIG -I ../TencentOS/arch -I ../STARTUP/Include -I ../Hardwear/Pid_control -I ../Hardwear/ADC -I ../Toilet_Driver/Temp_module -I ../Toilet_Driver/Comm_module -I ../Toilet_Driver/Temp_table -I ../Toilet_Driver/Control_center -I ../Hardwear/DWT_Delay -I ../Hardwear/Timer -I ../Toilet_Driver/Beep_module -I ../Toilet_Driver/deodorzation_module -I ../Toilet_Driver/Flush_module -I ../Toilet_Driver/IR_module/IR_remote -I ../Toilet_Driver/IR_module/IR_Cover -I ../Toilet_Driver/Moto_module-I./RTE/_Target_1-ID:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/MDK/ARM/PACK/Nuvoton/NuMicro_DFP/1.3.4/Device/M251/Include-D__UVISION_VERSION="524" -D_RTE_-o ./objects/tos_tick.o -MD)
 I (..\TencentOS\kernel\core\include\tos.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_compiler.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_err.h)(0x5DB2AE0D)
@@ -2601,7 +2611,7 @@ I (..\TencentOS\kernel\core\include\tos_tick.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_sched.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\pm\include\tos_tickless.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_global.h)(0x5DB2AE0D)
-F (..\TencentOS\kernel\core\tos_time.c)(0x5DB2AE0D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -w -I ../CMSIS -I ../STARTUP -I ../StdDriver/inc -I ../TencentOS/arch/include -I ../TencentOS/kernel/core/include -I ../TencentOS/kernel/pm/include -I ../TencentOS/TOS_CONFIG -I ../TencentOS/arch -I ../STARTUP/Include -I ../Hardwear/Pid_control -I ../Hardwear/ADC -I ../Toilet_Driver/Temp_module -I ../Toilet_Driver/Comm_module-I./RTE/_Target_1-ID:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/MDK/ARM/PACK/Nuvoton/NuMicro_DFP/1.3.4/Device/M251/Include-D__UVISION_VERSION="524" -D_RTE_-o ./objects/tos_time.o -MD)
+F (..\TencentOS\kernel\core\tos_time.c)(0x5DB2AE0D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -w -I ../CMSIS -I ../STARTUP -I ../StdDriver/inc -I ../TencentOS/arch/include -I ../TencentOS/kernel/core/include -I ../TencentOS/kernel/pm/include -I ../TencentOS/TOS_CONFIG -I ../TencentOS/arch -I ../STARTUP/Include -I ../Hardwear/Pid_control -I ../Hardwear/ADC -I ../Toilet_Driver/Temp_module -I ../Toilet_Driver/Comm_module -I ../Toilet_Driver/Temp_table -I ../Toilet_Driver/Control_center -I ../Hardwear/DWT_Delay -I ../Hardwear/Timer -I ../Toilet_Driver/Beep_module -I ../Toilet_Driver/deodorzation_module -I ../Toilet_Driver/Flush_module -I ../Toilet_Driver/IR_module/IR_remote -I ../Toilet_Driver/IR_module/IR_Cover -I ../Toilet_Driver/Moto_module-I./RTE/_Target_1-ID:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/MDK/ARM/PACK/Nuvoton/NuMicro_DFP/1.3.4/Device/M251/Include-D__UVISION_VERSION="524" -D_RTE_-o ./objects/tos_time.o -MD)
 I (..\TencentOS\kernel\core\include\tos.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_compiler.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_err.h)(0x5DB2AE0D)
@@ -2707,7 +2717,7 @@ I (..\TencentOS\kernel\core\include\tos_tick.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_sched.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\pm\include\tos_tickless.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_global.h)(0x5DB2AE0D)
-F (..\TencentOS\kernel\core\tos_timer.c)(0x5DB2AE0D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -w -I ../CMSIS -I ../STARTUP -I ../StdDriver/inc -I ../TencentOS/arch/include -I ../TencentOS/kernel/core/include -I ../TencentOS/kernel/pm/include -I ../TencentOS/TOS_CONFIG -I ../TencentOS/arch -I ../STARTUP/Include -I ../Hardwear/Pid_control -I ../Hardwear/ADC -I ../Toilet_Driver/Temp_module -I ../Toilet_Driver/Comm_module-I./RTE/_Target_1-ID:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/MDK/ARM/PACK/Nuvoton/NuMicro_DFP/1.3.4/Device/M251/Include-D__UVISION_VERSION="524" -D_RTE_-o ./objects/tos_timer.o -MD)
+F (..\TencentOS\kernel\core\tos_timer.c)(0x5DB2AE0D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -w -I ../CMSIS -I ../STARTUP -I ../StdDriver/inc -I ../TencentOS/arch/include -I ../TencentOS/kernel/core/include -I ../TencentOS/kernel/pm/include -I ../TencentOS/TOS_CONFIG -I ../TencentOS/arch -I ../STARTUP/Include -I ../Hardwear/Pid_control -I ../Hardwear/ADC -I ../Toilet_Driver/Temp_module -I ../Toilet_Driver/Comm_module -I ../Toilet_Driver/Temp_table -I ../Toilet_Driver/Control_center -I ../Hardwear/DWT_Delay -I ../Hardwear/Timer -I ../Toilet_Driver/Beep_module -I ../Toilet_Driver/deodorzation_module -I ../Toilet_Driver/Flush_module -I ../Toilet_Driver/IR_module/IR_remote -I ../Toilet_Driver/IR_module/IR_Cover -I ../Toilet_Driver/Moto_module-I./RTE/_Target_1-ID:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/MDK/ARM/PACK/Nuvoton/NuMicro_DFP/1.3.4/Device/M251/Include-D__UVISION_VERSION="524" -D_RTE_-o ./objects/tos_timer.o -MD)
 I (..\TencentOS\kernel\core\include\tos.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_compiler.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_err.h)(0x5DB2AE0D)
@@ -2813,7 +2823,7 @@ I (..\TencentOS\kernel\core\include\tos_tick.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_sched.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\pm\include\tos_tickless.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_global.h)(0x5DB2AE0D)
-F (..\TencentOS\kernel\pm\tos_pm.c)(0x5DB2AE0D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -w -I ../CMSIS -I ../STARTUP -I ../StdDriver/inc -I ../TencentOS/arch/include -I ../TencentOS/kernel/core/include -I ../TencentOS/kernel/pm/include -I ../TencentOS/TOS_CONFIG -I ../TencentOS/arch -I ../STARTUP/Include -I ../Hardwear/Pid_control -I ../Hardwear/ADC -I ../Toilet_Driver/Temp_module -I ../Toilet_Driver/Comm_module-I./RTE/_Target_1-ID:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/MDK/ARM/PACK/Nuvoton/NuMicro_DFP/1.3.4/Device/M251/Include-D__UVISION_VERSION="524" -D_RTE_-o ./objects/tos_pm.o -MD)
+F (..\TencentOS\kernel\pm\tos_pm.c)(0x5DB2AE0D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -w -I ../CMSIS -I ../STARTUP -I ../StdDriver/inc -I ../TencentOS/arch/include -I ../TencentOS/kernel/core/include -I ../TencentOS/kernel/pm/include -I ../TencentOS/TOS_CONFIG -I ../TencentOS/arch -I ../STARTUP/Include -I ../Hardwear/Pid_control -I ../Hardwear/ADC -I ../Toilet_Driver/Temp_module -I ../Toilet_Driver/Comm_module -I ../Toilet_Driver/Temp_table -I ../Toilet_Driver/Control_center -I ../Hardwear/DWT_Delay -I ../Hardwear/Timer -I ../Toilet_Driver/Beep_module -I ../Toilet_Driver/deodorzation_module -I ../Toilet_Driver/Flush_module -I ../Toilet_Driver/IR_module/IR_remote -I ../Toilet_Driver/IR_module/IR_Cover -I ../Toilet_Driver/Moto_module-I./RTE/_Target_1-ID:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/MDK/ARM/PACK/Nuvoton/NuMicro_DFP/1.3.4/Device/M251/Include-D__UVISION_VERSION="524" -D_RTE_-o ./objects/tos_pm.o -MD)
 I (..\TencentOS\kernel\core\include\tos.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_compiler.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_err.h)(0x5DB2AE0D)
@@ -2919,7 +2929,7 @@ I (..\TencentOS\kernel\core\include\tos_tick.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_sched.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\pm\include\tos_tickless.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_global.h)(0x5DB2AE0D)
-F (..\TencentOS\kernel\pm\tos_tickless.c)(0x5DB2AE0D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -w -I ../CMSIS -I ../STARTUP -I ../StdDriver/inc -I ../TencentOS/arch/include -I ../TencentOS/kernel/core/include -I ../TencentOS/kernel/pm/include -I ../TencentOS/TOS_CONFIG -I ../TencentOS/arch -I ../STARTUP/Include -I ../Hardwear/Pid_control -I ../Hardwear/ADC -I ../Toilet_Driver/Temp_module -I ../Toilet_Driver/Comm_module-I./RTE/_Target_1-ID:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/MDK/ARM/PACK/Nuvoton/NuMicro_DFP/1.3.4/Device/M251/Include-D__UVISION_VERSION="524" -D_RTE_-o ./objects/tos_tickless.o -MD)
+F (..\TencentOS\kernel\pm\tos_tickless.c)(0x5DB2AE0D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -w -I ../CMSIS -I ../STARTUP -I ../StdDriver/inc -I ../TencentOS/arch/include -I ../TencentOS/kernel/core/include -I ../TencentOS/kernel/pm/include -I ../TencentOS/TOS_CONFIG -I ../TencentOS/arch -I ../STARTUP/Include -I ../Hardwear/Pid_control -I ../Hardwear/ADC -I ../Toilet_Driver/Temp_module -I ../Toilet_Driver/Comm_module -I ../Toilet_Driver/Temp_table -I ../Toilet_Driver/Control_center -I ../Hardwear/DWT_Delay -I ../Hardwear/Timer -I ../Toilet_Driver/Beep_module -I ../Toilet_Driver/deodorzation_module -I ../Toilet_Driver/Flush_module -I ../Toilet_Driver/IR_module/IR_remote -I ../Toilet_Driver/IR_module/IR_Cover -I ../Toilet_Driver/Moto_module-I./RTE/_Target_1-ID:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/MDK/ARM/PACK/Nuvoton/NuMicro_DFP/1.3.4/Device/M251/Include-D__UVISION_VERSION="524" -D_RTE_-o ./objects/tos_tickless.o -MD)
 I (..\TencentOS\kernel\core\include\tos.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_compiler.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_err.h)(0x5DB2AE0D)
@@ -3026,7 +3036,7 @@ I (..\TencentOS\kernel\core\include\tos_sched.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\pm\include\tos_tickless.h)(0x5DB2AE0D)
 I (..\TencentOS\kernel\core\include\tos_global.h)(0x5DB2AE0D)
 F (..\TencentOS\TOS_CONFIG\tos_config.h)(0x5DB2AE0D)()
-F (..\Hardwear\Pid_control\PID_Lib.c)(0x5DB65EE9)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -w -I ../CMSIS -I ../STARTUP -I ../StdDriver/inc -I ../TencentOS/arch/include -I ../TencentOS/kernel/core/include -I ../TencentOS/kernel/pm/include -I ../TencentOS/TOS_CONFIG -I ../TencentOS/arch -I ../STARTUP/Include -I ../Hardwear/Pid_control -I ../Hardwear/ADC -I ../Toilet_Driver/Temp_module -I ../Toilet_Driver/Comm_module-I./RTE/_Target_1-ID:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/MDK/ARM/PACK/Nuvoton/NuMicro_DFP/1.3.4/Device/M251/Include-D__UVISION_VERSION="524" -D_RTE_-o ./objects/pid_lib.o -MD)
+F (..\Hardwear\Pid_control\PID_Lib.c)(0x5DB65EE9)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -w -I ../CMSIS -I ../STARTUP -I ../StdDriver/inc -I ../TencentOS/arch/include -I ../TencentOS/kernel/core/include -I ../TencentOS/kernel/pm/include -I ../TencentOS/TOS_CONFIG -I ../TencentOS/arch -I ../STARTUP/Include -I ../Hardwear/Pid_control -I ../Hardwear/ADC -I ../Toilet_Driver/Temp_module -I ../Toilet_Driver/Comm_module -I ../Toilet_Driver/Temp_table -I ../Toilet_Driver/Control_center -I ../Hardwear/DWT_Delay -I ../Hardwear/Timer -I ../Toilet_Driver/Beep_module -I ../Toilet_Driver/deodorzation_module -I ../Toilet_Driver/Flush_module -I ../Toilet_Driver/IR_module/IR_remote -I ../Toilet_Driver/IR_module/IR_Cover -I ../Toilet_Driver/Moto_module-I./RTE/_Target_1-ID:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/MDK/ARM/PACK/Nuvoton/NuMicro_DFP/1.3.4/Device/M251/Include-D__UVISION_VERSION="524" -D_RTE_-o ./objects/pid_lib.o -MD)
 I (..\Hardwear\Pid_control\PID_Lib_usr.h)(0x5DB68F38)
 I (D:\MDK\ARM\ARMCLANG\include\stdio.h)(0x588CAFD2)
 I (..\STARTUP\Include\NuMicro.h)(0x5DB2AE0D)
@@ -3096,10 +3106,10 @@ I (..\StdDriver\inc\ebi.h)(0x5DB2AE0D)
 I (..\StdDriver\inc\psio.h)(0x5DB2AE0D)
 I (..\StdDriver\inc\sc.h)(0x5DB2AE0D)
 I (..\StdDriver\inc\scuart.h)(0x5DB2AE0D)
-F (..\Hardwear\Pid_control\PID_Lib_usr.c)(0x5C10B784)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -w -I ../CMSIS -I ../STARTUP -I ../StdDriver/inc -I ../TencentOS/arch/include -I ../TencentOS/kernel/core/include -I ../TencentOS/kernel/pm/include -I ../TencentOS/TOS_CONFIG -I ../TencentOS/arch -I ../STARTUP/Include -I ../Hardwear/Pid_control -I ../Hardwear/ADC -I ../Toilet_Driver/Temp_module -I ../Toilet_Driver/Comm_module-I./RTE/_Target_1-ID:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/MDK/ARM/PACK/Nuvoton/NuMicro_DFP/1.3.4/Device/M251/Include-D__UVISION_VERSION="524" -D_RTE_-o ./objects/pid_lib_usr.o -MD)
+F (..\Hardwear\Pid_control\PID_Lib_usr.c)(0x5C10B784)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -w -I ../CMSIS -I ../STARTUP -I ../StdDriver/inc -I ../TencentOS/arch/include -I ../TencentOS/kernel/core/include -I ../TencentOS/kernel/pm/include -I ../TencentOS/TOS_CONFIG -I ../TencentOS/arch -I ../STARTUP/Include -I ../Hardwear/Pid_control -I ../Hardwear/ADC -I ../Toilet_Driver/Temp_module -I ../Toilet_Driver/Comm_module -I ../Toilet_Driver/Temp_table -I ../Toilet_Driver/Control_center -I ../Hardwear/DWT_Delay -I ../Hardwear/Timer -I ../Toilet_Driver/Beep_module -I ../Toilet_Driver/deodorzation_module -I ../Toilet_Driver/Flush_module -I ../Toilet_Driver/IR_module/IR_remote -I ../Toilet_Driver/IR_module/IR_Cover -I ../Toilet_Driver/Moto_module-I./RTE/_Target_1-ID:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/MDK/ARM/PACK/Nuvoton/NuMicro_DFP/1.3.4/Device/M251/Include-D__UVISION_VERSION="524" -D_RTE_-o ./objects/pid_lib_usr.o -MD)
 I (..\Hardwear\Pid_control\PID_Lib_usr.h)(0x5DB68F38)
-F (..\Hardwear\ADC\adc.c)(0x5DB78E10)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -w -I ../CMSIS -I ../STARTUP -I ../StdDriver/inc -I ../TencentOS/arch/include -I ../TencentOS/kernel/core/include -I ../TencentOS/kernel/pm/include -I ../TencentOS/TOS_CONFIG -I ../TencentOS/arch -I ../STARTUP/Include -I ../Hardwear/Pid_control -I ../Hardwear/ADC -I ../Toilet_Driver/Temp_module -I ../Toilet_Driver/Comm_module-I./RTE/_Target_1-ID:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/MDK/ARM/PACK/Nuvoton/NuMicro_DFP/1.3.4/Device/M251/Include-D__UVISION_VERSION="524" -D_RTE_-o ./objects/adc.o -MD)
-I (..\Hardwear\ADC\adc.h)(0x5DB6BC7A)
+F (..\Hardwear\ADC\adc.c)(0x5DB933EB)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -w -I ../CMSIS -I ../STARTUP -I ../StdDriver/inc -I ../TencentOS/arch/include -I ../TencentOS/kernel/core/include -I ../TencentOS/kernel/pm/include -I ../TencentOS/TOS_CONFIG -I ../TencentOS/arch -I ../STARTUP/Include -I ../Hardwear/Pid_control -I ../Hardwear/ADC -I ../Toilet_Driver/Temp_module -I ../Toilet_Driver/Comm_module -I ../Toilet_Driver/Temp_table -I ../Toilet_Driver/Control_center -I ../Hardwear/DWT_Delay -I ../Hardwear/Timer -I ../Toilet_Driver/Beep_module -I ../Toilet_Driver/deodorzation_module -I ../Toilet_Driver/Flush_module -I ../Toilet_Driver/IR_module/IR_remote -I ../Toilet_Driver/IR_module/IR_Cover -I ../Toilet_Driver/Moto_module-I./RTE/_Target_1-ID:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/MDK/ARM/PACK/Nuvoton/NuMicro_DFP/1.3.4/Device/M251/Include-D__UVISION_VERSION="524" -D_RTE_-o ./objects/adc.o -MD)
+I (..\Hardwear\ADC\adc.h)(0x5DB93132)
 I (..\STARTUP\Include\NuMicro.h)(0x5DB2AE0D)
 I (..\STARTUP\Include\M251.h)(0x5DB2AE0D)
 I (..\CMSIS\core_armv8mbl.h)(0x5DB2AE0D)
@@ -3167,5 +3177,780 @@ I (..\StdDriver\inc\ebi.h)(0x5DB2AE0D)
 I (..\StdDriver\inc\psio.h)(0x5DB2AE0D)
 I (..\StdDriver\inc\sc.h)(0x5DB2AE0D)
 I (..\StdDriver\inc\scuart.h)(0x5DB2AE0D)
-F (..\Toilet_Driver\Temp_module\temp_deal.c)(0x5DB79BA4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -w -I ../CMSIS -I ../STARTUP -I ../StdDriver/inc -I ../TencentOS/arch/include -I ../TencentOS/kernel/core/include -I ../TencentOS/kernel/pm/include -I ../TencentOS/TOS_CONFIG -I ../TencentOS/arch -I ../STARTUP/Include -I ../Hardwear/Pid_control -I ../Hardwear/ADC -I ../Toilet_Driver/Temp_module -I ../Toilet_Driver/Comm_module-I./RTE/_Target_1-ID:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/MDK/ARM/PACK/Nuvoton/NuMicro_DFP/1.3.4/Device/M251/Include-D__UVISION_VERSION="524" -D_RTE_-o ./objects/temp_deal.o -MD)
-I (..\Toilet_Driver\Temp_module\temp_deal.h)(0x5DB79BCC)
+I (..\Toilet_Driver\Comm_module\toilet.h)(0x5DB96209)
+I (..\Toilet_Driver\Temp_module\temp_deal.h)(0x5DB94DB3)
+I (..\Toilet_Driver\Temp_table\table.h)(0x5DB7A83F)
+I (..\Toilet_Driver\deodorzation_module\deodorzation.h)(0x5DB955AF)
+I (..\Toilet_Driver\Flush_module\flush.h)(0x5DB95650)
+I (..\Toilet_Driver\Beep_module\beep.h)(0x5DB95385)
+I (..\Toilet_Driver\IR_module\IR_remote\IR_remote.h)(0x5DB95E69)
+I (..\Toilet_Driver\IR_module\IR_Cover\IR_cover.h)(0x5DB96192)
+F (..\Hardwear\DWT_Delay\DWT_Delay.c)(0x5DB7B0ED)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -w -I ../CMSIS -I ../STARTUP -I ../StdDriver/inc -I ../TencentOS/arch/include -I ../TencentOS/kernel/core/include -I ../TencentOS/kernel/pm/include -I ../TencentOS/TOS_CONFIG -I ../TencentOS/arch -I ../STARTUP/Include -I ../Hardwear/Pid_control -I ../Hardwear/ADC -I ../Toilet_Driver/Temp_module -I ../Toilet_Driver/Comm_module -I ../Toilet_Driver/Temp_table -I ../Toilet_Driver/Control_center -I ../Hardwear/DWT_Delay -I ../Hardwear/Timer -I ../Toilet_Driver/Beep_module -I ../Toilet_Driver/deodorzation_module -I ../Toilet_Driver/Flush_module -I ../Toilet_Driver/IR_module/IR_remote -I ../Toilet_Driver/IR_module/IR_Cover -I ../Toilet_Driver/Moto_module-I./RTE/_Target_1-ID:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/MDK/ARM/PACK/Nuvoton/NuMicro_DFP/1.3.4/Device/M251/Include-D__UVISION_VERSION="524" -D_RTE_-o ./objects/dwt_delay.o -MD)
+I (..\Hardwear\DWT_Delay\DWT_Delay.h)(0x5DB7B0F7)
+F (..\Hardwear\Timer\timer_deal.c)(0x5DB93906)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -w -I ../CMSIS -I ../STARTUP -I ../StdDriver/inc -I ../TencentOS/arch/include -I ../TencentOS/kernel/core/include -I ../TencentOS/kernel/pm/include -I ../TencentOS/TOS_CONFIG -I ../TencentOS/arch -I ../STARTUP/Include -I ../Hardwear/Pid_control -I ../Hardwear/ADC -I ../Toilet_Driver/Temp_module -I ../Toilet_Driver/Comm_module -I ../Toilet_Driver/Temp_table -I ../Toilet_Driver/Control_center -I ../Hardwear/DWT_Delay -I ../Hardwear/Timer -I ../Toilet_Driver/Beep_module -I ../Toilet_Driver/deodorzation_module -I ../Toilet_Driver/Flush_module -I ../Toilet_Driver/IR_module/IR_remote -I ../Toilet_Driver/IR_module/IR_Cover -I ../Toilet_Driver/Moto_module-I./RTE/_Target_1-ID:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/MDK/ARM/PACK/Nuvoton/NuMicro_DFP/1.3.4/Device/M251/Include-D__UVISION_VERSION="524" -D_RTE_-o ./objects/timer_deal.o -MD)
+I (..\Hardwear\Timer\timer_deal.h)(0x5DB8ED0C)
+I (..\STARTUP\Include\NuMicro.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\M251.h)(0x5DB2AE0D)
+I (..\CMSIS\core_armv8mbl.h)(0x5DB2AE0D)
+I (D:\MDK\ARM\ARMCLANG\include\stdint.h)(0x588CAFD2)
+I (..\CMSIS\cmsis_version.h)(0x5DB2AE0D)
+I (D:\MDK\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (D:\MDK\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armclang.h)(0x5898498A)
+I (D:\MDK\ARM\ARMCLANG\include\arm_compat.h)(0x57FC022C)
+I (..\STARTUP\Include\system_M251.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\acmp_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\bpwm_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\clk_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\crc_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\crypto_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\dac_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\eadc_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\ebi_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\fmc_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\gpio_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\i2c_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\opa_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\pdma_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\psio_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\pwm_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\rtc_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\sc_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\qspi_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\spi_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\sys_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\timer_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\uart_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\uuart_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\ui2c_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\uspi_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\usbd_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\wdt_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\wwdt_reg.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\bpwm.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\sys.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\clk.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\uart.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\opa.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\acmp.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\rtc.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\fmc.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\gpio.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\i2c.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\pdma.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\pwm.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\qspi.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\spi.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\timer.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\timer_pwm.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\usci_i2c.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\usci_spi.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\usci_uart.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\usbd.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\crc.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\wdt.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\wwdt.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\eadc.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\dac.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\crypto.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\ebi.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\psio.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\sc.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\scuart.h)(0x5DB2AE0D)
+I (..\Toilet_Driver\Comm_module\toilet.h)(0x5DB96209)
+I (..\Toilet_Driver\Temp_module\temp_deal.h)(0x5DB94DB3)
+I (..\Toilet_Driver\Temp_table\table.h)(0x5DB7A83F)
+I (..\Toilet_Driver\deodorzation_module\deodorzation.h)(0x5DB955AF)
+I (..\Toilet_Driver\Flush_module\flush.h)(0x5DB95650)
+I (..\Toilet_Driver\Beep_module\beep.h)(0x5DB95385)
+I (..\Toilet_Driver\IR_module\IR_remote\IR_remote.h)(0x5DB95E69)
+I (..\Toilet_Driver\IR_module\IR_Cover\IR_cover.h)(0x5DB96192)
+F (..\Toilet_Driver\Temp_module\temp_deal.c)(0x5DB94D64)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -w -I ../CMSIS -I ../STARTUP -I ../StdDriver/inc -I ../TencentOS/arch/include -I ../TencentOS/kernel/core/include -I ../TencentOS/kernel/pm/include -I ../TencentOS/TOS_CONFIG -I ../TencentOS/arch -I ../STARTUP/Include -I ../Hardwear/Pid_control -I ../Hardwear/ADC -I ../Toilet_Driver/Temp_module -I ../Toilet_Driver/Comm_module -I ../Toilet_Driver/Temp_table -I ../Toilet_Driver/Control_center -I ../Hardwear/DWT_Delay -I ../Hardwear/Timer -I ../Toilet_Driver/Beep_module -I ../Toilet_Driver/deodorzation_module -I ../Toilet_Driver/Flush_module -I ../Toilet_Driver/IR_module/IR_remote -I ../Toilet_Driver/IR_module/IR_Cover -I ../Toilet_Driver/Moto_module-I./RTE/_Target_1-ID:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/MDK/ARM/PACK/Nuvoton/NuMicro_DFP/1.3.4/Device/M251/Include-D__UVISION_VERSION="524" -D_RTE_-o ./objects/temp_deal.o -MD)
+I (..\Toilet_Driver\Temp_module\temp_deal.h)(0x5DB94DB3)
+I (..\Toilet_Driver\Comm_module\toilet.h)(0x5DB96209)
+I (..\Toilet_Driver\Temp_table\table.h)(0x5DB7A83F)
+I (..\Toilet_Driver\deodorzation_module\deodorzation.h)(0x5DB955AF)
+I (..\STARTUP\Include\NuMicro.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\M251.h)(0x5DB2AE0D)
+I (..\CMSIS\core_armv8mbl.h)(0x5DB2AE0D)
+I (D:\MDK\ARM\ARMCLANG\include\stdint.h)(0x588CAFD2)
+I (..\CMSIS\cmsis_version.h)(0x5DB2AE0D)
+I (D:\MDK\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (D:\MDK\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armclang.h)(0x5898498A)
+I (D:\MDK\ARM\ARMCLANG\include\arm_compat.h)(0x57FC022C)
+I (..\STARTUP\Include\system_M251.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\acmp_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\bpwm_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\clk_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\crc_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\crypto_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\dac_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\eadc_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\ebi_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\fmc_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\gpio_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\i2c_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\opa_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\pdma_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\psio_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\pwm_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\rtc_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\sc_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\qspi_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\spi_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\sys_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\timer_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\uart_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\uuart_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\ui2c_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\uspi_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\usbd_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\wdt_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\wwdt_reg.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\bpwm.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\sys.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\clk.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\uart.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\opa.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\acmp.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\rtc.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\fmc.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\gpio.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\i2c.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\pdma.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\pwm.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\qspi.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\spi.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\timer.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\timer_pwm.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\usci_i2c.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\usci_spi.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\usci_uart.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\usbd.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\crc.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\wdt.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\wwdt.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\eadc.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\dac.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\crypto.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\ebi.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\psio.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\sc.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\scuart.h)(0x5DB2AE0D)
+I (..\Toilet_Driver\Flush_module\flush.h)(0x5DB95650)
+I (..\Toilet_Driver\Beep_module\beep.h)(0x5DB95385)
+I (..\Toilet_Driver\IR_module\IR_remote\IR_remote.h)(0x5DB95E69)
+I (..\Toilet_Driver\IR_module\IR_Cover\IR_cover.h)(0x5DB96192)
+I (..\Hardwear\ADC\adc.h)(0x5DB93132)
+F (..\Toilet_Driver\Comm_module\toilet.h)(0x5DB96209)()
+F (..\Toilet_Driver\Temp_table\table.c)(0x5DB7A83F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -w -I ../CMSIS -I ../STARTUP -I ../StdDriver/inc -I ../TencentOS/arch/include -I ../TencentOS/kernel/core/include -I ../TencentOS/kernel/pm/include -I ../TencentOS/TOS_CONFIG -I ../TencentOS/arch -I ../STARTUP/Include -I ../Hardwear/Pid_control -I ../Hardwear/ADC -I ../Toilet_Driver/Temp_module -I ../Toilet_Driver/Comm_module -I ../Toilet_Driver/Temp_table -I ../Toilet_Driver/Control_center -I ../Hardwear/DWT_Delay -I ../Hardwear/Timer -I ../Toilet_Driver/Beep_module -I ../Toilet_Driver/deodorzation_module -I ../Toilet_Driver/Flush_module -I ../Toilet_Driver/IR_module/IR_remote -I ../Toilet_Driver/IR_module/IR_Cover -I ../Toilet_Driver/Moto_module-I./RTE/_Target_1-ID:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/MDK/ARM/PACK/Nuvoton/NuMicro_DFP/1.3.4/Device/M251/Include-D__UVISION_VERSION="524" -D_RTE_-o ./objects/table.o -MD)
+I (..\Toilet_Driver\Temp_table\table.h)(0x5DB7A83F)
+I (..\Toilet_Driver\Comm_module\toilet.h)(0x5DB96209)
+I (..\Toilet_Driver\Temp_module\temp_deal.h)(0x5DB94DB3)
+I (..\Toilet_Driver\deodorzation_module\deodorzation.h)(0x5DB955AF)
+I (..\STARTUP\Include\NuMicro.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\M251.h)(0x5DB2AE0D)
+I (..\CMSIS\core_armv8mbl.h)(0x5DB2AE0D)
+I (D:\MDK\ARM\ARMCLANG\include\stdint.h)(0x588CAFD2)
+I (..\CMSIS\cmsis_version.h)(0x5DB2AE0D)
+I (D:\MDK\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (D:\MDK\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armclang.h)(0x5898498A)
+I (D:\MDK\ARM\ARMCLANG\include\arm_compat.h)(0x57FC022C)
+I (..\STARTUP\Include\system_M251.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\acmp_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\bpwm_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\clk_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\crc_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\crypto_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\dac_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\eadc_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\ebi_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\fmc_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\gpio_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\i2c_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\opa_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\pdma_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\psio_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\pwm_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\rtc_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\sc_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\qspi_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\spi_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\sys_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\timer_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\uart_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\uuart_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\ui2c_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\uspi_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\usbd_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\wdt_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\wwdt_reg.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\bpwm.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\sys.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\clk.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\uart.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\opa.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\acmp.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\rtc.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\fmc.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\gpio.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\i2c.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\pdma.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\pwm.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\qspi.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\spi.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\timer.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\timer_pwm.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\usci_i2c.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\usci_spi.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\usci_uart.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\usbd.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\crc.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\wdt.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\wwdt.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\eadc.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\dac.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\crypto.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\ebi.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\psio.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\sc.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\scuart.h)(0x5DB2AE0D)
+I (..\Toilet_Driver\Flush_module\flush.h)(0x5DB95650)
+I (..\Toilet_Driver\Beep_module\beep.h)(0x5DB95385)
+I (..\Toilet_Driver\IR_module\IR_remote\IR_remote.h)(0x5DB95E69)
+I (..\Toilet_Driver\IR_module\IR_Cover\IR_cover.h)(0x5DB96192)
+F (..\Toilet_Driver\Control_center\control_center.c)(0x5DB93122)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -w -I ../CMSIS -I ../STARTUP -I ../StdDriver/inc -I ../TencentOS/arch/include -I ../TencentOS/kernel/core/include -I ../TencentOS/kernel/pm/include -I ../TencentOS/TOS_CONFIG -I ../TencentOS/arch -I ../STARTUP/Include -I ../Hardwear/Pid_control -I ../Hardwear/ADC -I ../Toilet_Driver/Temp_module -I ../Toilet_Driver/Comm_module -I ../Toilet_Driver/Temp_table -I ../Toilet_Driver/Control_center -I ../Hardwear/DWT_Delay -I ../Hardwear/Timer -I ../Toilet_Driver/Beep_module -I ../Toilet_Driver/deodorzation_module -I ../Toilet_Driver/Flush_module -I ../Toilet_Driver/IR_module/IR_remote -I ../Toilet_Driver/IR_module/IR_Cover -I ../Toilet_Driver/Moto_module-I./RTE/_Target_1-ID:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/MDK/ARM/PACK/Nuvoton/NuMicro_DFP/1.3.4/Device/M251/Include-D__UVISION_VERSION="524" -D_RTE_-o ./objects/control_center.o -MD)
+I (..\Toilet_Driver\Control_center\control_center.h)(0x5DB7AF8B)
+I (..\Toilet_Driver\Comm_module\toilet.h)(0x5DB96209)
+I (..\Toilet_Driver\Temp_module\temp_deal.h)(0x5DB94DB3)
+I (..\Toilet_Driver\Temp_table\table.h)(0x5DB7A83F)
+I (..\Toilet_Driver\deodorzation_module\deodorzation.h)(0x5DB955AF)
+I (..\STARTUP\Include\NuMicro.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\M251.h)(0x5DB2AE0D)
+I (..\CMSIS\core_armv8mbl.h)(0x5DB2AE0D)
+I (D:\MDK\ARM\ARMCLANG\include\stdint.h)(0x588CAFD2)
+I (..\CMSIS\cmsis_version.h)(0x5DB2AE0D)
+I (D:\MDK\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (D:\MDK\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armclang.h)(0x5898498A)
+I (D:\MDK\ARM\ARMCLANG\include\arm_compat.h)(0x57FC022C)
+I (..\STARTUP\Include\system_M251.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\acmp_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\bpwm_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\clk_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\crc_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\crypto_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\dac_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\eadc_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\ebi_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\fmc_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\gpio_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\i2c_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\opa_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\pdma_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\psio_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\pwm_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\rtc_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\sc_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\qspi_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\spi_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\sys_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\timer_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\uart_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\uuart_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\ui2c_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\uspi_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\usbd_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\wdt_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\wwdt_reg.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\bpwm.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\sys.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\clk.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\uart.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\opa.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\acmp.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\rtc.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\fmc.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\gpio.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\i2c.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\pdma.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\pwm.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\qspi.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\spi.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\timer.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\timer_pwm.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\usci_i2c.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\usci_spi.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\usci_uart.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\usbd.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\crc.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\wdt.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\wwdt.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\eadc.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\dac.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\crypto.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\ebi.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\psio.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\sc.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\scuart.h)(0x5DB2AE0D)
+I (..\Toilet_Driver\Flush_module\flush.h)(0x5DB95650)
+I (..\Toilet_Driver\Beep_module\beep.h)(0x5DB95385)
+I (..\Toilet_Driver\IR_module\IR_remote\IR_remote.h)(0x5DB95E69)
+I (..\Toilet_Driver\IR_module\IR_Cover\IR_cover.h)(0x5DB96192)
+I (..\Hardwear\DWT_Delay\DWT_Delay.h)(0x5DB7B0F7)
+I (..\Hardwear\ADC\adc.h)(0x5DB93132)
+F (..\Toilet_Driver\Beep_module\beep.c)(0x5DB95379)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -w -I ../CMSIS -I ../STARTUP -I ../StdDriver/inc -I ../TencentOS/arch/include -I ../TencentOS/kernel/core/include -I ../TencentOS/kernel/pm/include -I ../TencentOS/TOS_CONFIG -I ../TencentOS/arch -I ../STARTUP/Include -I ../Hardwear/Pid_control -I ../Hardwear/ADC -I ../Toilet_Driver/Temp_module -I ../Toilet_Driver/Comm_module -I ../Toilet_Driver/Temp_table -I ../Toilet_Driver/Control_center -I ../Hardwear/DWT_Delay -I ../Hardwear/Timer -I ../Toilet_Driver/Beep_module -I ../Toilet_Driver/deodorzation_module -I ../Toilet_Driver/Flush_module -I ../Toilet_Driver/IR_module/IR_remote -I ../Toilet_Driver/IR_module/IR_Cover -I ../Toilet_Driver/Moto_module-I./RTE/_Target_1-ID:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/MDK/ARM/PACK/Nuvoton/NuMicro_DFP/1.3.4/Device/M251/Include-D__UVISION_VERSION="524" -D_RTE_-o ./objects/beep.o -MD)
+I (..\Toilet_Driver\Beep_module\beep.h)(0x5DB95385)
+I (..\Toilet_Driver\Comm_module\Toilet.h)(0x5DB96209)
+I (..\Toilet_Driver\Temp_module\temp_deal.h)(0x5DB94DB3)
+I (..\Toilet_Driver\Temp_table\table.h)(0x5DB7A83F)
+I (..\Toilet_Driver\deodorzation_module\deodorzation.h)(0x5DB955AF)
+I (..\STARTUP\Include\NuMicro.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\M251.h)(0x5DB2AE0D)
+I (..\CMSIS\core_armv8mbl.h)(0x5DB2AE0D)
+I (D:\MDK\ARM\ARMCLANG\include\stdint.h)(0x588CAFD2)
+I (..\CMSIS\cmsis_version.h)(0x5DB2AE0D)
+I (D:\MDK\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (D:\MDK\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armclang.h)(0x5898498A)
+I (D:\MDK\ARM\ARMCLANG\include\arm_compat.h)(0x57FC022C)
+I (..\STARTUP\Include\system_M251.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\acmp_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\bpwm_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\clk_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\crc_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\crypto_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\dac_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\eadc_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\ebi_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\fmc_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\gpio_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\i2c_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\opa_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\pdma_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\psio_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\pwm_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\rtc_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\sc_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\qspi_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\spi_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\sys_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\timer_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\uart_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\uuart_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\ui2c_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\uspi_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\usbd_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\wdt_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\wwdt_reg.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\bpwm.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\sys.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\clk.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\uart.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\opa.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\acmp.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\rtc.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\fmc.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\gpio.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\i2c.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\pdma.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\pwm.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\qspi.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\spi.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\timer.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\timer_pwm.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\usci_i2c.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\usci_spi.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\usci_uart.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\usbd.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\crc.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\wdt.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\wwdt.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\eadc.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\dac.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\crypto.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\ebi.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\psio.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\sc.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\scuart.h)(0x5DB2AE0D)
+I (..\Toilet_Driver\Flush_module\flush.h)(0x5DB95650)
+I (..\Toilet_Driver\IR_module\IR_remote\IR_remote.h)(0x5DB95E69)
+I (..\Toilet_Driver\IR_module\IR_Cover\IR_cover.h)(0x5DB96192)
+F (..\Toilet_Driver\deodorzation_module\deodorzation.c)(0x5DB954ED)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -w -I ../CMSIS -I ../STARTUP -I ../StdDriver/inc -I ../TencentOS/arch/include -I ../TencentOS/kernel/core/include -I ../TencentOS/kernel/pm/include -I ../TencentOS/TOS_CONFIG -I ../TencentOS/arch -I ../STARTUP/Include -I ../Hardwear/Pid_control -I ../Hardwear/ADC -I ../Toilet_Driver/Temp_module -I ../Toilet_Driver/Comm_module -I ../Toilet_Driver/Temp_table -I ../Toilet_Driver/Control_center -I ../Hardwear/DWT_Delay -I ../Hardwear/Timer -I ../Toilet_Driver/Beep_module -I ../Toilet_Driver/deodorzation_module -I ../Toilet_Driver/Flush_module -I ../Toilet_Driver/IR_module/IR_remote -I ../Toilet_Driver/IR_module/IR_Cover -I ../Toilet_Driver/Moto_module-I./RTE/_Target_1-ID:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/MDK/ARM/PACK/Nuvoton/NuMicro_DFP/1.3.4/Device/M251/Include-D__UVISION_VERSION="524" -D_RTE_-o ./objects/deodorzation.o -MD)
+I (..\Toilet_Driver\deodorzation_module\deodorzation.h)(0x5DB955AF)
+I (..\Toilet_Driver\Comm_module\Toilet.h)(0x5DB96209)
+I (..\Toilet_Driver\Temp_module\temp_deal.h)(0x5DB94DB3)
+I (..\Toilet_Driver\Temp_table\table.h)(0x5DB7A83F)
+I (..\Toilet_Driver\Flush_module\flush.h)(0x5DB95650)
+I (..\STARTUP\Include\NuMicro.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\M251.h)(0x5DB2AE0D)
+I (..\CMSIS\core_armv8mbl.h)(0x5DB2AE0D)
+I (D:\MDK\ARM\ARMCLANG\include\stdint.h)(0x588CAFD2)
+I (..\CMSIS\cmsis_version.h)(0x5DB2AE0D)
+I (D:\MDK\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (D:\MDK\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armclang.h)(0x5898498A)
+I (D:\MDK\ARM\ARMCLANG\include\arm_compat.h)(0x57FC022C)
+I (..\STARTUP\Include\system_M251.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\acmp_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\bpwm_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\clk_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\crc_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\crypto_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\dac_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\eadc_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\ebi_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\fmc_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\gpio_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\i2c_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\opa_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\pdma_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\psio_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\pwm_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\rtc_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\sc_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\qspi_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\spi_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\sys_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\timer_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\uart_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\uuart_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\ui2c_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\uspi_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\usbd_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\wdt_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\wwdt_reg.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\bpwm.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\sys.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\clk.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\uart.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\opa.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\acmp.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\rtc.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\fmc.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\gpio.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\i2c.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\pdma.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\pwm.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\qspi.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\spi.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\timer.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\timer_pwm.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\usci_i2c.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\usci_spi.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\usci_uart.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\usbd.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\crc.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\wdt.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\wwdt.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\eadc.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\dac.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\crypto.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\ebi.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\psio.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\sc.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\scuart.h)(0x5DB2AE0D)
+I (..\Toilet_Driver\Beep_module\beep.h)(0x5DB95385)
+I (..\Toilet_Driver\IR_module\IR_remote\IR_remote.h)(0x5DB95E69)
+I (..\Toilet_Driver\IR_module\IR_Cover\IR_cover.h)(0x5DB96192)
+F (..\Toilet_Driver\Flush_module\flush.c)(0x5DB9563B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -w -I ../CMSIS -I ../STARTUP -I ../StdDriver/inc -I ../TencentOS/arch/include -I ../TencentOS/kernel/core/include -I ../TencentOS/kernel/pm/include -I ../TencentOS/TOS_CONFIG -I ../TencentOS/arch -I ../STARTUP/Include -I ../Hardwear/Pid_control -I ../Hardwear/ADC -I ../Toilet_Driver/Temp_module -I ../Toilet_Driver/Comm_module -I ../Toilet_Driver/Temp_table -I ../Toilet_Driver/Control_center -I ../Hardwear/DWT_Delay -I ../Hardwear/Timer -I ../Toilet_Driver/Beep_module -I ../Toilet_Driver/deodorzation_module -I ../Toilet_Driver/Flush_module -I ../Toilet_Driver/IR_module/IR_remote -I ../Toilet_Driver/IR_module/IR_Cover -I ../Toilet_Driver/Moto_module-I./RTE/_Target_1-ID:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/MDK/ARM/PACK/Nuvoton/NuMicro_DFP/1.3.4/Device/M251/Include-D__UVISION_VERSION="524" -D_RTE_-o ./objects/flush.o -MD)
+I (..\Toilet_Driver\Flush_module\flush.h)(0x5DB95650)
+I (..\Toilet_Driver\Comm_module\Toilet.h)(0x5DB96209)
+I (..\Toilet_Driver\Temp_module\temp_deal.h)(0x5DB94DB3)
+I (..\Toilet_Driver\Temp_table\table.h)(0x5DB7A83F)
+I (..\Toilet_Driver\deodorzation_module\deodorzation.h)(0x5DB955AF)
+I (..\STARTUP\Include\NuMicro.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\M251.h)(0x5DB2AE0D)
+I (..\CMSIS\core_armv8mbl.h)(0x5DB2AE0D)
+I (D:\MDK\ARM\ARMCLANG\include\stdint.h)(0x588CAFD2)
+I (..\CMSIS\cmsis_version.h)(0x5DB2AE0D)
+I (D:\MDK\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (D:\MDK\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armclang.h)(0x5898498A)
+I (D:\MDK\ARM\ARMCLANG\include\arm_compat.h)(0x57FC022C)
+I (..\STARTUP\Include\system_M251.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\acmp_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\bpwm_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\clk_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\crc_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\crypto_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\dac_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\eadc_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\ebi_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\fmc_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\gpio_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\i2c_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\opa_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\pdma_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\psio_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\pwm_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\rtc_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\sc_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\qspi_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\spi_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\sys_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\timer_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\uart_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\uuart_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\ui2c_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\uspi_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\usbd_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\wdt_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\wwdt_reg.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\bpwm.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\sys.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\clk.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\uart.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\opa.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\acmp.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\rtc.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\fmc.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\gpio.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\i2c.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\pdma.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\pwm.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\qspi.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\spi.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\timer.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\timer_pwm.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\usci_i2c.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\usci_spi.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\usci_uart.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\usbd.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\crc.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\wdt.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\wwdt.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\eadc.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\dac.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\crypto.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\ebi.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\psio.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\sc.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\scuart.h)(0x5DB2AE0D)
+I (..\Toilet_Driver\Beep_module\beep.h)(0x5DB95385)
+I (..\Toilet_Driver\IR_module\IR_remote\IR_remote.h)(0x5DB95E69)
+I (..\Toilet_Driver\IR_module\IR_Cover\IR_cover.h)(0x5DB96192)
+F (..\Toilet_Driver\IR_module\IR_remote\IR_remote.c)(0x5DB95F1F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -w -I ../CMSIS -I ../STARTUP -I ../StdDriver/inc -I ../TencentOS/arch/include -I ../TencentOS/kernel/core/include -I ../TencentOS/kernel/pm/include -I ../TencentOS/TOS_CONFIG -I ../TencentOS/arch -I ../STARTUP/Include -I ../Hardwear/Pid_control -I ../Hardwear/ADC -I ../Toilet_Driver/Temp_module -I ../Toilet_Driver/Comm_module -I ../Toilet_Driver/Temp_table -I ../Toilet_Driver/Control_center -I ../Hardwear/DWT_Delay -I ../Hardwear/Timer -I ../Toilet_Driver/Beep_module -I ../Toilet_Driver/deodorzation_module -I ../Toilet_Driver/Flush_module -I ../Toilet_Driver/IR_module/IR_remote -I ../Toilet_Driver/IR_module/IR_Cover -I ../Toilet_Driver/Moto_module-I./RTE/_Target_1-ID:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/MDK/ARM/PACK/Nuvoton/NuMicro_DFP/1.3.4/Device/M251/Include-D__UVISION_VERSION="524" -D_RTE_-o ./objects/ir_remote.o -MD)
+I (..\Toilet_Driver\IR_module\IR_remote\IR_remote.h)(0x5DB95E69)
+I (..\Toilet_Driver\Comm_module\Toilet.h)(0x5DB96209)
+I (..\Toilet_Driver\Temp_module\temp_deal.h)(0x5DB94DB3)
+I (..\Toilet_Driver\Temp_table\table.h)(0x5DB7A83F)
+I (..\Toilet_Driver\deodorzation_module\deodorzation.h)(0x5DB955AF)
+I (..\STARTUP\Include\NuMicro.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\M251.h)(0x5DB2AE0D)
+I (..\CMSIS\core_armv8mbl.h)(0x5DB2AE0D)
+I (D:\MDK\ARM\ARMCLANG\include\stdint.h)(0x588CAFD2)
+I (..\CMSIS\cmsis_version.h)(0x5DB2AE0D)
+I (D:\MDK\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (D:\MDK\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armclang.h)(0x5898498A)
+I (D:\MDK\ARM\ARMCLANG\include\arm_compat.h)(0x57FC022C)
+I (..\STARTUP\Include\system_M251.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\acmp_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\bpwm_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\clk_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\crc_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\crypto_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\dac_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\eadc_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\ebi_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\fmc_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\gpio_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\i2c_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\opa_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\pdma_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\psio_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\pwm_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\rtc_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\sc_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\qspi_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\spi_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\sys_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\timer_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\uart_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\uuart_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\ui2c_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\uspi_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\usbd_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\wdt_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\wwdt_reg.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\bpwm.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\sys.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\clk.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\uart.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\opa.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\acmp.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\rtc.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\fmc.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\gpio.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\i2c.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\pdma.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\pwm.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\qspi.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\spi.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\timer.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\timer_pwm.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\usci_i2c.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\usci_spi.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\usci_uart.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\usbd.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\crc.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\wdt.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\wwdt.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\eadc.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\dac.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\crypto.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\ebi.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\psio.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\sc.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\scuart.h)(0x5DB2AE0D)
+I (..\Toilet_Driver\Flush_module\flush.h)(0x5DB95650)
+I (..\Toilet_Driver\Beep_module\beep.h)(0x5DB95385)
+I (..\Toilet_Driver\IR_module\IR_Cover\IR_cover.h)(0x5DB96192)
+F (..\Toilet_Driver\IR_module\IR_Cover\IR_cover.c)(0x5DB961BC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -w -I ../CMSIS -I ../STARTUP -I ../StdDriver/inc -I ../TencentOS/arch/include -I ../TencentOS/kernel/core/include -I ../TencentOS/kernel/pm/include -I ../TencentOS/TOS_CONFIG -I ../TencentOS/arch -I ../STARTUP/Include -I ../Hardwear/Pid_control -I ../Hardwear/ADC -I ../Toilet_Driver/Temp_module -I ../Toilet_Driver/Comm_module -I ../Toilet_Driver/Temp_table -I ../Toilet_Driver/Control_center -I ../Hardwear/DWT_Delay -I ../Hardwear/Timer -I ../Toilet_Driver/Beep_module -I ../Toilet_Driver/deodorzation_module -I ../Toilet_Driver/Flush_module -I ../Toilet_Driver/IR_module/IR_remote -I ../Toilet_Driver/IR_module/IR_Cover -I ../Toilet_Driver/Moto_module-I./RTE/_Target_1-ID:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/MDK/ARM/PACK/Nuvoton/NuMicro_DFP/1.3.4/Device/M251/Include-D__UVISION_VERSION="524" -D_RTE_-o ./objects/ir_cover.o -MD)
+I (..\Toilet_Driver\IR_module\IR_Cover\IR_cover.h)(0x5DB96192)
+I (..\Toilet_Driver\Comm_module\Toilet.h)(0x5DB96209)
+I (..\Toilet_Driver\Temp_module\temp_deal.h)(0x5DB94DB3)
+I (..\Toilet_Driver\Temp_table\table.h)(0x5DB7A83F)
+I (..\Toilet_Driver\deodorzation_module\deodorzation.h)(0x5DB955AF)
+I (..\STARTUP\Include\NuMicro.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\M251.h)(0x5DB2AE0D)
+I (..\CMSIS\core_armv8mbl.h)(0x5DB2AE0D)
+I (D:\MDK\ARM\ARMCLANG\include\stdint.h)(0x588CAFD2)
+I (..\CMSIS\cmsis_version.h)(0x5DB2AE0D)
+I (D:\MDK\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (D:\MDK\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armclang.h)(0x5898498A)
+I (D:\MDK\ARM\ARMCLANG\include\arm_compat.h)(0x57FC022C)
+I (..\STARTUP\Include\system_M251.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\acmp_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\bpwm_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\clk_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\crc_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\crypto_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\dac_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\eadc_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\ebi_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\fmc_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\gpio_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\i2c_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\opa_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\pdma_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\psio_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\pwm_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\rtc_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\sc_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\qspi_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\spi_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\sys_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\timer_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\uart_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\uuart_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\ui2c_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\uspi_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\usbd_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\wdt_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\wwdt_reg.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\bpwm.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\sys.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\clk.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\uart.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\opa.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\acmp.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\rtc.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\fmc.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\gpio.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\i2c.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\pdma.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\pwm.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\qspi.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\spi.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\timer.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\timer_pwm.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\usci_i2c.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\usci_spi.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\usci_uart.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\usbd.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\crc.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\wdt.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\wwdt.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\eadc.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\dac.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\crypto.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\ebi.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\psio.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\sc.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\scuart.h)(0x5DB2AE0D)
+I (..\Toilet_Driver\Flush_module\flush.h)(0x5DB95650)
+I (..\Toilet_Driver\Beep_module\beep.h)(0x5DB95385)
+I (..\Toilet_Driver\IR_module\IR_remote\IR_remote.h)(0x5DB95E69)
+F (..\Toilet_Driver\Moto_module\Moto_deal.c)(0x5DB96736)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -w -I ../CMSIS -I ../STARTUP -I ../StdDriver/inc -I ../TencentOS/arch/include -I ../TencentOS/kernel/core/include -I ../TencentOS/kernel/pm/include -I ../TencentOS/TOS_CONFIG -I ../TencentOS/arch -I ../STARTUP/Include -I ../Hardwear/Pid_control -I ../Hardwear/ADC -I ../Toilet_Driver/Temp_module -I ../Toilet_Driver/Comm_module -I ../Toilet_Driver/Temp_table -I ../Toilet_Driver/Control_center -I ../Hardwear/DWT_Delay -I ../Hardwear/Timer -I ../Toilet_Driver/Beep_module -I ../Toilet_Driver/deodorzation_module -I ../Toilet_Driver/Flush_module -I ../Toilet_Driver/IR_module/IR_remote -I ../Toilet_Driver/IR_module/IR_Cover -I ../Toilet_Driver/Moto_module-I./RTE/_Target_1-ID:/MDK/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/MDK/ARM/PACK/Nuvoton/NuMicro_DFP/1.3.4/Device/M251/Include-D__UVISION_VERSION="524" -D_RTE_-o ./objects/moto_deal.o -MD)
+I (..\Toilet_Driver\Moto_module\Moto_deal.h)(0x5DB966E0)
+I (..\Toilet_Driver\Comm_module\Toilet.h)(0x5DB96209)
+I (..\Toilet_Driver\Temp_module\temp_deal.h)(0x5DB94DB3)
+I (..\Toilet_Driver\Temp_table\table.h)(0x5DB7A83F)
+I (..\Toilet_Driver\deodorzation_module\deodorzation.h)(0x5DB955AF)
+I (..\STARTUP\Include\NuMicro.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\M251.h)(0x5DB2AE0D)
+I (..\CMSIS\core_armv8mbl.h)(0x5DB2AE0D)
+I (D:\MDK\ARM\ARMCLANG\include\stdint.h)(0x588CAFD2)
+I (..\CMSIS\cmsis_version.h)(0x5DB2AE0D)
+I (D:\MDK\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (D:\MDK\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armclang.h)(0x5898498A)
+I (D:\MDK\ARM\ARMCLANG\include\arm_compat.h)(0x57FC022C)
+I (..\STARTUP\Include\system_M251.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\acmp_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\bpwm_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\clk_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\crc_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\crypto_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\dac_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\eadc_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\ebi_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\fmc_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\gpio_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\i2c_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\opa_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\pdma_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\psio_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\pwm_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\rtc_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\sc_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\qspi_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\spi_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\sys_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\timer_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\uart_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\uuart_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\ui2c_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\uspi_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\usbd_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\wdt_reg.h)(0x5DB2AE0D)
+I (..\STARTUP\Include\wwdt_reg.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\bpwm.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\sys.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\clk.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\uart.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\opa.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\acmp.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\rtc.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\fmc.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\gpio.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\i2c.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\pdma.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\pwm.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\qspi.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\spi.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\timer.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\timer_pwm.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\usci_i2c.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\usci_spi.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\usci_uart.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\usbd.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\crc.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\wdt.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\wwdt.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\eadc.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\dac.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\crypto.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\ebi.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\psio.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\sc.h)(0x5DB2AE0D)
+I (..\StdDriver\inc\scuart.h)(0x5DB2AE0D)
+I (..\Toilet_Driver\Flush_module\flush.h)(0x5DB95650)
+I (..\Toilet_Driver\Beep_module\beep.h)(0x5DB95385)
+I (..\Toilet_Driver\IR_module\IR_remote\IR_remote.h)(0x5DB95E69)
+I (..\Toilet_Driver\IR_module\IR_Cover\IR_cover.h)(0x5DB96192)

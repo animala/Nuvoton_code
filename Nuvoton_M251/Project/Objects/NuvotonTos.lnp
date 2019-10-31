@@ -35,7 +35,17 @@
 ".\objects\pid_lib.o"
 ".\objects\pid_lib_usr.o"
 ".\objects\adc.o"
+".\objects\dwt_delay.o"
+".\objects\timer_deal.o"
 ".\objects\temp_deal.o"
+".\objects\table.o"
+".\objects\control_center.o"
+".\objects\beep.o"
+".\objects\deodorzation.o"
+".\objects\flush.o"
+".\objects\ir_remote.o"
+".\objects\ir_cover.o"
+".\objects\moto_deal.o"
 --strict --scatter ".\Objects\NuvotonTos.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

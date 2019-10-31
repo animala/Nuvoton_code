@@ -336,7 +336,7 @@
               <MiscControls></MiscControls>
               <Define></Define>
               <Undefine></Undefine>
-              <IncludePath>..\CMSIS;..\STARTUP;..\StdDriver\inc;..\TencentOS\arch\include;..\TencentOS\kernel\core\include;..\TencentOS\kernel\pm\include;..\TencentOS\TOS_CONFIG;..\TencentOS\arch;..\STARTUP\Include;..\Hardwear\Pid_control;..\Hardwear\ADC;..\Toilet_Driver\Temp_module;..\Toilet_Driver\Comm_module</IncludePath>
+              <IncludePath>..\CMSIS;..\STARTUP;..\StdDriver\inc;..\TencentOS\arch\include;..\TencentOS\kernel\core\include;..\TencentOS\kernel\pm\include;..\TencentOS\TOS_CONFIG;..\TencentOS\arch;..\STARTUP\Include;..\Hardwear\Pid_control;..\Hardwear\ADC;..\Toilet_Driver\Temp_module;..\Toilet_Driver\Comm_module;..\Toilet_Driver\Temp_table;..\Toilet_Driver\Control_center;..\Hardwear\DWT_Delay;..\Hardwear\Timer;..\Toilet_Driver\Beep_module;..\Toilet_Driver\deodorzation_module;..\Toilet_Driver\Flush_module;..\Toilet_Driver\IR_module\IR_remote;..\Toilet_Driver\IR_module\IR_Cover;..\Toilet_Driver\Moto_module</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -595,6 +595,16 @@
               <FileType>1</FileType>
               <FilePath>..\Hardwear\ADC\adc.c</FilePath>
             </File>
+            <File>
+              <FileName>DWT_Delay.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Hardwear\DWT_Delay\DWT_Delay.c</FilePath>
+            </File>
+            <File>
+              <FileName>timer_deal.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Hardwear\Timer\timer_deal.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -604,6 +614,51 @@
               <FileName>temp_deal.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\Toilet_Driver\Temp_module\temp_deal.c</FilePath>
+            </File>
+            <File>
+              <FileName>toilet.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\Toilet_Driver\Comm_module\toilet.h</FilePath>
+            </File>
+            <File>
+              <FileName>table.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Toilet_Driver\Temp_table\table.c</FilePath>
+            </File>
+            <File>
+              <FileName>control_center.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Toilet_Driver\Control_center\control_center.c</FilePath>
+            </File>
+            <File>
+              <FileName>beep.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Toilet_Driver\Beep_module\beep.c</FilePath>
+            </File>
+            <File>
+              <FileName>deodorzation.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Toilet_Driver\deodorzation_module\deodorzation.c</FilePath>
+            </File>
+            <File>
+              <FileName>flush.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Toilet_Driver\Flush_module\flush.c</FilePath>
+            </File>
+            <File>
+              <FileName>IR_remote.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Toilet_Driver\IR_module\IR_remote\IR_remote.c</FilePath>
+            </File>
+            <File>
+              <FileName>IR_cover.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Toilet_Driver\IR_module\IR_Cover\IR_cover.c</FilePath>
+            </File>
+            <File>
+              <FileName>Moto_deal.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Toilet_Driver\Moto_module\Moto_deal.c</FilePath>
             </File>
           </Files>
         </Group>

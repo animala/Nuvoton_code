@@ -1,16 +1,15 @@
 #include "adc.h"
 #include "NuMicro.h"
-
+#include "stdint.h"
 /*---------------------------------------------------------------------------------------------------------*/
 /* Define global variables and constants                                                                   */
 /*---------------------------------------------------------------------------------------------------------*/
-volatile uint32_t g_u32AdcIntFlag;
 
+volatile uint32_t g_u32AdcIntFlag;
 
 
 //********************************************
 //	ADC 初始化
-//
 //********************************************
 
 void ADC_Init(void)
@@ -34,28 +33,25 @@ void ADC_Init(void)
     /* Disable the digital input path to avoid the leakage current for EADC analog input pins. */
     GPIO_DISABLE_DIGITAL_PATH(PB, BIT0 | BIT1);  /* Disable PB0 and PB1 */
 
+
+	
 }
 
 
 /*---------------------------------------------------------------------------------------------------------*/
 /* EADC function test                                                                                       */
 /*---------------------------------------------------------------------------------------------------------*/
-void EADC_FunctionTest(uint32_t u32ChannelNum)
+uint_16 EADC_READ(uint_8 u32ChannelNum)
 {
-    int32_t  i32ConversionData;
+    uint_16 i32ConversionData;
 	
-	uint32_t u32ModuleNum;
-	uint32_t u32ModuleMask;
+	uint_16 u32ModuleNum;
+	uint_16 u32ModuleMask;
 	
-	u32ModuleNum = 1;	/* Use Sample Module 1 */
+	u32ModuleNum = u32ChannelNum;	/* Use Sample Module 1 */
 	u32ModuleMask = (BIT0 << u32ModuleNum);
-	
-    printf("\n");
-    printf("+----------------------------------------------------------------------+\n");
-    printf("|                      Temperature sensor test                         |\n");
-    printf("+----------------------------------------------------------------------+\n");
 
-    /* Set input mode as single-end and enable the A/D converter */
+	/* Set input mode as single-end and enable the A/D converter */
     EADC_Open(EADC, 0);
 
 	/* Configure the sample module for analog input channel and software trigger source. */
@@ -67,38 +63,21 @@ void EADC_FunctionTest(uint32_t u32ChannelNum)
     /* Clear the A/D ADINT0 interrupt flag for safe */
     EADC_CLR_INT_FLAG(EADC, EADC_STATUS2_ADIF0_Msk);
 
-    /* Enable the sample module 17 interrupt.  */
-    EADC_ENABLE_INT(EADC, BIT0);//Enable sample module A/D ADINT0 interrupt.
-
-	EADC_ENABLE_SAMPLE_MODULE_INT(EADC, 0, u32ModuleMask);
-
-    NVIC_EnableIRQ(EADC_INT0_IRQn);
-
-    /* Reset the ADC interrupt indicator and trigger sample module 17 to start A/D conversion */
-    g_u32AdcIntFlag = 0;
-	
-    EADC_START_CONV(EADC, u32ModuleMask);
+ 
+    EADC_START_CONV(EADC, u32ModuleMask);  //开始转换
 
     /* Wait EADC conversion done */
-    while(g_u32AdcIntFlag == 0);
+
+	while(EADC_GET_INT_FLAG(EADC, EADC_STATUS2_ADIF0_Msk) != 0);
 
     /* Get the conversion result of the sample module 17 */
-    i32ConversionData = EADC_GET_CONV_DATA(EADC, 1);
-    printf("Conversion result of temperature sensor: 0x%X (%d)\n\n", i32ConversionData, i32ConversionData);
-	
-	 /* Disable the ADINTx interrupt */
-    EADC_DISABLE_INT(EADC, BIT0);
-    EADC_DISABLE_SAMPLE_MODULE_INT(EADC, 0, 1);
-    NVIC_DisableIRQ(EADC_INT0_IRQn);
-}
+    i32ConversionData = EADC_GET_CONV_DATA(EADC, u32ModuleNum);
 
-/*---------------------------------------------------------------------------------------------------------*/
-/* EADC interrupt handler    ADC中断处理函数                                                                               */
-/*---------------------------------------------------------------------------------------------------------*/
-void EADC_INT0_IRQHandler(void)
-{
-    g_u32AdcIntFlag = 1;    //中断处理标志位置1
-    EADC_CLR_INT_FLAG(EADC, EADC_STATUS2_ADIF0_Msk);      /* Clear the A/D ADINT0 interrupt flag */
+  	EADC_CLR_INT_FLAG(EADC, EADC_STATUS2_ADIF0_Msk);      /* Clear the A/D ADINT0 interrupt flag */
+    
+	return i32ConversionData;
+
+	EADC_Close(EADC);
 }
 
 
